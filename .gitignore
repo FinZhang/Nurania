@@ -17,6 +17,7 @@
 /.next/
 /out/
 /preview/
+/.out-git-backup/
 
 # production
 /build

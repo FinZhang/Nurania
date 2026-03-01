@@ -13,6 +13,14 @@ export default function Header() {
 
   const handleTocClick = () => {
     if (!isArticlePage) return;
+    // 窄屏打开/关闭侧栏时保留当前滚动位置（Next 有时仍会滚到顶部）
+    if (!sidebarOpen) {
+      try {
+        sessionStorage.setItem("nurania-scroll-before-sidebar", String(window.scrollY));
+      } catch {
+        /* ignore */
+      }
+    }
     if (sidebarOpen) {
       router.replace(pathname ?? "/toc", { scroll: false });
     } else {

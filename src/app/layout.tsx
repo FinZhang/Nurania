@@ -19,7 +19,7 @@ const cinzel = Cinzel({
 
 export const metadata: Metadata = {
   title: "诺拉尼亚行思录 | Under the Nuranian Skies",
-  description: "诺拉尼亚大陆志 - 一位学者撰写的大陆志",
+  description: "[艾瑟瑞姆] 塞勒内斯 著",
 };
 
 export default function RootLayout({

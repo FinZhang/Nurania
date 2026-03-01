@@ -46,6 +46,20 @@ export default function ArticleLayout({
     setMobileNavOpen(searchParams?.get("sidebar") === "1");
   }, [searchParams]);
 
+  /** 窄屏打开侧栏后恢复点击前的滚动位置，避免被 Next 或浏览器滚到顶部 */
+  useEffect(() => {
+    if (!mobileNavOpen) return;
+    const raw = typeof window !== "undefined" ? sessionStorage.getItem("nurania-scroll-before-sidebar") : null;
+    if (raw == null) return;
+    sessionStorage.removeItem("nurania-scroll-before-sidebar");
+    const y = parseInt(raw, 10);
+    if (Number.isNaN(y)) return;
+    const id = requestAnimationFrame(() => {
+      window.scrollTo({ top: y, behavior: "auto" });
+    });
+    return () => cancelAnimationFrame(id);
+  }, [mobileNavOpen]);
+
   const closeMobileNav = () => {
     setMobileNavOpen(false);
     if (pathname) router.replace(pathname, { scroll: false });

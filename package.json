@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/preserve-out-git.js backup",
     "build": "next build",
+    "postbuild": "node scripts/preserve-out-git.js restore",
+    "deploy:rewrite": "node scripts/rename-next-for-deploy.js",
     "start": "next start",
     "lint": "eslint",
     "preview": "node scripts/preview-with-basepath.js"
