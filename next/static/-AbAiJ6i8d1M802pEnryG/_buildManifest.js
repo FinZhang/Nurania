@@ -3,7 +3,7 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/Nurania//_next/:path+",
+        "source": "/Nurania//next/:path+",
         "destination": "/Nurania/next/:path+"
       }
     ],
