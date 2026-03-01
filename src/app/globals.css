@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+/* ============================================
+   诺拉尼亚 - 奇幻史诗主题色板
+   风格：史书背景、羊皮纸质感、神秘主义
+   ============================================ */
+
+:root {
+  /* 羊皮纸与书籍质感（更接近封面深棕与金色） */
+  --parchment: #c9b896;
+  --parchment-dark: #a08060;
+  --parchment-light: #e8dcc8;
+  --parchment-aged: #8b7355;
+
+  /* 墨迹与文字（深棕色系） */
+  --ink: #271a12;
+  --ink-muted: #514032;
+  --ink-faded: #8a7358;
+
+  /* 金/铜色点缀（纹章、边框、高光），贴近封面金线色 */
+  --gold: #c0a058;
+  --gold-light: #e3cf9a;
+  --gold-dark: #8b6c32;
+  --copper: #a8693a;
+
+  /* 神秘主义氛围（略带紫调的深棕） */
+  --mystic: #34262c;
+  --mystic-light: #55414b;
+  --shadow-deep: #1a110d;
+
+  /* 微光效果 */
+  --glow-gold: rgba(192, 160, 88, 0.45);
+  --glow-soft: rgba(225, 210, 181, 0.3);
+
+  /* 背景与前景 */
+  --background: var(--parchment);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-parchment: var(--parchment);
+  --color-parchment-dark: var(--parchment-dark);
+  --color-parchment-light: var(--parchment-light);
+  --color-parchment-aged: var(--parchment-aged);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faded: var(--ink-faded);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-copper: var(--copper);
+  --color-mystic: var(--mystic);
+  --color-mystic-light: var(--mystic-light);
+  --color-shadow-deep: var(--shadow-deep);
+  --font-sans: var(--font-cormorant);
+  --font-display: var(--font-cinzel);
+}
+
+/* 基础排版 */
+body {
+  background-color: var(--background) !important;
+  color: var(--foreground);
+  font-family: var(--font-sans), Georgia, "Times New Roman", serif;
+  min-height: 100vh;
+}
+
+/* 标题/纹章用字体（Cinzel - 史诗感） */
+.font-display {
+  font-family: var(--font-cinzel), "Times New Roman", serif;
+}
+
+/* 羊皮纸纹理叠加（可选，营造质感） */
+.parchment-texture {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* 微光效果 - 用于交互元素 */
+.glow-hover {
+  transition: box-shadow 0.3s ease, filter 0.3s ease;
+}
+.glow-hover:hover {
+  box-shadow: 0 0 20px var(--glow-gold);
+  filter: brightness(1.05);
+}
+
+/* 淡入淡出动画类 */
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 响应式容器 */
+.container-nurania {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .container-nurania {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* 文章内 Markdown 渲染（各级标题与正文） */
+.article-markdown {
+  color: var(--ink);
+  line-height: 1.75;
+  font-family: var(--font-sans), Georgia, serif;
+}
+
+.article-markdown h1,
+.article-markdown h2,
+.article-markdown h3,
+.article-markdown h4,
+.article-markdown h5,
+.article-markdown h6 {
+  font-family: var(--font-cinzel), "Times New Roman", serif;
+  color: var(--ink);
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+.article-markdown h1 { font-size: 1.875rem; margin-top: 0; }
+.article-markdown h2 { font-size: 1.5rem; border-bottom: 1px solid var(--parchment-aged); padding-bottom: 0.25em; }
+.article-markdown h3 { font-size: 1.25rem; }
+.article-markdown h4 { font-size: 1.125rem; }
+.article-markdown h5 { font-size: 1rem; }
+.article-markdown h6 { font-size: 0.9375rem; color: var(--ink-muted); }
+
+.article-markdown p {
+  margin-bottom: 1em;
+  color: var(--ink);
+}
+
+.article-markdown ul,
+.article-markdown ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+  color: var(--ink);
+}
+
+.article-markdown ul { list-style-type: disc; }
+.article-markdown ol { list-style-type: decimal; }
+
+.article-markdown li {
+  margin-bottom: 0.25em;
+  color: var(--ink-muted);
+}
+
+.article-markdown a {
+  color: var(--gold-dark);
+  text-decoration: none;
+}
+.article-markdown a:hover {
+  text-decoration: underline;
+}
+
+.article-markdown strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.article-markdown em {
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+.article-markdown code {
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  background: var(--parchment-dark);
+  border-radius: 0.25rem;
+  color: var(--ink);
+}
+
+.article-markdown pre {
+  margin: 1em 0;
+  padding: 1rem;
+  background: var(--parchment-dark);
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+.article-markdown pre code {
+  padding: 0;
+  background: none;
+}
+
+.article-markdown blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 3px solid var(--gold-dark);
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+.article-markdown hr {
+  border: none;
+  border-top: 1px solid var(--parchment-aged);
+  margin: 1.5em 0;
+}
