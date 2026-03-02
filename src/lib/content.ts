@@ -122,9 +122,9 @@ export function getAllArticleSlugs(): string[] {
 /** 根据 slug 获取文章内容 */
 /** 诸国列志目录的 slug 前缀，该目录下文章在首段引用块下方插入同名配图 */
 const NATIONS_SLUG_PREFIX = "诸国列志 Chorography of the Nations/";
-const NATIONS_IMAGE_DIR = path.join(process.cwd(), "public", "诸国列志");
+const NATIONS_IMAGE_DIR = path.join(process.cwd(), "public", "pic", "诸国列志");
 
-/** 若当前文章属于诸国列志且存在同名配图，返回图片 URL 路径（如 /诸国列志/索拉瑞斯.jpg），否则返回 null */
+/** 若当前文章属于诸国列志且存在同名配图，返回图片 URL 路径（如 /pic/诸国列志/索拉瑞斯.jpg），否则返回 null */
 export function getNationImagePath(slug: string): string | null {
   if (!slug.startsWith(NATIONS_SLUG_PREFIX)) return null;
   const baseName = slug.slice(NATIONS_SLUG_PREFIX.length).split("/")[0] || slug.split("/").pop() || "";
@@ -132,7 +132,7 @@ export function getNationImagePath(slug: string): string | null {
   const exts = [".jpg", ".jpeg", ".png", ".webp"];
   for (const ext of exts) {
     const filePath = path.join(NATIONS_IMAGE_DIR, baseName + ext);
-    if (fs.existsSync(filePath)) return `/诸国列志/${baseName}${ext}`;
+    if (fs.existsSync(filePath)) return `/pic/诸国列志/${baseName}${ext}`;
   }
   return null;
 }

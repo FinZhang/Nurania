@@ -8,6 +8,7 @@
     "build": "next build",
     "postbuild": "node scripts/preserve-out-git.js restore",
     "deploy:rewrite": "node scripts/rename-next-for-deploy.js",
+    "deploy:push": "node scripts/deploy-push.js",
     "start": "next start",
     "lint": "eslint",
     "preview": "node scripts/preview-with-basepath.js"

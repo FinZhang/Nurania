@@ -31,22 +31,32 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## 部署到 finzhang.space（或会屏蔽 _next 的服务器）
 
-站点放在子路径 `/Nurania`，且部分服务器会忽略以 `_` 开头的目录，导致 `_next` 下资源 404。需先改写再部署：
+站点放在子路径 `/Nurania`，且部分服务器会忽略以 `_` 开头的目录，导致 `_next` 下资源 404。需先改写再部署。
+
+### 一键部署（推荐）
+
+若 `out` 已初始化为 Git 仓库并配置好远程，在项目根目录执行：
+
+```bash
+npm run deploy:push
+```
+
+该命令会依次执行：**build** → **deploy:rewrite** → 进入 `out` 执行 **git add .**、**git commit**（带日期）、**git push origin HEAD:web-release**。若无变更会跳过 commit/push。
+
+### 手动部署
 
 ```bash
 npm run build
 npm run deploy:rewrite
 ```
 
-**然后必须**把 **`out` 目录下的全部内容**（含 `next` 文件夹、`index.html`、`.nojekyll`、图片等）部署到站点的 `/Nurania` 路径。
+**然后**把 **`out` 目录下的全部内容**（含 `next` 文件夹、`index.html`、`.nojekyll`、图片等）部署到站点的 `/Nurania` 路径：
 
-- **若用 Git 推送**（例如 out 单独一个仓库推 web-release）：在 `out` 目录内执行  
-  `git add .`（确认包含 `next/` 和修改过的 html/js）、`git commit -m "deploy"`、`git push`。
-- **若用 FTP/面板上传**：上传整个 `out` 里的内容到服务器上对应 `/Nurania` 的目录，不要漏掉 `next` 文件夹。
+- **Git 推送**（out 推 web-release）：在 `out` 目录内执行  
+  `git add .`、`git commit -m "deploy"`、`git push origin HEAD:web-release`。
+- **FTP/面板上传**：上传整个 `out` 里的内容到服务器对应 `/Nurania` 的目录。
 
 部署完成后访问：https://finzhang.space/Nurania/
-
-**本地预览**（不要先跑 deploy:rewrite）：`npm run build` → `npm run preview`，打开 http://localhost:3000/Nurania/
 
 ## Deploy on Vercel
 

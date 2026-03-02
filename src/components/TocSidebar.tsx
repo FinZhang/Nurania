@@ -17,7 +17,7 @@ export default function TocSidebar({ intro }: Props) {
     >
       <div className="relative flex-shrink-0 w-40 aspect-[3/4] min-w-0">
         <Image
-          src="/book_cover.png"
+          src="/pic/book_cover.png"
           alt="诺拉尼亚行思录封面"
           fill
           className="object-contain object-center"

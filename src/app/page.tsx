@@ -19,7 +19,7 @@ export default function HomePage() {
       {/* 半透明地图背景：大屏放大填满，小屏居中裁剪 */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <Image
-          src="/world-map.jpg"
+          src="/pic/world-map.jpg"
           alt="诺拉尼亚大陆地图"
           fill
           className="object-cover object-center opacity-40 min-w-full min-h-full md:scale-110 lg:scale-125"
@@ -52,7 +52,7 @@ export default function HomePage() {
         >
           <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg border-2 border-[var(--gold-dark)]/60 bg-transparent shadow-[0_8px_30px_rgba(0,0,0,0.25),0_12px_40px_rgba(0,0,0,0.15)]">
             <Image
-              src="/book_cover.png"
+              src="/pic/book_cover.png"
               alt="诺拉尼亚行思录封面"
               fill
               priority

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 
-const MAP_SRC = "/world-map-labelled.jpg";
+const MAP_SRC = "/pic/world-map-labelled.jpg";
 
 export default function MapWithLightbox() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
