@@ -39,7 +39,7 @@ export default function RootLayout({
         <Suspense fallback={<header className="border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16" />}>
           <Header />
         </Suspense>
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 min-h-0 pb-12 md:pb-16">{children}</main>
         <Footer />
       </body>
     </html>

@@ -1,6 +1,6 @@
 /**
  * 从 data 目录自动读取文章结构（仅服务端）
- * 目录结构：data/大条目文件夹/次级.md 或 data/大条目/子文件夹/三级.md
+ * 每本书对应独立 data 目录，由 books 配置的 dataDir 指定
  */
 
 import fs from "fs";
@@ -8,10 +8,15 @@ import path from "path";
 import matter from "gray-matter";
 import type { ArticleEntry, ArticleContent } from "./content-types";
 import { flattenArticles } from "./content-types";
+import { getBookBySlug } from "./books";
 
 export type { ArticleEntry, ArticleContent } from "./content-types";
 
-const DATA_DIR = path.join(process.cwd(), "data");
+function getDataDir(bookSlug: string): string {
+  const book = getBookBySlug(bookSlug);
+  const dir = book?.dataDir ?? "data";
+  return path.join(process.cwd(), dir);
+}
 
 /** 从文件名或 frontmatter 获取显示标题 */
 function getTitleFromFile(filePath: string, baseName: string): { title: string; titleEn?: string } {
@@ -28,7 +33,7 @@ function getTitleFromFile(filePath: string, baseName: string): { title: string; 
 }
 
 /** 递归扫描目录，构建层级结构 */
-function scanDir(dirPath: string, baseSlug: string): ArticleEntry[] {
+function scanDir(dirPath: string, baseSlug: string, _dataDir: string): ArticleEntry[] {
   if (!fs.existsSync(dirPath)) return [];
 
   const entries: ArticleEntry[] = [];
@@ -72,7 +77,7 @@ function scanDir(dirPath: string, baseSlug: string): ArticleEntry[] {
   for (const dir of dirs) {
     const subPath = path.join(dirPath, dir.name);
     const slug = baseSlug ? `${baseSlug}/${dir.name}` : dir.name;
-    const children = scanDir(subPath, slug);
+    const children = scanDir(subPath, slug, _dataDir);
     sortableItems.push({
       name: dir.name,
       entry: {
@@ -110,35 +115,94 @@ function scanDir(dirPath: string, baseSlug: string): ArticleEntry[] {
 }
 
 /** 获取站点目录结构（层级） */
-export function getSiteToc(): ArticleEntry[] {
-  return scanDir(DATA_DIR, "");
+export function getSiteToc(bookSlug: string): ArticleEntry[] {
+  return scanDir(getDataDir(bookSlug), "", getDataDir(bookSlug));
+}
+
+/** 最近更新条目（按文件 mtime，取前 5 篇） */
+export type RecentArticle = {
+  slug: string;
+  title: string;
+  titleEn?: string;
+  updatedAt: string;
+};
+
+function collectArticlePaths(dirPath: string, baseSlug: string): { slug: string; filePath: string }[] {
+  const result: { slug: string; filePath: string }[] = [];
+  if (!fs.existsSync(dirPath)) return result;
+  const items = fs.readdirSync(dirPath, { withFileTypes: true });
+  for (const d of items) {
+    const full = path.join(dirPath, d.name);
+    if (d.isDirectory() && !d.name.startsWith(".")) {
+      const slug = baseSlug ? `${baseSlug}/${d.name}` : d.name;
+      result.push(...collectArticlePaths(full, slug));
+    } else if (
+      d.isFile() &&
+      d.name.endsWith(".md") &&
+      d.name.toLowerCase() !== "readme.md" &&
+      !d.name.startsWith("_")
+    ) {
+      const baseName = d.name.replace(/\.md$/, "");
+      const slug = baseSlug ? `${baseSlug}/${baseName}` : baseName;
+      result.push({ slug, filePath: full });
+    }
+  }
+  return result;
+}
+
+/** 按文章文件最后修改时间取最近 5 篇 */
+export function getRecentArticles(bookSlug: string, limit = 5): RecentArticle[] {
+  const dataDir = getDataDir(bookSlug);
+  const all = collectArticlePaths(dataDir, "");
+  const withMtime = all
+    .map(({ slug, filePath }) => {
+      const stat = fs.statSync(filePath);
+      const baseName = path.basename(filePath, ".md");
+      const { title, titleEn } = getTitleFromFile(filePath, baseName);
+      return {
+        slug,
+        title,
+        titleEn,
+        updatedAt: stat.mtime,
+      };
+    })
+    .sort((a, b) => b.updatedAt.getTime() - a.updatedAt.getTime())
+    .slice(0, limit);
+  return withMtime.map(({ slug, title, titleEn, updatedAt }) => ({
+    slug,
+    title,
+    titleEn,
+    updatedAt: updatedAt.toISOString().slice(0, 10),
+  }));
 }
 
 /** 获取所有文章 slug（仅 .md 文件） */
-export function getAllArticleSlugs(): string[] {
-  return flattenArticles(getSiteToc()).map((e) => e.slug);
+export function getAllArticleSlugs(bookSlug: string): string[] {
+  return flattenArticles(getSiteToc(bookSlug)).map((e) => e.slug);
 }
 
 /** 根据 slug 获取文章内容 */
-/** 诸国列志目录的 slug 前缀，该目录下文章在首段引用块下方插入同名配图 */
+/** 诸国列志目录的 slug 前缀，该目录下文章在首段引用块下方插入同名配图（图片位于本书 publicDir/诸国列志/） */
 const NATIONS_SLUG_PREFIX = "诸国列志 Chorography of the Nations/";
-const NATIONS_IMAGE_DIR = path.join(process.cwd(), "public", "pic", "诸国列志");
 
-/** 若当前文章属于诸国列志且存在同名配图，返回图片 URL 路径（如 /pic/诸国列志/索拉瑞斯.jpg），否则返回 null */
-export function getNationImagePath(slug: string): string | null {
+/** 若当前文章属于诸国列志且存在同名配图，返回图片 URL 路径（如 /Nurania/诸国列志/xxx.jpg） */
+export function getNationImagePath(bookSlug: string, slug: string): string | null {
+  const book = getBookBySlug(bookSlug);
+  if (!book) return null;
   if (!slug.startsWith(NATIONS_SLUG_PREFIX)) return null;
   const baseName = slug.slice(NATIONS_SLUG_PREFIX.length).split("/")[0] || slug.split("/").pop() || "";
   if (!baseName) return null;
+  const nationsDir = path.join(process.cwd(), "public", book.publicDir, "诸国列志");
   const exts = [".jpg", ".jpeg", ".png", ".webp"];
   for (const ext of exts) {
-    const filePath = path.join(NATIONS_IMAGE_DIR, baseName + ext);
-    if (fs.existsSync(filePath)) return `/pic/诸国列志/${baseName}${ext}`;
+    const filePath = path.join(nationsDir, baseName + ext);
+    if (fs.existsSync(filePath)) return `/${book.publicDir}/诸国列志/${baseName}${ext}`;
   }
   return null;
 }
 
-export function getArticleBySlug(slug: string): ArticleContent | null {
-  const filePath = path.join(DATA_DIR, `${slug}.md`);
+export function getArticleBySlug(bookSlug: string, slug: string): ArticleContent | null {
+  const filePath = path.join(getDataDir(bookSlug), `${slug}.md`);
 
   if (!fs.existsSync(filePath)) return null;
 

@@ -20,6 +20,7 @@ const GEOGRAPHY_OVERVIEW_SLUG = "大陆总览 Overview/地理";
 const MAGIC_OVERVIEW_SLUG = "大陆总览 Overview/魔法";
 
 interface ArticleLayoutProps {
+  bookSlug: string;
   toc: ArticleEntry[];
   currentSlug: string;
   article: ArticleContent;
@@ -28,6 +29,7 @@ interface ArticleLayoutProps {
 }
 
 export default function ArticleLayout({
+  bookSlug,
   toc,
   currentSlug,
   article,
@@ -40,6 +42,7 @@ export default function ArticleLayout({
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const navContainerRef = useRef<HTMLDivElement>(null);
   const activeLinkRef = useRef<HTMLAnchorElement | null>(null);
+  const lastAutoScrolledSlugRef = useRef<string | null>(null);
 
   /** 文章页：URL ?sidebar=1 与导航面板状态同步 */
   useEffect(() => {
@@ -79,10 +82,13 @@ export default function ArticleLayout({
     });
   };
 
+  /** 宽屏：仅在切换文章时将当前项滚到可视区（避免鼠标移出导航栏时触发导致“自动回顶”错觉） */
   useEffect(() => {
-    if (isHoveringNav || !navContainerRef.current || !activeLinkRef.current) return;
-
-    const t = setTimeout(scrollActiveIntoView, 300);
+    if (isHoveringNav) return;
+    if (lastAutoScrolledSlugRef.current === currentSlug) return;
+    if (!navContainerRef.current || !activeLinkRef.current) return;
+    lastAutoScrolledSlugRef.current = currentSlug;
+    const t = setTimeout(scrollActiveIntoView, 150);
     return () => clearTimeout(t);
   }, [currentSlug, isHoveringNav]);
 
@@ -93,6 +99,27 @@ export default function ArticleLayout({
     return () => clearTimeout(t);
   }, [mobileNavOpen]);
 
+  /** 宽屏：悬停在左侧导航栏时，滚轮只滚动导航栏，不滚动整页（需 passive: false 才能 preventDefault） */
+  useEffect(() => {
+    const el = navContainerRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      const { scrollTop, scrollHeight, clientHeight } = el;
+      const canScrollUp = scrollTop > 0;
+      const canScrollDown = scrollTop < scrollHeight - clientHeight - 1;
+      const scrollingDown = e.deltaY > 0;
+      const scrollingUp = e.deltaY < 0;
+      if ((scrollingUp && canScrollUp) || (scrollingDown && canScrollDown)) {
+        e.preventDefault();
+        el.scrollTop += e.deltaY;
+      } else {
+        e.preventDefault();
+      }
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel);
+  }, []);
+
   const flatEntries = flattenArticles(toc);
   const currentIndex = flatEntries.findIndex((e) => e.slug === currentSlug);
   const prevEntry = currentIndex > 0 ? flatEntries[currentIndex - 1] : null;
@@ -101,7 +128,7 @@ export default function ArticleLayout({
   const navContent = (
     <>
       <Link
-        href="/toc"
+        href={`/${bookSlug}/toc`}
         className="inline-flex items-center gap-2 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] mb-4 transition-colors text-sm"
       >
         <ArrowLeft className="h-4 w-4" />
@@ -111,6 +138,7 @@ export default function ArticleLayout({
         目录
       </p>
       <ArticleNavTree
+        bookSlug={bookSlug}
         entries={toc}
         currentSlug={currentSlug}
         activeLinkRef={activeLinkRef}
@@ -121,7 +149,7 @@ export default function ArticleLayout({
   const sidebarInner = (
     <div
       ref={navContainerRef}
-      className="h-full overflow-y-auto overflow-x-hidden border-l-2 border-[var(--parchment-aged)] pl-4 pr-2 py-2"
+      className="nav-sidebar-scrollbar h-full overflow-y-auto overflow-x-hidden border-l-2 border-[var(--parchment-aged)] pl-4 pr-2 py-2 overscroll-contain"
       onMouseEnter={() => setIsHoveringNav(true)}
       onMouseLeave={() => setIsHoveringNav(false)}
       style={{ scrollBehavior: isHoveringNav ? "auto" : "smooth" }}
@@ -135,7 +163,7 @@ export default function ArticleLayout({
       {/* 10% 透明度世界地图背景：固定于视口，不随内容滚动 */}
       <div className="fixed inset-0 z-0 overflow-hidden">
         <Image
-          src="/pic/world-map.jpg"
+          src="/Nurania/world-map.jpg"
           alt=""
           fill
           className="object-cover object-center opacity-10 min-w-full min-h-full md:scale-110 lg:scale-125"
@@ -176,9 +204,9 @@ export default function ArticleLayout({
           )}
         </AnimatePresence>
 
-        {/* 宽屏：左侧导航栏，始终在文档流中，不与文章重叠 */}
+        {/* 宽屏：左侧导航栏，固定高度以便内部可滚动，吸顶 */}
         <aside
-          className="hidden md:block w-56 flex-shrink-0 sticky top-20 self-start max-h-[calc(100vh-6rem)]"
+          className="hidden md:block w-56 flex-shrink-0 sticky top-20 self-start h-[calc(100vh-6rem)] min-h-0"
           aria-label="导航"
         >
           {sidebarInner}
@@ -218,7 +246,7 @@ export default function ArticleLayout({
           <nav className="mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
             {prevEntry ? (
               <Link
-                href={`/article/${prevEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
+                href={`/${bookSlug}/article/${prevEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
                 className="inline-flex items-center gap-1.5 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors text-sm max-w-[45%]"
               >
                 <ChevronLeft className="h-4 w-4 flex-shrink-0" />
@@ -229,7 +257,7 @@ export default function ArticleLayout({
             )}
             {nextEntry ? (
               <Link
-                href={`/article/${nextEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
+                href={`/${bookSlug}/article/${nextEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
                 className="inline-flex items-center gap-1.5 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors text-sm max-w-[45%] ml-auto text-right"
               >
                 <span>下一篇：{nextEntry.title}</span>

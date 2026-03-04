@@ -4,21 +4,23 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 interface Props {
+  cover: string;
   intro: string;
+  title?: string;
 }
 
-export default function TocSidebar({ intro }: Props) {
+export default function TocSidebar({ cover, intro, title }: Props) {
   return (
     <motion.aside
       initial={{ opacity: 0, x: 24 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5, delay: 0.25, ease: "easeOut" }}
-      className="hidden md:flex md:w-auto md:max-w-lg flex-shrink-0 md:sticky md:top-24 md:items-start md:gap-4"
+      className="hidden lg:flex lg:w-auto lg:max-w-lg flex-shrink-0 lg:items-start lg:gap-4"
     >
       <div className="relative flex-shrink-0 w-40 aspect-[3/4] min-w-0">
         <Image
-          src="/pic/book_cover.png"
-          alt="诺拉尼亚行思录封面"
+          src={cover}
+          alt={title ? `${title}封面` : "封面"}
           fill
           className="object-contain object-center"
           sizes="10rem"

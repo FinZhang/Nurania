@@ -58,12 +58,44 @@
   --font-display: var(--font-cinzel);
 }
 
+/* 目录条目标题：当条目容器宽度足以单行显示中英文时不换行，不足时自动切换为上下布局 */
+@custom-variant @toc-entry-wide (@container (min-width: 40ch));
+
 /* 基础排版 */
 body {
   background-color: var(--background) !important;
   color: var(--foreground);
   font-family: var(--font-sans), Georgia, "Times New Roman", serif;
   min-height: 100vh;
+}
+
+/* 页脚纯色不透明（浅于 parchment-dark），覆盖可能来自主题的透明度 */
+footer {
+  background-color: #b8956e !important;
+  isolation: isolate;
+}
+footer [aria-hidden="true"] {
+  background-color: #b8956e !important;
+  opacity: 1 !important;
+}
+
+/* 文章页左侧导航栏：透明底、细条滚动条，默认淡棕，悬停加深 */
+.nav-sidebar-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #a09078 transparent;
+}
+.nav-sidebar-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.nav-sidebar-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.nav-sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: #a09078;
+  border-radius: 3px;
+}
+.nav-sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #514032;
 }
 
 /* 标题/纹章用字体（Cinzel - 史诗感） */

@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { ArticleEntry } from "@/lib/content-types";
 
 interface Props {
+  bookSlug: string;
   entries: ArticleEntry[];
   currentSlug: string;
   depth?: number;
@@ -11,6 +12,7 @@ interface Props {
 }
 
 export default function ArticleNavTree({
+  bookSlug,
   entries,
   currentSlug,
   depth = 0,
@@ -31,7 +33,7 @@ export default function ArticleNavTree({
             <li key={entry.slug} style={{ paddingLeft }} className="py-0.5">
               <Link
                 ref={isActive ? activeLinkRef : undefined}
-                href={`/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
+                href={`/${bookSlug}/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
                 className={`block py-1 pr-2 rounded text-sm transition-colors ${
                   isActive
                     ? "text-[var(--gold-dark)] font-medium bg-[var(--parchment-dark)]/50"
@@ -54,6 +56,7 @@ export default function ArticleNavTree({
                 {entry.title}
               </div>
               <ArticleNavTree
+                bookSlug={bookSlug}
                 entries={entry.children!}
                 currentSlug={currentSlug}
                 depth={depth + 1}

@@ -6,6 +6,7 @@ import { Library, ScrollText } from "lucide-react";
 import type { ArticleEntry } from "@/lib/content-types";
 
 interface Props {
+  bookSlug: string;
   entry: ArticleEntry;
   index?: number;
   depth?: number;
@@ -21,7 +22,7 @@ function getLevelClass(depth: number): string {
   return levelClass[Math.min(depth, levelClass.length - 1)] ?? levelClass[levelClass.length - 1];
 }
 
-export default function TocSection({ entry, index = 0, depth = 0 }: Props) {
+export default function TocSection({ bookSlug, entry, index = 0, depth = 0 }: Props) {
   const hasChildren = entry.children && entry.children.length > 0;
   const isArticle = entry.isArticle;
   const levelStyle = getLevelClass(depth);
@@ -31,15 +32,18 @@ export default function TocSection({ entry, index = 0, depth = 0 }: Props) {
   const titleContent = (
     <>
       <Icon
-        className={`h-4 w-4 flex-shrink-0 ${depth === 0 ? "opacity-100" : "opacity-70"}`}
+        className={`h-4 w-4 flex-shrink-0 mt-0.5 @toc-entry-wide:mt-0 ${depth === 0 ? "opacity-100" : "opacity-70"}`}
         strokeWidth={depth === 0 ? 2.5 : 2}
+        aria-hidden
       />
-      <span>{entry.title}</span>
-      {entry.titleEn && (
-        <span className="text-[var(--ink-muted)] ml-2 font-medium italic">
-          {entry.titleEn}
-        </span>
-      )}
+      <div className="flex flex-col min-w-0 flex-1 gap-0 @toc-entry-wide:flex-row @toc-entry-wide:items-center @toc-entry-wide:flex-initial">
+        <span className="break-words">{entry.title}</span>
+        {entry.titleEn && (
+          <span className="text-[var(--ink-muted)] font-medium italic break-words @toc-entry-wide:ml-2">
+            {entry.titleEn}
+          </span>
+        )}
+      </div>
     </>
   );
 
@@ -54,13 +58,13 @@ export default function TocSection({ entry, index = 0, depth = 0 }: Props) {
     >
       {isArticle ? (
         <Link
-          href={`/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
-          className={`flex items-center gap-2 py-1.5 rounded px-2 -ml-2 hover:text-[var(--gold-dark)] transition-colors glow-hover ${levelStyle}`}
+          href={`/${bookSlug}/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
+          className={`@container flex items-start gap-2 py-1.5 rounded px-2 -ml-2 hover:text-[var(--gold-dark)] transition-colors glow-hover @toc-entry-wide:items-center ${levelStyle}`}
         >
           {titleContent}
         </Link>
       ) : (
-        <div className={`flex items-center gap-2 py-1.5 px-2 -ml-2 ${levelStyle}`}>
+        <div className={`@container flex items-start gap-2 py-1.5 px-2 -ml-2 @toc-entry-wide:items-center ${levelStyle}`}>
           {titleContent}
         </div>
       )}
@@ -69,6 +73,7 @@ export default function TocSection({ entry, index = 0, depth = 0 }: Props) {
           {entry.children!.map((child, i) => (
             <TocSection
               key={child.slug}
+              bookSlug={bookSlug}
               entry={child}
               index={i}
               depth={depth + 1}

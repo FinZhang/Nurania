@@ -5,10 +5,11 @@ import type { ArticleEntry } from "@/lib/content-types";
 import TocSection from "./TocSection";
 
 interface Props {
+  bookSlug: string;
   entries: ArticleEntry[];
 }
 
-export default function TocList({ entries }: Props) {
+export default function TocList({ bookSlug, entries }: Props) {
   return (
     <motion.ul
       initial={{ opacity: 0, y: 20 }}
@@ -17,7 +18,7 @@ export default function TocList({ entries }: Props) {
       className="list-none space-y-2 pl-0"
     >
       {entries.map((entry, i) => (
-        <TocSection key={entry.slug} entry={entry} index={i} depth={0} />
+        <TocSection key={entry.slug} bookSlug={bookSlug} entry={entry} index={i} depth={0} />
       ))}
     </motion.ul>
   );
