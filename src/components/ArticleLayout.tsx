@@ -307,7 +307,7 @@ export default function ArticleLayout({
                   className="flex items-center gap-2 py-2 px-0 text-sm text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors rounded"
                   onClick={(e) => {
                     const candidates = document.querySelectorAll(`#${CSS.escape(h.id)}`);
-                    const el = Array.from(candidates).find((node) => node.offsetParent != null) ?? candidates[0];
+                    const el = (Array.from(candidates).find((node) => (node as HTMLElement).offsetParent != null) ?? candidates[0]) as HTMLElement | undefined;
                     if (el) {
                       e.preventDefault();
                       const top = window.scrollY + el.getBoundingClientRect().top - SCROLL_OFFSET_PX;
