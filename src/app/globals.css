@@ -98,6 +98,53 @@ footer [aria-hidden="true"] {
   background: #514032;
 }
 
+/* 折叠块按钮内标题：有格式标记（### 等）时用 Cinzel 与层级字号，无格式时由下方 p 规则用正文格式 */
+.markdown-with-folds .fold-title-md h1,
+.markdown-with-folds .fold-title-md h2,
+.markdown-with-folds .fold-title-md h3,
+.markdown-with-folds .fold-title-md h4,
+.markdown-with-folds .fold-title-md h5,
+.markdown-with-folds .fold-title-md h6 {
+  display: inline;
+  margin: 0;
+  font-family: var(--font-cinzel), "Times New Roman", serif !important;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.markdown-with-folds .fold-title-md h1 { font-size: 1.875rem !important; }
+.markdown-with-folds .fold-title-md h2 { font-size: 1.5rem !important; }
+.markdown-with-folds .fold-title-md h3 { font-size: 1.25rem !important; }
+.markdown-with-folds .fold-title-md h4 { font-size: 1.125rem !important; }
+.markdown-with-folds .fold-title-md h5 { font-size: 1rem !important; }
+.markdown-with-folds .fold-title-md h6 { font-size: 0.9375rem !important; color: var(--ink-muted); }
+/* 折叠块标题行无格式时使用正文格式：与 .article-markdown 同字体（--font-sans） */
+.markdown-with-folds button .fold-title-body {
+  font-family: var(--font-sans), Georgia, serif !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 1.75 !important;
+  color: var(--ink);
+}
+.markdown-with-folds .fold-title-md p { font-size: inherit; font-weight: normal !important; font-family: var(--font-cormorant), Georgia, serif !important; line-height: 1.75; }
+
+/* 折叠标题通过 components 渲染的 .fold-heading，强制 Cinzel 与层级字号 */
+.markdown-with-folds .fold-title-md .fold-heading {
+  display: inline;
+  margin: 0;
+  font-family: var(--font-cinzel), "Times New Roman", serif !important;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.markdown-with-folds .fold-title-md .fold-heading-h1 { font-size: 1.875rem !important; }
+.markdown-with-folds .fold-title-md .fold-heading-h2 { font-size: 1.5rem !important; }
+.markdown-with-folds .fold-title-md .fold-heading-h3 { font-size: 1.25rem !important; }
+.markdown-with-folds .fold-title-md .fold-heading-h4 { font-size: 1.125rem !important; }
+.markdown-with-folds .fold-title-md .fold-heading-h5 { font-size: 1rem !important; }
+.markdown-with-folds .fold-title-md .fold-heading-h6 { font-size: 0.9375rem !important; color: var(--ink-muted); }
+.markdown-with-folds .fold-title-md .fold-heading-p { font-family: var(--font-cormorant), Georgia, serif !important; font-size: inherit; font-weight: normal !important; line-height: 1.75; }
+
 /* 标题/纹章用字体（Cinzel - 史诗感） */
 .font-display {
   font-family: var(--font-cinzel), "Times New Roman", serif;
@@ -144,6 +191,21 @@ footer [aria-hidden="true"] {
   .container-nurania {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+/* 折叠块展开后内容区：顶部仅保留一行正文高度，避免第一行离标题过远 */
+.markdown-with-folds .fold-block-body {
+  padding-top: 1.75em !important; /* 与 .article-markdown line-height 一致，即一行正文高度 */
+}
+.markdown-with-folds .fold-block-body > *:first-child {
+  margin-top: 0;
+}
+
+/* 题图与折叠块共存时：若题图覆盖第一个折叠块起始行，下移第一个折叠块以免与题图重叠（题图宽屏高约 600px） */
+@media (min-width: 768px) {
+  .markdown-with-folds > section.fold-clear-title-image {
+    margin-top: 600px;
   }
 }
 

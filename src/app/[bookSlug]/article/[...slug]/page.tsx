@@ -4,7 +4,6 @@ import {
   getSiteToc,
   getArticleBySlug,
   getAllArticleSlugs,
-  getNationImagePath,
 } from "@/lib/content";
 import { getBooks, getBookBySlug } from "@/lib/books";
 import ArticleLayout from "@/components/ArticleLayout";
@@ -35,7 +34,6 @@ export default async function ArticlePage({ params }: Props) {
   if (!article) notFound();
 
   const toc = getSiteToc(bookSlug);
-  const nationImagePath = getNationImagePath(bookSlug, slug);
 
   return (
     <Suspense fallback={<div className="min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]">加载中…</div>}>
@@ -44,7 +42,6 @@ export default async function ArticlePage({ params }: Props) {
         toc={toc}
         currentSlug={slug}
         article={article}
-        nationImagePath={nationImagePath}
       />
     </Suspense>
   );

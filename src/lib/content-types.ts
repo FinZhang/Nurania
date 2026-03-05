@@ -15,6 +15,10 @@ export interface ArticleContent {
   title: string;
   titleEn?: string;
   content: string;
+  /** 题图：由 MD 内 <!-- 题图 path --> 指定，path 相对本书 public 目录 */
+  titleImagePath?: string;
+  /** 题图代码所在行（0-based），窄屏时在此行位置插入图片 */
+  titleImageInsertLine?: number;
 }
 
 /** 扁平化，仅包含文章（叶子节点） */

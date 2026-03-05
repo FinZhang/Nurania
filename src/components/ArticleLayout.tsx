@@ -5,27 +5,30 @@ import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, BookMarked, ChevronLeft, ChevronRight } from "lucide-react";
 import type { ArticleEntry, ArticleContent } from "@/lib/content-types";
 import { flattenArticles } from "@/lib/content-types";
+import { extractH3Headings } from "@/lib/headings";
 import ArticleNavTree from "./ArticleNavTree";
+import ArticleHeadingIdInjector from "./ArticleHeadingIdInjector";
 import MarkdownContent from "./MarkdownContent";
 import MapWithLightbox from "./MapWithLightbox";
-import MagicOverviewContent from "./MagicOverviewContent";
+import MarkdownWithFoldBlocks from "./MarkdownWithFoldBlocks";
 import MarkdownWithNationImage from "./MarkdownWithNationImage";
+import { TitleImageFigure } from "./MarkdownWithNationImage";
+import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
 
 /** 大陆总览-地理概述页的 slug，该页正文上方显示可放大地图 */
 const GEOGRAPHY_OVERVIEW_SLUG = "大陆总览 Overview/地理";
-/** 大陆总览-魔法概述页的 slug，该页使用可折叠分节展示 */
-const MAGIC_OVERVIEW_SLUG = "大陆总览 Overview/魔法";
+
+/** 文章内锚点滚动时，目标位置距视口顶部的偏移：页眉高度 + 约两行正文，避免被吸顶页眉遮挡 */
+const SCROLL_OFFSET_PX = 64 + 2 * 28; // 页眉 md:h-16 ≈ 64px，两行正文约 2×1.75rem ≈ 56px
 
 interface ArticleLayoutProps {
   bookSlug: string;
   toc: ArticleEntry[];
   currentSlug: string;
   article: ArticleContent;
-  /** 诸国列志文章若有同名配图，由服务端传入图片路径 */
-  nationImagePath?: string | null;
 }
 
 export default function ArticleLayout({
@@ -33,7 +36,6 @@ export default function ArticleLayout({
   toc,
   currentSlug,
   article,
-  nationImagePath = null,
 }: ArticleLayoutProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -125,6 +127,8 @@ export default function ArticleLayout({
   const prevEntry = currentIndex > 0 ? flatEntries[currentIndex - 1] : null;
   const nextEntry = currentIndex >= 0 && currentIndex < flatEntries.length - 1 ? flatEntries[currentIndex + 1] : null;
 
+  const inArticleHeadings = extractH3Headings(article.content);
+
   const navContent = (
     <>
       <Link
@@ -212,7 +216,7 @@ export default function ArticleLayout({
           {sidebarInner}
         </aside>
 
-        {/* 右侧：文章主内容 */}
+        {/* 中间：文章主内容 */}
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -230,17 +234,36 @@ export default function ArticleLayout({
             )}
           </header>
           {currentSlug === GEOGRAPHY_OVERVIEW_SLUG && <MapWithLightbox />}
-          {currentSlug === MAGIC_OVERVIEW_SLUG ? (
-            <MagicOverviewContent content={article.content} />
-          ) : nationImagePath ? (
+          <ArticleHeadingIdInjector headings={inArticleHeadings}>
+          {hasFoldBlocks(article.content) && article.titleImagePath ? (
+            <div className="article-with-title-image-and-folds flex flex-col md:contents">
+              <TitleImageFigure
+                imagePath={article.titleImagePath}
+                imageAlt={article.title}
+                className="order-1 my-6 w-full md:order-none md:float-right md:mt-[-5rem] md:mb-4 md:ml-6 md:w-[400px]"
+              />
+              <div className="order-2 md:order-none">
+                <MarkdownWithFoldBlocks
+                content={article.content}
+                firstFoldClearImageMargin={
+                  getFirstFoldLineIndex(article.content) <= (article.titleImageInsertLine ?? 0)
+                }
+              />
+              </div>
+            </div>
+          ) : hasFoldBlocks(article.content) ? (
+            <MarkdownWithFoldBlocks content={article.content} />
+          ) : article.titleImagePath ? (
             <MarkdownWithNationImage
               content={article.content}
-              imagePath={nationImagePath}
+              imagePath={article.titleImagePath}
               imageAlt={article.title}
+              insertLine={article.titleImageInsertLine ?? 0}
             />
           ) : (
             <MarkdownContent content={article.content} />
           )}
+          </ArticleHeadingIdInjector>
 
           {/* 上一篇 / 下一篇 */}
           <nav className="mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
@@ -266,6 +289,42 @@ export default function ArticleLayout({
             ) : null}
           </nav>
         </motion.article>
+
+        {/* 宽屏：右侧文章内导航，悬浮、上缘略低于标题，窄屏不显示 */}
+        {inArticleHeadings.length > 0 && (
+          <aside
+            className="hidden md:block w-48 flex-shrink-0 sticky top-36 self-start pl-2 -mr-18"
+            aria-label="文章内导航"
+          >
+            <nav
+              className="w-fit max-w-full border-t border-b border-[var(--parchment-aged)] py-4 pl-0 pr-4 flex flex-col gap-0"
+              aria-label="文章内导航"
+            >
+              {inArticleHeadings.map((h) => (
+                <Link
+                  key={h.id}
+                  href={`${pathname}#${encodeURIComponent(h.id)}`}
+                  className="flex items-center gap-2 py-2 px-0 text-sm text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors rounded"
+                  onClick={(e) => {
+                    const candidates = document.querySelectorAll(`#${CSS.escape(h.id)}`);
+                    const el = Array.from(candidates).find((node) => node.offsetParent != null) ?? candidates[0];
+                    if (el) {
+                      e.preventDefault();
+                      const top = window.scrollY + el.getBoundingClientRect().top - SCROLL_OFFSET_PX;
+                      window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+                    }
+                  }}
+                >
+                  <BookMarked
+                    className="h-3.5 w-3.5 flex-shrink-0 text-[var(--ink-faded)]"
+                    aria-hidden
+                  />
+                  <span>{h.text}</span>
+                </Link>
+              ))}
+            </nav>
+          </aside>
+        )}
       </div>
       </div>
     </div>

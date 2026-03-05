@@ -181,24 +181,27 @@ export function getAllArticleSlugs(bookSlug: string): string[] {
   return flattenArticles(getSiteToc(bookSlug)).map((e) => e.slug);
 }
 
-/** 根据 slug 获取文章内容 */
-/** 诸国列志目录的 slug 前缀，该目录下文章在首段引用块下方插入同名配图（图片位于本书 publicDir/诸国列志/） */
-const NATIONS_SLUG_PREFIX = "诸国列志 Chorography of the Nations/";
+/** 题图代码：在 MD 正文中写 <!-- 题图 path -->，path 相对全局 public 目录，如 Nurania/诸国列志/索拉瑞斯.png */
+const RE_TITLE_IMAGE = /<!--\s*题图\s+(\S+)\s*-->/;
 
-/** 若当前文章属于诸国列志且存在同名配图，返回图片 URL 路径（如 /Nurania/诸国列志/xxx.jpg） */
-export function getNationImagePath(bookSlug: string, slug: string): string | null {
-  const book = getBookBySlug(bookSlug);
-  if (!book) return null;
-  if (!slug.startsWith(NATIONS_SLUG_PREFIX)) return null;
-  const baseName = slug.slice(NATIONS_SLUG_PREFIX.length).split("/")[0] || slug.split("/").pop() || "";
-  if (!baseName) return null;
-  const nationsDir = path.join(process.cwd(), "public", book.publicDir, "诸国列志");
-  const exts = [".jpg", ".jpeg", ".png", ".webp"];
-  for (const ext of exts) {
-    const filePath = path.join(nationsDir, baseName + ext);
-    if (fs.existsSync(filePath)) return `/${book.publicDir}/诸国列志/${baseName}${ext}`;
+/**
+ * 从正文中解析题图代码，若存在则返回路径（相对全局 public）、插入行号，并从正文中移除该行。
+ */
+function parseTitleImage(content: string): {
+  contentWithoutLine: string;
+  titleImageRelativePath: string | null;
+  titleImageInsertLine: number;
+} {
+  const lines = content.split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(RE_TITLE_IMAGE);
+    if (m) {
+      const path = m[1].trim();
+      const rest = [...lines.slice(0, i), ...lines.slice(i + 1)].join("\n");
+      return { contentWithoutLine: rest, titleImageRelativePath: path, titleImageInsertLine: i };
+    }
   }
-  return null;
+  return { contentWithoutLine: content, titleImageRelativePath: null, titleImageInsertLine: 0 };
 }
 
 export function getArticleBySlug(bookSlug: string, slug: string): ArticleContent | null {
@@ -210,10 +213,18 @@ export function getArticleBySlug(bookSlug: string, slug: string): ArticleContent
   const { data, content } = matter(raw);
   const baseName = slug.split("/").pop() || slug;
 
-  return {
+  const { contentWithoutLine, titleImageRelativePath, titleImageInsertLine } = parseTitleImage(content);
+
+  const result: ArticleContent = {
     slug,
     title: (data.title as string) ?? baseName,
     titleEn: data.titleEn as string | undefined,
-    content,
+    content: contentWithoutLine,
   };
+  if (titleImageRelativePath) {
+    result.titleImagePath = `/${titleImageRelativePath.replace(/^\/+/, "")}`;
+    result.titleImageInsertLine = titleImageInsertLine;
+  }
+
+  return result;
 }
