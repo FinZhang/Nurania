@@ -13,7 +13,7 @@ export default function ShelfPage() {
       {/* 地图背景固定铺满视口，覆盖到页脚区域，避免中间留白 */}
       <div className="fixed inset-0 z-0 overflow-hidden">
         <Image
-          src="/Nurania/world-map.jpg"
+          src="/Compendium/world-map.jpg"
           alt="诺拉尼亚大陆地图"
           fill
           className="object-cover object-center opacity-40 min-w-full min-h-full md:scale-110 lg:scale-125"

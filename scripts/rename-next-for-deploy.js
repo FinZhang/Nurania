@@ -27,15 +27,13 @@ function walkDir(dir, callback) {
 const nextDir = path.join(outDir, "_next");
 const renamedDir = path.join(outDir, "next");
 
-if (!fs.existsSync(nextDir)) {
-  console.log("rename-next-for-deploy: out/_next 不存在，跳过");
-  process.exit(0);
+if (fs.existsSync(nextDir)) {
+  if (fs.existsSync(renamedDir)) fs.rmSync(renamedDir, { recursive: true });
+  fs.renameSync(nextDir, renamedDir);
+  console.log("rename-next-for-deploy: _next -> next");
+} else {
+  console.log("rename-next-for-deploy: out/_next 不存在，跳过 _next 重命名");
 }
-
-// 若已存在 next（上次运行过），先删掉，避免重复
-if (fs.existsSync(renamedDir)) fs.rmSync(renamedDir, { recursive: true });
-fs.renameSync(nextDir, renamedDir);
-console.log("rename-next-for-deploy: _next -> next");
 
 let replaceCount = 0;
 walkDir(outDir, (filePath) => {
