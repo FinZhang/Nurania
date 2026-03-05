@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:"$Sreact.suspense"
+3:I[53360,["/Nurania/next/static/chunks/557f831b0fb2d412.js","/Nurania/next/static/chunks/dee4a8636718c29d.js","/Nurania/next/static/chunks/14d76f658643e902.js"],"default"]
+7:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+4:Tc41,
+> “最大的风险就是不冒任何风险。”
+
+
+### 概述
+
+卡帕尼诸公联合（The United Principalities of Kapani），又称卡帕尼联邦，是位于大陆南部群岛之上的公国联邦制国家，首都伊索拉韦尔德（通称伊索拉）。联邦国土分布于大小七十八座岛屿之上，西南面接大星洋，东面濒临晨风海，北方隔翡翠海峡自西向东分别与艾瑟瑞姆王国，索拉瑞斯帝国和阿布丹提亚帝国相望。联邦国土共约二百一十万平方陆里，由四个联邦成员公国和北部特别贸易区（特贸区）组成，最大城市为翡翠海峡中央的特贸区海运枢纽波托马利（Porto Marino）。卡帕尼全国领土处于热带，终年炎热潮湿，耕地面积有限，岛屿地形亦制约了大规模定居的发展潜力。至十六世纪初，卡帕尼常驻居民人口约九百八十万，其中逾半数居住于中部的阿卡帕尼岛与梅尔帕尼岛。
+
+历史上卡帕尼群岛的人类活动记载可追溯至大陆历纪元前，原住民城市于元前二世纪至三世纪相继兴起，并在四世纪统一建立卡帕尼王国。七世纪，阿布丹提亚航海队南下抵达群岛，与王国建立正式贸易关系。723年，卡帕尼与帝国签订《梅尔卡托条约》成为其附庸国。986年，卡帕尼正式并入丹提亚版图，原王国被划分为四个公爵领，成为现代卡帕尼四公国的历史源头。公元十三世纪末，阿布丹提亚在第一次阿索战争中落败，对南部群岛的控制力显著削弱，卡帕尼四公爵遂秘密结盟推动独立进程。十四世纪中叶第二次阿索战争后，作为和约条款之一，帝国宣布放弃对群岛的主权，卡帕尼四公爵随即于1356年在米德可尔会晤宣布建立联邦，卡帕尼诸公联合由此诞生。独立后，卡帕尼依托优越的海运地理优势快速发展，商贸与金融活动成为社会运行的核心，财富积累在实践中逐渐转化为社会地位与政治影响力，形成以财富资产为本的社会结构。
+
+卡帕尼自王国时代起便以商业贸易著称，此传统于诸公联合成立后也得以延续。联邦北部岛链被划为特贸区并设立自由贸易港，享有极高自治权，受独立的特区商法典而非公国法系管辖。依靠国际贸易和由此催生的发达金融业，联邦在短短百余年间即在大陆经济事务中取得举足轻重极高的地位，各公国也由此积累了可观的财富。发达的商业活动和高频人口流动塑造了卡帕尼复杂多元的民族结构，也促成了联邦以经济实力为基础的政治秩序。外交方面，卡帕尼长期奉行灵活的离岸平衡政策，与各国维持稳定贸易关系的同时刻意回避直接军事对抗。于此同时，联邦亦以其热带群岛景观与航海文化闻名大陆，旅游业发达。其北部岛链素有“卡帕尼千岛群星”的美称，是各国权贵阶层青睐的度假胜地之一。
+
+### 历史
+
+### 气候地理
+
+### 魔法与技术
+
+### 人口，民族与文化
+
+### 政治与军事
+
+### 经济
+0:{"buildId":"E3zGMONzVWFKmlnoCn2c5","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"nurania","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/龙不会老，但我会","title":"龙不会老，但我会","titleEn":"Hold","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/一趟远航，三本账册","title":"一趟远航，三本账册","titleEn":"Hold","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸国列志 Chorography of the Nations/卡帕尼","article":{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","content":"$4","titleImagePath":"/Nurania/诸国列志/卡帕尼.png","titleImageInsertLine":3}}]}],[["$","script","script-0",{"src":"/Nurania/next/static/chunks/dee4a8636718c29d.js","async":true}],"$L5"],"$L6"]}],"loading":null,"isPartial":false}
+5:["$","script","script-1",{"src":"/Nurania/next/static/chunks/14d76f658643e902.js","async":true}]
+6:["$","$L7",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
