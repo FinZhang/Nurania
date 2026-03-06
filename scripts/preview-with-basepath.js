@@ -35,6 +35,14 @@ if (fs.existsSync(nuraniaDir)) {
 copyRecursive(outDir, nuraniaDir);
 console.log("已复制 out -> preview/Nurania");
 
+// 根路径重定向到 /Nurania/，减少访问 localhost:3000/ 时的 404 日志
+const rootIndex = path.join(previewBase, "index.html");
+fs.writeFileSync(
+  rootIndex,
+  "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta http-equiv=\"refresh\" content=\"0;url=/Nurania/\"><title>Redirect</title></head><body><p>Redirecting to <a href=\"/Nurania/\">/Nurania/</a>...</p></body></html>",
+  "utf8"
+);
+
 const result = spawnSync(
   "npx",
   ["serve", previewBase, "-p", "3000"],

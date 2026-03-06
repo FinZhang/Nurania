@@ -5,8 +5,9 @@ import { createPortal } from "react-dom";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
+import { BASE_PATH } from "@/lib/basePath";
 
-const MAP_SRC = "/Compendium/world-map-labelled.jpg";
+const MAP_SRC = `${BASE_PATH}/compendium/world-map-labelled.jpg`;
 
 export default function MapWithLightbox() {
   const [lightboxOpen, setLightboxOpen] = useState(false);

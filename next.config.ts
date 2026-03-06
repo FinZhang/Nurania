@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   ...(process.env.NODE_ENV === "production" ? { output: "export" as const } : {}),
   basePath: "/Nurania",
   assetPrefix: "/Nurania/",
+  // 生成 compendium/toc/index.html，便于多数静态托管正确响应 /Nurania/compendium/toc/
+  trailingSlash: true,
   images: {
     loader: "custom",
     loaderFile: "./image-loader.ts",

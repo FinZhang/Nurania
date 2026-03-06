@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { BookOpen } from "lucide-react";
 import { getBookBySlug } from "@/lib/books";
+import { BASE_PATH } from "@/lib/basePath";
 
 export default function Header() {
   const pathname = usePathname();
@@ -25,7 +26,8 @@ export default function Header() {
       }
     }
     if (sidebarOpen) {
-      router.replace(pathname ?? `/${bookSlug}/toc`, { scroll: false });
+      window.location.href = `${BASE_PATH}/${bookSlug}/toc`;
+      return;
     } else {
       router.replace(pathname + "?sidebar=1", { scroll: false });
     }
@@ -70,12 +72,12 @@ export default function Header() {
               </button>
             )}
             {bookSlug && (
-              <Link
-                href={`/${bookSlug}/toc`}
+              <a
+                href={`${BASE_PATH}/${bookSlug}/toc`}
                 className={`text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors ${isArticlePage ? "hidden md:inline" : ""}`}
               >
                 本书目录
-              </Link>
+              </a>
             )}
           </nav>
         )}

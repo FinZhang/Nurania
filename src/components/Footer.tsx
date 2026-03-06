@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="container-nurania py-3 md:py-4 relative z-10">
         <div className="flex flex-col items-center gap-2 text-center md:flex-row md:justify-between">
           <p className="text-xs md:text-sm text-[var(--ink)]">
-            {isShelf ? "Selenus: The Complete Writings" : (book?.footerSubline ?? "Under the Nuranian Skies: A Compendium")}
+            {isShelf ? "Selenus: The Complete Writings" : (book?.footerSubline ?? "Under the Nuranian Skies: A compendium")}
           </p>
           <div className="flex flex-col items-center md:items-end text-xs md:text-sm text-[var(--ink)]">
             <span>Fin Zhang © {currentYear}</span>

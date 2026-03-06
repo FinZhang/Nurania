@@ -17,6 +17,7 @@ import MarkdownWithFoldBlocks from "./MarkdownWithFoldBlocks";
 import MarkdownWithNationImage from "./MarkdownWithNationImage";
 import { TitleImageFigure } from "./MarkdownWithNationImage";
 import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
+import { BASE_PATH } from "@/lib/basePath";
 
 /** 大陆总览-地理概述页的 slug，该页正文上方显示可放大地图 */
 const GEOGRAPHY_OVERVIEW_SLUG = "大陆总览 Overview/地理";
@@ -131,13 +132,13 @@ export default function ArticleLayout({
 
   const navContent = (
     <>
-      <Link
-        href={`/${bookSlug}/toc`}
+      <a
+        href={`${BASE_PATH}/${bookSlug}/toc`}
         className="inline-flex items-center gap-2 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] mb-4 transition-colors text-sm"
       >
         <ArrowLeft className="h-4 w-4" />
         返回目录
-      </Link>
+      </a>
       <p className="text-xs uppercase tracking-wider text-[var(--ink-faded)] mb-2">
         目录
       </p>
@@ -167,7 +168,7 @@ export default function ArticleLayout({
       {/* 10% 透明度世界地图背景：固定于视口，不随内容滚动 */}
       <div className="fixed inset-0 z-0 overflow-hidden">
         <Image
-          src="/Compendium/world-map.jpg"
+          src={`${BASE_PATH}/compendium/world-map.jpg`}
           alt=""
           fill
           className="object-cover object-center opacity-10 min-w-full min-h-full md:scale-110 lg:scale-125"

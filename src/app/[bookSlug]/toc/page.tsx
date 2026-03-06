@@ -4,6 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { getBooks, getBookBySlug } from "@/lib/books";
 import { getSiteToc, getRecentArticles } from "@/lib/content";
+import { BASE_PATH } from "@/lib/basePath";
 import TocList from "@/components/TocList";
 import TocSidebar from "@/components/TocSidebar";
 import RecentUpdates from "@/components/RecentUpdates";
@@ -28,7 +29,7 @@ export default async function TocPage({ params }: Props) {
     <div className="relative min-h-[calc(100vh-8rem)]">
       <div className="fixed inset-0 z-0 overflow-hidden">
         <Image
-          src="/Compendium/world-map.jpg"
+          src={`${BASE_PATH}/compendium/world-map.jpg`}
           alt=""
           fill
           className="object-cover object-center opacity-10 min-w-full min-h-full lg:scale-110 xl:scale-125"
@@ -65,7 +66,7 @@ export default async function TocPage({ params }: Props) {
           </div>
 
           <div className="hidden lg:flex lg:flex-col lg:w-auto lg:max-w-lg lg:flex-shrink-0 lg:gap-4 lg:sticky lg:top-24 lg:self-start">
-            <TocSidebar cover={book.cover} intro={book.intro} title={book.title} />
+            <TocSidebar cover={`${BASE_PATH}${book.cover}`} intro={book.intro} title={book.title} />
             <RecentUpdates bookSlug={bookSlug} items={recentArticles} />
           </div>
         </div>
