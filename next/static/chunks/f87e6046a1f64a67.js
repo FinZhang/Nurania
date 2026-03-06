@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,52239,t=>{"use strict";t.s(["BASE_PATH",0,"/Nurania"])}]);
