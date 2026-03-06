@@ -22,25 +22,11 @@ function run(cmd, args, opts = {}) {
   return result;
 }
 
-/** 在 out 目录执行 git 命令，允许失败（用于清理旧大小写） */
-function gitOut(args, allowFail = false) {
-  const result = spawnSync("git", args, { cwd: outDir, shell: true, encoding: "utf8" });
-  if (!allowFail && result.status !== 0) process.exit(result.status ?? 1);
-  return result;
-}
-
 console.log(">>> 1/4 npm run build\n");
 run("npm", ["run", "build"]);
 
 console.log("\n>>> 2/4 npm run deploy:rewrite\n");
 run("npm", ["run", "deploy:rewrite"]);
-
-// 强制 Git 使用小写 compendium：Windows 下索引可能仍为 Compendium，部署到区分大小写的服务器会 404
-const compendiumDir = path.join(outDir, "compendium");
-if (fs.existsSync(compendiumDir)) {
-  gitOut(["rm", "-r", "--cached", "Compendium"], true);
-  gitOut(["rm", "-r", "--cached", "compendium"], true);
-}
 
 console.log("\n>>> 3/4 git add . & git commit (in out)\n");
 run("git", ["add", "."], { cwd: outDir });
