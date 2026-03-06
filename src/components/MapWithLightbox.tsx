@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import { BASE_PATH } from "@/lib/basePath";
 
-const MAP_SRC = `${BASE_PATH}/compendium/world-map-labelled.jpg`;
+const MAP_SRC = `${BASE_PATH}/compendium/world_map_labelled.webp`;
 
 export default function MapWithLightbox() {
   const [lightboxOpen, setLightboxOpen] = useState(false);

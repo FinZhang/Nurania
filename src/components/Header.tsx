@@ -39,7 +39,7 @@ export default function Header() {
         {isShelf ? (
           <span className="flex items-center gap-2 text-[var(--ink)] font-display text-lg md:text-xl tracking-wide">
             <BookOpen className="h-5 w-5 md:h-6 md:w-6" />
-            塞勒内斯全集
+            尤里梅尔全集
           </span>
         ) : (
           <Link

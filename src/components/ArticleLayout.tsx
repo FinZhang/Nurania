@@ -168,7 +168,7 @@ export default function ArticleLayout({
       {/* 10% 透明度世界地图背景：固定于视口，不随内容滚动 */}
       <div className="fixed inset-0 z-0 overflow-hidden">
         <Image
-          src={`${BASE_PATH}/compendium/world-map.jpg`}
+          src={`${BASE_PATH}/compendium/world_map.webp`}
           alt=""
           fill
           className="object-cover object-center opacity-10 min-w-full min-h-full md:scale-110 lg:scale-125"

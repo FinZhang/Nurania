@@ -198,12 +198,16 @@ if (wrongCaseDir) {
   }
 }
 
-// 显式将 public 下的书籍资源合并到 out，确保 world-map.jpg、book_cover.png 等一定存在（避免线上 404）
+// 显式将 public 下的书籍资源合并到 out，确保 world_map.webp、book_cover.png 等一定存在（避免线上 404）
 mergePublicIntoOut("compendium", "compendium");
-mergePublicIntoOut("book-2", "book-2");
+mergePublicIntoOut("upTheRiver", "upTheRiver");
+mergePublicIntoOut("deathOfDevout", "deathOfDevout");
 // 兼容 public 下首字母大写的旧目录名
 if (fs.existsSync(path.join(publicDir, "Compendium"))) mergePublicIntoOut("Compendium", "compendium");
-console.log("rename-next-for-deploy: 已合并 public/compendium、public/book-2 到 out，保证封面与地图等静态资源");
+// 兼容旧目录名（第二本书已更名为 upTheRiver）
+if (fs.existsSync(path.join(publicDir, "UptheRiver"))) mergePublicIntoOut("UptheRiver", "upTheRiver");
+if (fs.existsSync(path.join(publicDir, "book-2"))) mergePublicIntoOut("book-2", "upTheRiver");
+console.log("rename-next-for-deploy: 已合并 public/compendium、public/upTheRiver、public/deathOfDevout 到 out，保证封面与地图等静态资源");
 
 // 强制 out/compendium 为小写目录名：Windows 上 fs.renameSync(Compendium, compendium) 可能不改变大小写，
 // 导致 Git 仍记录为 Compendium，部署到区分大小写的服务器后 /Nurania/compendium/ 会 404。通过「复制到临时名→删原目录→改名为 compendium」保证最终目录名为小写。
@@ -239,7 +243,7 @@ console.log("rename-next-for-deploy: out 顶层目录（供核对部署）:", to
 
 // 校验书架主页依赖的两张图存在，避免线上 404
 const requiredImages = [
-  path.join(outDir, "compendium", "world-map.jpg"),
+  path.join(outDir, "compendium", "world_map.webp"),
   path.join(outDir, "compendium", "book_cover.png"),
 ];
 const missing = requiredImages.filter((p) => !fs.existsSync(p));
@@ -248,7 +252,7 @@ if (missing.length > 0) {
   missing.forEach((p) => console.error("  -", path.relative(outDir, p)));
   process.exit(1);
 }
-console.log("rename-next-for-deploy: 已校验 compendium/world-map.jpg、compendium/book_cover.png 存在");
+console.log("rename-next-for-deploy: 已校验 compendium/world_map.webp、compendium/book_cover.png 存在");
 
 console.log("");
 console.log(">>> 请将 out 目录【完整】上传到站点 /Nurania 路径（含 next 文件夹、index.html 等）");

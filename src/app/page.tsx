@@ -13,7 +13,7 @@ export default function ShelfPage() {
       {/* 地图背景固定铺满视口，覆盖到页脚区域，避免中间留白 */}
       <div className="fixed inset-0 z-0 overflow-hidden">
         <Image
-          src={`${BASE_PATH}/compendium/world-map.jpg`}
+          src={`${BASE_PATH}/compendium/world_map.webp`}
           alt="诺拉尼亚大陆地图"
           fill
           className="object-cover object-center opacity-40 min-w-full min-h-full md:scale-110 lg:scale-125"
@@ -23,8 +23,9 @@ export default function ShelfPage() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-4xl mx-auto px-4 py-8 md:p-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 place-items-center">
+      <div className="relative z-10 w-full max-w-5xl mx-auto px-4 py-8 md:p-6">
+        {/* 窄屏：单列纵向；宽屏：横向排列，超出宽度自动换行 */}
+        <div className="flex flex-col items-center gap-12 md:flex-row md:flex-wrap md:justify-center md:items-center md:gap-12 lg:gap-14">
           {books.map((book, i) => (
             <motion.div
               key={book.slug}
@@ -35,7 +36,7 @@ export default function ShelfPage() {
             >
               <a
                 href={`${BASE_PATH}/${book.slug}/toc`}
-                className="group block w-[min(45vw,38vh)] sm:w-[min(50vw,42vh)] md:w-[min(42vw,48vh)] lg:w-[min(36vw,52vh)] max-w-xs cursor-pointer glow-hover"
+                className="group block w-[min(52vw,44vh)] max-w-[280px] md:w-[240px] lg:w-[260px] xl:w-[280px] cursor-pointer glow-hover"
               >
                 <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg border-2 border-[var(--gold-dark)]/60 bg-transparent shadow-[0_8px_30px_rgba(0,0,0,0.25),0_12px_40px_rgba(0,0,0,0.15)]">
                   <Image
@@ -43,7 +44,7 @@ export default function ShelfPage() {
                     alt={`${book.title}封面`}
                     fill
                     priority={i === 0}
-                    className="object-cover object-center group-hover:scale-[1.02] transition-transform duration-300"
+                    className="object-fill object-center group-hover:scale-[1.02] transition-transform duration-300"
                   />
                 </div>
               </a>

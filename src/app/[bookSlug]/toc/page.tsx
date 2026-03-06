@@ -29,7 +29,7 @@ export default async function TocPage({ params }: Props) {
     <div className="relative min-h-[calc(100vh-8rem)]">
       <div className="fixed inset-0 z-0 overflow-hidden">
         <Image
-          src={`${BASE_PATH}/compendium/world-map.jpg`}
+          src={`${BASE_PATH}/compendium/world_map.webp`}
           alt=""
           fill
           className="object-cover object-center opacity-10 min-w-full min-h-full lg:scale-110 xl:scale-125"

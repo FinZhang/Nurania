@@ -181,7 +181,7 @@ export function getAllArticleSlugs(bookSlug: string): string[] {
   return flattenArticles(getSiteToc(bookSlug)).map((e) => e.slug);
 }
 
-/** 题图代码：在 MD 正文中写 <!-- 题图 path -->，path 相对全局 public 目录，如 compendium/诸国列志/索拉瑞斯.png */
+/** 题图代码：在 MD 正文中写 <!-- 题图 path -->，path 相对全局 public 目录，如 compendium/诸国列志/索拉瑞斯.webp */
 const RE_TITLE_IMAGE = /<!--\s*题图\s+(\S+)\s*-->/;
 
 /**
