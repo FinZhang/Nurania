@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import {
   getSiteToc,
   getArticleBySlug,
@@ -22,6 +23,22 @@ export function generateStaticParams() {
 
 interface Props {
   params: Promise<{ bookSlug: string; slug: string[] }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { bookSlug, slug: slugParts } = await params;
+  const slug = slugParts.map((s) => decodeURIComponent(s)).join("/");
+
+  const book = getBookBySlug(bookSlug);
+  if (!book) return {};
+
+  const article = getArticleBySlug(bookSlug, slug);
+  if (!article) return {};
+
+  const titleEn = article.titleEn ? ` | ${article.titleEn}` : "";
+  return {
+    title: `${article.title}${titleEn}`,
+  };
 }
 
 export default async function ArticlePage({ params }: Props) {

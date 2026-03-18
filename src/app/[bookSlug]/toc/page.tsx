@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { getBooks, getBookBySlug } from "@/lib/books";
 import { getSiteToc, getRecentArticles } from "@/lib/content";
 import { BASE_PATH } from "@/lib/basePath";
@@ -15,6 +16,17 @@ export function generateStaticParams() {
 
 interface Props {
   params: Promise<{ bookSlug: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { bookSlug } = await params;
+  const book = getBookBySlug(bookSlug);
+  if (!book) return {};
+
+  const titleEn = book.titleEn ? ` | ${book.titleEn}` : "";
+  return {
+    title: `${book.title}${titleEn}`,
+  };
 }
 
 export default async function TocPage({ params }: Props) {

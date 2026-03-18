@@ -18,8 +18,8 @@ const cinzel = Cinzel({
 });
 
 export const metadata: Metadata = {
-  title: "诺拉尼亚行思录 | Under the Nuranian Skies",
-  description: "[艾瑟瑞姆] 塞勒内斯 著",
+  title: "尤里梅尔全集 | Eurymare: The Complete Writings",
+  description: "纪念塞勒内斯·尤里梅尔诞辰150周年系列文集",
 };
 
 export default function RootLayout({
