@@ -14,8 +14,8 @@ import ArticleHeadingIdInjector from "./ArticleHeadingIdInjector";
 import MarkdownContent from "./MarkdownContent";
 import MapWithLightbox from "./MapWithLightbox";
 import MarkdownWithFoldBlocks from "./MarkdownWithFoldBlocks";
-import MarkdownWithNationImage from "./MarkdownWithNationImage";
-import { TitleImageFigure } from "./MarkdownWithNationImage";
+import MarkdownWithTitleImage from "./MarkdownWithTitleImage";
+import { TitleImageFigure } from "./MarkdownWithTitleImage";
 import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
 import { BASE_PATH } from "@/lib/basePath";
 
@@ -255,7 +255,7 @@ export default function ArticleLayout({
           ) : hasFoldBlocks(article.content) ? (
             <MarkdownWithFoldBlocks content={article.content} />
           ) : article.titleImagePath ? (
-            <MarkdownWithNationImage
+            <MarkdownWithTitleImage
               content={article.content}
               imagePath={article.titleImagePath}
               imageAlt={article.title}
