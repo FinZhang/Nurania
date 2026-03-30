@@ -3,6 +3,7 @@
 import React, { useState, useCallback, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { parseFoldBlocks } from "@/lib/fold-blocks";
+import { ChevronDown, ChevronRight } from "lucide-react";
 
 /** 吸顶时的 top 值（与 tailwind top-16 一致，单位 px） */
 const STICKY_TOP_PX = 64;
@@ -130,15 +131,27 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
               }`}
               aria-expanded={isExpanded}
             >
-              {isPlainTitle(block.title) ? (
-                <span className="fold-title-md fold-title-body">
-                  {block.title}
+              <span className="inline-flex items-center gap-2">
+                <span
+                  aria-hidden="true"
+                  className="inline-flex items-center justify-center text-[var(--ink-muted)] shrink-0 leading-none"
+                >
+                  {isExpanded ? (
+                    <ChevronDown className="h-[1em] w-[1em] translate-y-[0.06em]" />
+                  ) : (
+                    <ChevronRight className="h-[1em] w-[1em] translate-y-[0.06em]" />
+                  )}
                 </span>
-              ) : (
-                <span className="fold-title-md">
-                  <ReactMarkdown components={foldTitleMarkdownComponents}>{block.title}</ReactMarkdown>
-                </span>
-              )}
+                {isPlainTitle(block.title) ? (
+                  <span className="fold-title-md fold-title-body">
+                    {block.title}
+                  </span>
+                ) : (
+                  <span className="fold-title-md">
+                    <ReactMarkdown components={foldTitleMarkdownComponents}>{block.title}</ReactMarkdown>
+                  </span>
+                )}
+              </span>
             </button>
             {isExpanded && (
               <div className="article-markdown fold-block-body px-4 pt-12 pb-5 md:px-5 md:pt-14 md:pb-6">
