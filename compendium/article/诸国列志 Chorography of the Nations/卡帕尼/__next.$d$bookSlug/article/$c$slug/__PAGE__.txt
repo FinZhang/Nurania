@@ -2,7 +2,7 @@
 2:"$Sreact.suspense"
 3:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/static/chunks/4b102f9f7a839906.js","/Nurania/next/static/chunks/1cd680261e91dc8b.js"],"default"]
 8:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:Tc41,
+4:T27ca,
 > “最大的风险就是不冒任何风险。”
 
 
@@ -18,14 +18,42 @@
 
 ### 气候地理
 
+联邦全境处于热带，终年炎热潮湿，雨量充沛。群岛地形使耕地面积相当有限，粮食作物的大规模种植难以实现，联邦粮食高度依赖进口，主要来源为阿布丹提亚帝国与艾瑟瑞姆王国。然而热带气候孕育了种类繁多的香料作物，这一得天独厚的条件是卡帕尼最早在对外贸易中实现顺差的资源基础。
+
+群岛近海海域渔业资源丰富，尤以珍珠与贝壳等装饰性水产最具特色，与阿布丹提亚以大宗经济鱼类为主的捕捞业形成显著差异。联邦不存在规模性矿产资源，常规矿产与魔矿均依赖进口。
+
 ### 魔法与技术
 
+联邦施法者约占总人口两成，来源可分为三类：其一是本地公教会的神启魔法师，与在阿布丹提亚的情况类似，开放接受民间魔法技术委托；其二是艾瑟瑞姆官方驻联邦的星空魔法师技术人员，受本国政策约束不得参与联邦境内的经济活动；其三是以独立身份移居卡帕尼的星空魔法师，多受雇于大型商会，主要从事对艾瑟瑞姆的贸易相关活动，行动上几乎不受宗教或政策限制。
+
+值得关注的是，部分被工匠行会与商人行会雇佣的神启魔法师在参与生产时缺乏元素环境审查，由此带来的疏化风险已在历史上若干贸易城市中留下可观测的疏化迹象。这一现象在联邦国内外均引发了广泛讨论，是否应当立法规范雇佣神启魔法师的魔法使用至今仍是卡帕尼政界与商界的争议议题。联邦长期有意引入星术设备以扩大生产，但始终受制于艾瑟瑞姆的严格出口管制，这一局面在第三次阿索战争后随艾瑟瑞姆外交政策的松动开始出现转机。
+
 ### 人口，民族与文化
+
+联邦土地由商人与商会持有，农业与渔业生产以雇佣劳动合同为基础，城市制造业则以手工业行会组织生产或商人行会雇佣生产为主要形式。联邦在制度上对人口流动持开放态度，但受制于其他国家的管控现实，单方面的人口吸引效果有限。以财富为基础的社会结构使联邦劳动力市场相对灵活，是大陆最接近真正市场经济的国家。发达的商业活动与高频人口流动塑造了联邦复杂多元的民族结构，多语言混用在各大贸易港口是日常现象。
 
 ### 政治与军事
 
 ### 经济
-0:{"buildId":"ZB7ZW_d8nS_jTokazhz56","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/龙不会老，但我会","title":"龙不会老，但我会","titleEn":"Dragons do not age, but me","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/一趟远航，三本账册","title":"一趟远航，三本账册","titleEn":"One voyage, three ledgers","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸国列志 Chorography of the Nations/卡帕尼","article":{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","content":"$4","titleImagePath":"/compendium/诸国列志/卡帕尼.webp","titleImageInsertLine":3}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+
+卡帕尼的实业规模相较大陆主要强国并不突出，但作为大陆跨国贸易的核心枢纽，其进口原材料种类极为丰富，由此催生了覆盖范围较广的加工产业。香料产业是联邦最重要的本地制造业支柱，卡帕尼群岛出产的多种热带香料驰名大陆，香料粗加工及化妆品、食品佐料等相关制品是联邦最大的贸易顺差来源。水产产业以珍珠、贝壳等工艺品与装饰首饰的生产为特色，并辅以海产油脂类制品。联邦的造船业亦有一定水准，但与索拉瑞斯相比仍略逊一筹。印刷业同样相当发达，能够为票据设计并加工复杂的防伪工艺，是卡帕尼银联尼卡特汇票防伪体系的重要技术支撑。
+
+服务业是联邦经济最具决定性优势的部门。金融与贸易服务业冠绝大陆，各类集市、交易所、经济中介、保险商与银行机构在联邦高度发达，构成整个大陆跨国商业活动的基础设施；旅游业依托"卡帕尼千岛群星"的热带群岛景观，长期吸引大陆各国权贵阶层，相关餐饮、住宿与休闲服务产业随之高度发达。
+
+#### 货币、金融与财政
+
+联邦流通货币为**卡帕尼尼卡特铸币**（简称尼卡特）与**尼卡特分铸币**，兑换比率为一比一百，是大陆无可置疑的国际通用货币。尼卡特以含金量较高的合金铸造，辅以复杂铸造工艺防伪。其历史源头可追溯至特贸区设立后由四公国联合发行的统一贸易货币，随跨国贸易扩张逐步渗透大陆各地，四公国随后相继废弃各自旧有货币，全面推行尼卡特。**卡帕尼银联汇票**是与尼卡特铸币并行流通的重要结算工具，由四大商会共同组建的卡帕尼银联信用背书发行，持票人可在任意银联成员银行兑换等额尼卡特，以丹提亚纸制作并辅以联邦发达印刷业的防伪工艺，学界普遍认为其已具备事实上的货币地位，是当前大陆跨国贸易中最广泛使用的结算凭证。
+
+卡帕尼拥有大陆最发达的金融体系。四公国各自直属的四大商会均设有独立银行网络，与众多中小商会银行共同组成卡帕尼银联，支持存票、债票与汇票的跨行自由存取，并统一负责尼卡特汇票的发行与管理。联邦二级市场极为发达，尤以特贸区的交易所为甚。除常规储蓄与借贷业务外，卡帕尼还发展出大陆其他国家几乎没有的金融业务形态：**保险业**涵盖贸易险与年金；**家族信托**服务于大陆各国权贵阶层的财富传承需求；**洛卡金票**是卡帕尼独有的投资凭证，可用于投资特定商会或特定贸易活动，持有人依出资比例享有分红与收益分配，可在交易所自由买卖，构成大陆最接近原始股票市场的交易机制。联邦依托尼卡特的国际货币地位与汇票体系的广泛流通，积累了可观的跨国财富。
+
+财政收入由三部分构成：民众产业税、商会商业税，以及贸易税。特贸区对进出港贸易统一征收贸易税，税率相当优惠以维持贸易吸引力，卡帕尼本地商会享有更低的优惠税率，特贸区税收收入按各公国贡献比例分配，是四公国政府的重要收入来源之一。
+
+#### 商业与贸易
+
+卡帕尼拥有全大陆最发达的商会体系，全联邦大小商会超过三十家，几乎均在特贸区设有分部。这些商会的银行网络共同组成卡帕尼银联，是尼卡特汇票获得近似货币地位的制度基石。其中最重要的**四大商会**分属四公国，由四公爵历史上直接出资创立。学界普遍认为，联邦独立后已完成行政路线转型，如今的四公国体制与公爵头衔更多是历史传统与主权象征的延续；联邦在政治实质上已高度接近商业寡头共和国，四公爵同时担任四大商会主席，以四个世袭商业寡头家族的形式联合议事，国家战略以维持大陆贸易核心地位与商业利润为首要导向。四大商会与规模较大的其余商会在大陆各国口岸均有分布。联邦各地亦存在产业工匠行会，与当地商会的合作关系在大陆诸国中最为紧密，这也是卡帕尼本地产品在他国市场上更容易见到的原因之一。
+
+联邦作为群岛国家以海运为主，但凭借极其活跃的贸易往来，境内各岛的路网与河运亦相当完善。卡帕尼群岛近海海运连接大小岛屿上的聚落与城市，是联邦最重要的境内贸易通道；翡翠海峡航线则是联邦对外贸易的主轴，波托马利作为特贸区核心港口，是整个大陆南北贸易的关键枢纽。
+0:{"buildId":"9rGTAL3s2SFbsLj35YCv1","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"Economic Overview","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/龙不会老，但我会","title":"龙不会老，但我会","titleEn":"Dragons do not age, but me","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/一趟远航，三本账册","title":"一趟远航，三本账册","titleEn":"One voyage, three ledgers","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸国列志 Chorography of the Nations/卡帕尼","article":{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","content":"$4","titleImagePath":"/compendium/诸国列志/卡帕尼.webp","titleImageInsertLine":3}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/4b102f9f7a839906.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/1cd680261e91dc8b.js","async":true}]
 7:["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]

@@ -2,7 +2,7 @@
 2:"$Sreact.suspense"
 3:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/static/chunks/4b102f9f7a839906.js","/Nurania/next/static/chunks/1cd680261e91dc8b.js"],"default"]
 8:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:Tece,
+4:T202f,
 > “森林的诗歌永不停歇。”
 
 
@@ -20,14 +20,36 @@
 
 ### 气候地理
 
+希尔文诺大森林位于冠脊山脉之间，山脉的屏障造就了森林内部相对封闭而湿润的气候环境，孕育了大量大陆其他地区所没有的特有动植物。学界普遍认为，希尔文诺大圣树所在的希尔文尼亚一带是大陆已知的元素丰地之一，高元素丰度与森林生态的独特性之间是否存在直接关联，目前尚无可靠的人类学研究成果。
+
 ### 魔法与技术
 
+希尔文诺精灵依托大圣树的契约连接施展自然魔法，圣树承担了施法所需的精神力消耗，使精灵族即便在大规模联合施法时也无需外部魔矿触媒的辅助。这套魔法体系的具体运作机理与精灵族的内部魔法修炼方式，对人类学界而言几乎完全不透明，现有的相关研究大多停留在现象描述的层面。
+
 ### 人口，民族与文化
+
+希尔文诺的内部社会结构、文化传统与精灵族的日常生活方式，因其高度的封闭性而极难被人类研究者直接观察。现有认知大多来自"落叶"精灵的转述，以及林缘议厅对外接触中的有限信息，其可靠性与代表性均存在相当的不确定性。
 
 ### 政治与军事
 
 ### 经济
-0:{"buildId":"ZB7ZW_d8nS_jTokazhz56","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/龙不会老，但我会","title":"龙不会老，但我会","titleEn":"Dragons do not age, but me","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/一趟远航，三本账册","title":"一趟远航，三本账册","titleEn":"One voyage, three ledgers","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸国列志 Chorography of the Nations/希尔文诺","article":{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","content":"$4","titleImagePath":"/compendium/诸国列志/希尔文诺.webp","titleImageInsertLine":3}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+
+希尔文诺内部的经济组织形式对人类学界而言几乎完全不透明，现有记录极为有限，此处不作推断性描述。在人类可以观察到的层面上，希尔文诺与外部世界的经济往来高度集中于一个官方渠道，以及此渠道以外的非官方地下贸易。
+
+林缘议厅附设的对外贸易所是希尔文诺明面上唯一允许与人类社会进行贸易的官方场所，仅做物物交易，价格比率一事一议。贸易所每年仅开放数次，时间不固定，每次交易额亦相对有限，整体贸易量维持在较低水准。
+
+人类方的主要输出品包括文艺作品（绘画、工艺品等）、先进工具、少量魔矿（用于精灵方的触媒制作）及各类奢侈品（香料、咖啡、服饰、化妆品、首饰等）；精灵方的主要输出品包括希尔文诺大森林的特有动植物制品（角、毛皮、油脂、木材、菌类等）、精灵族特色工艺品，以及独特工艺制作的法术触媒——精灵族本身施法不需要触媒，这些触媒专为对外贸易而制。精灵族特产在人类社会奇货可居，利润极高，大陆各主要政治实体均设有专门的希尔文诺贸易机构：卡帕尼、阿布丹提亚、艾瑟瑞姆、忒奥西斯的大型商会各有专属的希尔文诺贸易分部，尼希尔与索拉瑞斯不存在商会，则由政府官方直接负责。
+
+#### 卡里司泰自由城市
+
+出于贸易时效性的需求，各贸易机构均希望将分部设在林缘议厅附近；这同样符合希尔文诺希望统一管理对外接触渠道的利益。在精灵族的协调下，各方分部被集中安置，于冠脊山脉东南支脉中部、希尔文诺与忒奥西斯边境处建立城市，即**卡里司泰**——全大陆唯一的自由城市。
+
+卡里司泰在行政上不受任何人类政权管辖，由各国贸易机构负责人与希尔文诺精灵特别代表组成的联席会议共同治理。城市须保持完全去武装化状态，同时不具备外交主体地位，不被承认为政治实体。城市职能集中于贸易运输与货物仓储，本地几乎没有生产业，完全依赖各国输入维持运转。林缘议厅作为希尔文诺唯一的官方对外接触渠道，亦吸引了大量大陆学者前来旅居考察。卡里司泰也是大陆"落叶"精灵最为集中的地区之一，是许多离开希尔文诺的精灵进入人类社会的第一站。
+
+#### 地下贸易
+
+林缘议厅对外贸易所是官方认可的唯一合法渠道，经由此处进入希尔文诺的货物须接受贸易所的全面审查。然而大陆学界普遍认为，近几个世纪尤其是过去一百年间，存在大量绕过审查的非官方地下贸易。这类贸易的希尔文诺参与方多为追求开放、淡漠传统的年轻精灵氏族，人类参与方则是不顾法律的逐利商人，货物常包含被两方政府列为违禁的商品，乃至奴隶。由于冠脊山脉横跨范围极广，山间连接人类疆域与希尔文诺大森林的路线繁多，各国政府与希尔文诺均难以对这类非法贸易实施有效遏制。学界同样认为，这一地下贸易网络是过去一个世纪"落叶"精灵人口呈加速增长趋势的重要原因之一——其中既有主动出走者，亦有被动流出者。
+0:{"buildId":"9rGTAL3s2SFbsLj35YCv1","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"Economic Overview","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/龙不会老，但我会","title":"龙不会老，但我会","titleEn":"Dragons do not age, but me","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/一趟远航，三本账册","title":"一趟远航，三本账册","titleEn":"One voyage, three ledgers","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸国列志 Chorography of the Nations/希尔文诺","article":{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","content":"$4","titleImagePath":"/compendium/诸国列志/希尔文诺.webp","titleImageInsertLine":3}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/4b102f9f7a839906.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/1cd680261e91dc8b.js","async":true}]
 7:["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
