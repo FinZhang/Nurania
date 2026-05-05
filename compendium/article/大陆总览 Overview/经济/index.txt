@@ -11,18 +11,18 @@ e:I[68027,[],"default"]
 :HL["/Nurania/next/static/chunks/36014dab80964929.css","style"]
 :HL["/Nurania/next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Nurania/next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"9rGTAL3s2SFbsLj35YCv1","c":["","compendium","article","%E5%A4%A7%E9%99%86%E6%80%BB%E8%A7%88%20Overview","%E7%BB%8F%E6%B5%8E",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E5%A4%A7%E9%99%86%E6%80%BB%E8%A7%88%20Overview/%E7%BB%8F%E6%B5%8E","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/36014dab80964929.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/89a58efc2c9908ff.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/4b102f9f7a839906.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/1cd680261e91dc8b.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[]],"S":true}
+0:{"P":null,"b":"m1-S7YyQkS77y8WqEwc4q","c":["","compendium","article","%E5%A4%A7%E9%99%86%E6%80%BB%E8%A7%88%20Overview","%E7%BB%8F%E6%B5%8E",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E5%A4%A7%E9%99%86%E6%80%BB%E8%A7%88%20Overview/%E7%BB%8F%E6%B5%8E","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/36014dab80964929.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/89a58efc2c9908ff.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/4b102f9f7a839906.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/1cd680261e91dc8b.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[]],"S":true}
 f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/static/chunks/4b102f9f7a839906.js","/Nurania/next/static/chunks/1cd680261e91dc8b.js"],"default"]
-10:T430a,
+10:T4302,
 编者注：本概述内容汇编自尤里梅尔先生1503年凛寒季于阿布丹提亚格雷瓦罗旅居时所完成的数篇经济考据。其所涵盖的范围以诺拉尼亚人类诸国及已知非人类(精灵）政治实体为限，侧重描述大陆于十六世纪初相对稳定的经济制度与结构格局，第三次阿索战争战后经济秩序的变动与未来可能走向，另见行观别录卷当代经济考略篇。
 
-## 一、劳动力结构
+### 劳动力结构
 
-### 人口分布
+#### 人口分布
 
 截止大陆历1500年，诺拉尼亚大陆人类主要政治实体的在籍人口总计约一亿六千五百八十万。大陆人口分布极为不均，高度向耕地与水系集中。以阿布丹提亚大平原、西比尔平原与奥利提斯平原为核心的中-东部平原带聚集了近半数的大陆人口，约七千五百万，是毫无争议的大陆人口重心所在。西诺拉尼亚人口则主要集中于镜心湖沿岸与尼希尔两河流域绿洲地带。山地、森林、沙漠与群岛地形均对大规模定居构成天然制约，大陆大量土地处于人口稀疏状态。
 
-### 土地制度与劳动力组织
+#### 土地制度与劳动力组织
 
 诺拉尼亚各国在土地所有制与劳动力组织方式上存在根本性差异，这一差异是理解各国产业能力与经济效率的前提。
 
@@ -32,7 +32,7 @@ f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/stat
 
 大陆各国对人口跨境流动普遍实施严格管控——维持农奴制、军事化管理、技术保密或奴隶制度的需要交织其中。这一长期形成的格局使大陆劳动力市场高度分割，各国经济多在近乎封闭的条件下各自运转。卡帕尼是唯一在制度上明确开放人口流动的国家，但受制于各方管控，其开放政策在实践中难以单方面实现。近代以来因战争和技术冲击这一状况开始出现松动，但总体结构性约束仍然存在。
 
-### 施法者比例与魔法劳动力
+#### 施法者比例与魔法劳动力
 
 大陆施法者——即能够主动运用魔法的人口，包含各魔法学派（祷言、星术、秘术、自然魔法等）——占全大陆总人口的比例约为两成（其中不计入仅掌握基础星术设备操作的艾瑟瑞姆人口）。施法者在各国之间的分布极为悬殊，从超过五成到不足百分之三均有分布。
 
@@ -40,9 +40,9 @@ f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/stat
 
 从魔法劳动力的经济功能来看，大陆各国大致可分为三种主要运作模式：以艾瑟瑞姆为代表的**全面渗透模式**，魔法劳动力直接参与各类生产活动，星术器械更将魔法效能延伸至非施法者的日常使用；以忒奥西斯、阿布丹提亚和索拉瑞斯为代表的**大型工程模式**，施法者由教会或政府统一调度，集中投入重要基建与军事工程——三者中圣领施法者密度最高，且调度权完全归属教会而非世俗政府；以尼希尔为代表的**仪式专属模式**，施法者的魔法使用几乎完全限于军事与宗教场合。卡帕尼的情况较为特殊，雇佣魔法师的市场化运作带来了高度灵活性，但在环境审查与元素疏化风险方面的制度建设仍明显滞后。
 
-## 二、产业结构
+### 产业结构
 
-### 自然资源产业
+#### 自然资源产业
 
 大陆的农业产出高度向少数平原地带集中，阿布丹提亚大平原是无可置疑的粮食核心产区，其穗稻与血麦产量在养活本国六千余万人口之余仍大量出口，索拉瑞斯、卡帕尼与艾瑟瑞姆均是长期依赖其粮食供应的主要进口方。经济作物方面，各产区依托气候差异形成了高度专业化的格局，香料、烟草与咖啡、染料、制糖原料、麻类与棉花分别锚定于特定产区，在大陆市场上各占难以替代的供给位置。
 
@@ -50,7 +50,7 @@ f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/stat
 
 矿业方面，铁铜等常规金属矿藏主要富集于西诺拉尼亚裂境山脉与东部葛林沃尔克山脉沿线；银矿以索菲亚银矿最具规模，直接支撑了圣领的高银质货币体系。魔矿是战略意义最高的矿产，全大陆产出近乎由尼希尔沙阿万大魔矿区一手主导，各国魔法产业对此形成了难以切断的依赖，魔矿的属性与经济功能详见行观别录卷魔法矿石篇。
 
-### 制造业
+#### 制造业
 
 大陆的制造业格局由各国的资源禀赋与政治制度共同塑造，呈现出鲜明的专业化分工特征。
 
@@ -58,7 +58,7 @@ f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/stat
 
 制造业的组织形式与各国土地制度高度对应：艾瑟瑞姆的核心蚀刻产业由王家研究院直属机构垄断；索拉瑞斯的全部产业由军团行省政府统一调配；阿布丹提亚依赖贵族庄园手工业并辅以帝政省的分工协调；卡帕尼以行会与商人雇佣生产为主，是大陆制造业市场化程度最高的国家；尼希尔则以奴隶劳动支撑采矿业的规模产出。
 
-### 服务业
+#### 服务业
 
 大陆的服务业在地理上高度集中，且普遍围绕各国最具竞争力的产业和资源禀赋展开。
 
@@ -68,9 +68,9 @@ f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/stat
 
 阿布丹提亚与艾瑟瑞姆则以文化与学术消费性服务业见长：前者的艺术产业以油画与歌剧为代表，是大陆文化消费市场中影响力最广的输出方，宗教主题艺术作品甚至经由灰色渠道流入圣领；后者发展出独特的咖啡馆文化，这种提供咖啡与饮品、兼具学术交流功能的场所遍布王国城镇，是学术立国风气在日常生活层面最具体的体现。
 
-## 三、货币、信用与财政
+### 货币、信用与财政
 
-### 货币体系
+#### 货币体系
 
 诺拉尼亚大陆目前并不存在统一的货币体系，各国货币在材质、发行机制与防伪手段上均呈现出显著差异，但在长期贸易往来中已逐步形成若干事实上的共同基准。大陆主流货币按材质可分为三类：含金合金货币（阿布丹提亚费内尔金币、艾瑟瑞姆星币、卡帕尼尼卡特）、高银含量货币（忒奥西斯伊琳娜圣银币，依托索菲亚银矿的垄断产出）、以及几乎不含贵金属的铁制货币（索拉瑞斯凯撒铁钞，以复杂铸造工艺与严酷刑事威慑为信用基础）。艾瑟瑞姆的星币更在含金合金基础上内嵌蚀刻魔矿，借助星术鉴别真伪，是大陆技术含量最高的货币形态，但也因此在国际流通中受到使用门槛的制约。尼希尔各部落货币同样也采用含金合金材料铸造，但彼此独立且汇率不固定，不构成统一体系。
 
@@ -78,23 +78,23 @@ f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/stat
 
 大陆事实上的国际货币是卡帕尼尼卡特。铸币本身已广泛流通于各国，卡帕尼银联发行的尼卡特汇票——以丹提亚纸制作、辅以联邦印刷工艺防伪、可在任意银联成员银行兑现——更被学界普遍认定为已具备事实货币地位，是当前大陆跨国贸易结算的主导工具。
 
-### 金融与信用体系
+#### 金融与信用体系
 
 大陆各国的金融发展程度存在根本性差异。卡帕尼是毫无争议的金融中心，银联体系支持跨行自由结算，并发展出大陆独有的保险业、家族信托与洛卡金票（一种可自由交易的投资凭证，其交易所构成了大陆最接近投资市场的原始形态）。阿布丹提亚拥有较为完善的私人银行体系，存票债票形成了具备一定规模的二级市场，公债亦已制度化。艾瑟瑞姆的金融体系以仲裁星术契约为核心——交易通过具有魔法强制力的契约执行，安全性极高，但整体金融活动不甚活跃。忒奥西斯的金融职能由教会网络承担，存债票仅在神职人员与教会之间流通，信用以教会神圣性为基础而非世俗商业信誉，二级市场封闭在教会组织之内。索拉瑞斯与尼希尔的民间金融均极为原始，前者几乎没有民间金融活动，后者唯有当铺与统治阶级间的非正式借贷。尼希尔特有的"血票"制度——以活体生物作为等价支付手段，利用其对秘术施法的元素流价值定价——是大陆金融史上最独特的支付形态，其本质是统治阶级通过经济激励吸引民众主动提供活体祭品的制度设计。
 
-### 财政结构
+#### 财政结构
 
 多级上缴是大陆最普遍的财政组织逻辑，但各国的征税主体与收入来源构成差异显著。农业税是阿布丹提亚与忒奥西斯的财政基础，后者还以教会领主身份兼收捐献、魔法技术派遣收费与赎罪券收入，并对非信徒另征罗兹亚人头税（Rozya）——这是大陆唯一以宗教身份区分纳税标准的制度。索拉瑞斯将产出统一调配后再划拨各级财政，税收与分配的边界模糊，本质是军事计划经济的财政延伸。卡帕尼以贸易税为最具特色的财政来源，特贸区的优惠税率在保持贸易吸引力的同时仍为四公国带来可观的共同收入。艾瑟瑞姆依赖高附加值技术经济支撑相对宽松的税负结构。尼希尔的血票征收机制使财政收入与宗教祭祀需求直接挂钩，是其政教合一体制在财政层面的体现。
 
-## 四、贸易
+### 贸易
 
-### 商人与商业组织
+#### 商人与商业组织
 
 大陆各国商业组织的发育程度与政治体制高度相关，呈现出从完全缺失到极度繁盛的鲜明光谱。
 
 索拉瑞斯与尼希尔商业活动被压缩至极低水平，不存在任何形式的商会或行会，跨国贸易完全由官方垄断。忒奥西斯圣领的牧首厅直属圣约瑟商会垄断境内一切内外贸易，学界普遍认为其同时承担情报网络职能，尽管圣领官方完全否认。阿布丹提亚与艾瑟瑞姆均存在民间商会与王室直属商会并行的格局——阿布丹提亚的**大梅希斯商会**垄断丹提亚纸业八成贸易量并作为丹提亚-瑞姆协约的直接贸易代理；艾瑟瑞姆的**阿斯托戈商会**是王国星术设备出口的唯一合法渠道，并牵头建立维护全境星术通讯体系用于统一对外汇率。卡帕尼拥有全大陆最发达的商业组织体系，大小三十余家商会几乎均在联邦外设有分部，各商会银行共同构成卡帕尼银联的制度基础；学界普遍认为联邦已从贵族共和国实质转型为商业寡头共和国，四公爵以商会主席身份共同议事。
 
-### 物流网络与贸易路线
+#### 物流网络与贸易路线
 
 **陆路，河道与海运**
 
@@ -106,7 +106,7 @@ f:I[53360,["/Nurania/next/static/chunks/89a58efc2c9908ff.js","/Nurania/next/stat
 
 索菲亚大运河竣工于大陆历十四世纪后叶，由圣领与索拉瑞斯联合开凿，历时七年贯通凛冰洋北门湾与翡翠海峡。运河开通后三重目标均得以实现：宗教上成为正教会宣扬神迹的有力载体；经济上引水根本性改变了圣领缺乏天然河流的农业困境，沿岸兴起多座新城市，圣城索菲亚更扩张为大都会；交通上重塑了大陆南北贸易格局，尼希尔魔矿由此得以快速进入翡翠海峡贸易网。运河管理权归属圣领，相对开放的通行政策使这一安排在三战后领土变动中仍被阿布丹提亚接受。大运河下游南西比尔平原地区因此成为高度开发的战略要地，其领土归属是阿索两国长期博弈的核心争议之一。
 
-### 精灵-人类贸易
+#### 精灵-人类贸易
 
 自十二世纪人类与精灵族建立正式接触以来，希尔文诺在大陆事务上逐渐从完全孤立演变为有限介入。林缘议厅附设的对外贸易所是其唯一官方贸易场所，仅做物物交易的同时每年仅开放数次。人类方输出文艺作品、先进工具、少量魔矿及奢侈品；精灵方输出大森林特有动植物制品、精灵工艺品及专为对外贸易制作的法术触媒。大陆各主要人类政治实体均设有专属的希尔文诺贸易机构，在精灵族协调下集中驻扎于冠脊山脉东南支脉中部建立的**卡里司泰**——全大陆唯一的自由城市，不受任何人类政权管辖，由各国贸易代表与精灵特别代表组成联席会议共同治理。
 
