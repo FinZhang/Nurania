@@ -2,5 +2,5 @@
 2:I[87270,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/static/chunks/4fce953325d5d2de.js","/Nurania/next/static/chunks/088430588bf85aac.js"],"default"]
 3:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"v60QNz9J0d24Yx4NXMb8S","rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/Nurania/next/static/chunks/4fce953325d5d2de.js","async":true}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"uPf0MZNefFNCPEu5hCTvA","rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/Nurania/next/static/chunks/4fce953325d5d2de.js","async":true}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
