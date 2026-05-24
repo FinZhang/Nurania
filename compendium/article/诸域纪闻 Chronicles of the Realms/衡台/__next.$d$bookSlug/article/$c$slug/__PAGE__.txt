@@ -2,7 +2,7 @@
 2:"$Sreact.suspense"
 3:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
 8:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-4:Tae4a,
+4:Tae02,
 
 ### 一
 
@@ -168,7 +168,9 @@
 
 “以前是，后来不是大陆战争么，我就跑到卡帕尼来了。正好遇上索利亚招星术师，一干就是快二十年。”米埃尔把合约塞回夹板，招呼露琪尔进屋，“进来吧，外面太阳马上就要大起来了。”
 
-露琪尔从阳光强烈的室外走进门，视线猛地一暗。索利亚商会的仓库不算小，但空间被高大的货架挤得满满当当，三个巨大的木质货箱堆在墙侧，盖着防灰的麻布。左手边一张半宽的书桌，桌上亮着一盏老旧的星术台灯，传来些许蚀刻回路运转的杂音。桌上堆着厚厚几叠报货单，露琪尔眼尖，看到顶上几张的落款都是艾瑟瑞姆样式的商会印章。
+露琪尔从阳光强烈的室外走进门，视线猛地一暗。
+
+索利亚商会的仓库不算小，但空间被高大的货架挤得满满当当，三个巨大的木质货箱堆在墙侧，盖着防灰的麻布。左手边一张半宽的书桌，桌上亮着一盏老旧的星术台灯，传来些许蚀刻回路运转的杂音。桌上堆着厚厚几叠报货单，露琪尔眼尖，看到顶上几张的落款都是艾瑟瑞姆样式的商会印章。
 
 “小心脚下。今天吉米和巴依被多米尼克派去跟一船临时进港的穗稻，我在替他们清点昨天到的一批货，箱子还没收起来。”米埃尔的声音从房间另一头的货架后面传来，“交接的是星元是吧？要二型衡台？”
 
@@ -202,7 +204,9 @@
 
 覆盖界星石表面的星座般花纹已经退去，只剩下半部分微微亮着均匀的蓝光。露琪尔看清了石柱侧边横线旁边标着的一列小小数字，蓝光顶端对应的横线旁写着“30”。
 
-“准备状态下的界星石只能检测温度。用这个扳机调整玛娜流向，可以把它切换到激活状态。”米埃尔按动衡台一侧的小金属块，界星石上的复杂花纹再次闪现，一层淡蓝色的光幕从下方的金属框升起，覆盖了整个衡台。“激活状态的界星石会在衡台周围形成局域结界，把内部温度固定在激活那一刻的读数。至于为什么星元需要用二型衡台——”
+“准备状态下的界星石只能检测温度。用这个扳机调整玛娜流向，可以把它切换到激活状态。”米埃尔按动衡台一侧的小金属块，界星石上的复杂花纹再次闪现，一层淡蓝色的光幕从下方的金属框升起，覆盖了整个衡台。
+
+“激活状态的界星石会在衡台周围形成局域结界，把内部温度固定在激活那一刻的读数。至于为什么星元需要用二型衡台——”
 
 “是因为它的重量会随温度变化！”露琪尔像上课抢答一样举起手，“我刚刚在货品图鉴上看到过！”
 
@@ -230,9 +234,7 @@
 
 她感觉自己约莫等了五分钟——或者没那么长，只是大太阳底下的时间太难熬——“牧夫”号靠岸一侧降下一条小艇，朝她这边划过来。
 
-艇划得很慢。
-
-她在心里数到三十的时候，艇还没靠岸。
+艇划得很慢，她在心里数到三十的时候，艇还没靠岸。
 
 数到一百二十的时候，艇靠了。
 
@@ -300,7 +302,7 @@
 
 维里乌斯沉默了片刻。“拉佐女士这样教你的？”
 
-“她这样教我。她说，‘这一步我们做得不多，但是做了不会错。’”
+“她是这样教我的。”
 
 维里乌斯没有再说什么。他从外袍内侧取出一只掌心大小的圆盘装置，看了一眼，又收了回去。
 
@@ -322,13 +324,9 @@
 
 十一河磅十二河克。
 
-她抬头看了维里乌斯一眼，对方面无表情。
+她抬头看了维里乌斯一眼，对方面无表情。露琪尔在心里飞快过了一遍那些“差二十多河克仍然合理”的可能，又一一排除。她再拨了一次秤杆，指针来回晃了两下，倔强地指回原位。
 
-露琪尔在心里飞快过了一遍那些“差二十多河克仍然合理”的可能，又一一排除。她再拨了一次秤杆，指针来回晃了两下，倔强地指回原位。
-
-她意识到的时候，自己已经开口了。
-
-“先生。我需要验一下第十一箱。”
+她意识到的时候，自己已经开口了。“先生。我需要验一下第十一箱。”
 
 “你验便是，前十箱都验了，不差最后两箱这点时间。”维里乌斯的话里带了点挖苦。
 
@@ -356,9 +354,7 @@
 
 “我没说有次品。我说我要逐一验。”
 
-维里乌斯的目光在她脸上停了三秒。
-
-最后他把那张瘦削的脸侧过去，淡淡地说了一句“验吧。”
+维里乌斯的目光在她脸上停了三秒。最后他把那张瘦削的脸侧过去，淡淡地说了一句“验吧。”
 
 *
 
@@ -420,9 +416,7 @@
 
 维里乌斯开始指挥水手把十二只箱子重新搬回小艇。露琪尔站在平台车边，把登记册塞回夹板，抱在怀里，看着那艘小艇划开海面的反光，朝“牧夫号”的方向回去。
 
-午时的钟声从远处的港务司钟楼传过来，一下，又一下。
-
-她在第七号石阶上又站了一会儿，才意识到，自己刚刚整整半个时辰几乎一句多余的话都没说。
+午时的钟声从远处的港务司钟楼传过来，一下，又一下。她在第七号石阶上又站了一会儿，才意识到，自己刚刚整整半个时辰几乎一句多余的话都没说。
 
 她想，等下回去要把这件事告诉萨拉，但她不知道该怎么写——萨拉一定不会相信她姐姐能憋半个时辰不说话。
 
@@ -470,7 +464,7 @@
 
 “你下工了再吼，”佩特拉说，“先把戈登克尔的事接过去。”
 
-露琪尔鼓了一下腮帮：“行行行，先戈登克尔。”她压低声音又补一句，“但是真的，你信不信，我看到差快三十河克的时候眼珠子都快瞪出来了——”
+露琪尔鼓了一下腮帮：“行行行，先戈登克尔。”她压低声音又补一句，“但是真的，你信不信，我看到差快三十河克的时候眼睛都快瞪出来了——”
 
 “我信我信。”
 
@@ -518,7 +512,7 @@
 
 “那是我忘了灭！”
 
-“嗯。”米埃尔莞尔一笑，送她到门口，“你忘了灭。”
+米埃尔莞尔一笑，送她到门口，“对对，是你忘了灭。”
 
 她回到合约处的时候，佩特拉已经把戈登克尔银行那份清算汇报搬过来摞在她桌上了。
 
@@ -767,7 +761,7 @@
 **塞勒内斯 于大陆历1502年三（炎阳）季19日 波托马利**
 
 **Selenus 1502.III.19 In Porto Marino**
-0:{"buildId":"uPf0MZNefFNCPEu5hCTvA","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/衡台","article":{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","content":"$4","titleImagePath":"/compendium/诸域纪闻/衡台.webp","titleImageInsertLine":1}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"lp0_Mn4Jy5J2nfbJXE4Ys","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/衡台","article":{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","content":"$4","titleImagePath":"/compendium/诸域纪闻/衡台.webp","titleImageInsertLine":1}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true}]
 7:["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]

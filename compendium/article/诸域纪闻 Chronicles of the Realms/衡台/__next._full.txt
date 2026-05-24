@@ -11,9 +11,9 @@ e:I[68027,[],"default"]
 :HL["/Nurania/next/static/chunks/12078cea65209e01.css","style"]
 :HL["/Nurania/next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Nurania/next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"uPf0MZNefFNCPEu5hCTvA","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E8%A1%A1%E5%8F%B0",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E8%A1%A1%E5%8F%B0","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/12078cea65209e01.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/833a487333ab4273.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[]],"S":true}
+0:{"P":null,"b":"lp0_Mn4Jy5J2nfbJXE4Ys","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E8%A1%A1%E5%8F%B0",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E8%A1%A1%E5%8F%B0","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/12078cea65209e01.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/833a487333ab4273.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[]],"S":true}
 f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
-10:Tae4a,
+10:Tae02,
 
 ### 一
 
@@ -179,7 +179,9 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 “以前是，后来不是大陆战争么，我就跑到卡帕尼来了。正好遇上索利亚招星术师，一干就是快二十年。”米埃尔把合约塞回夹板，招呼露琪尔进屋，“进来吧，外面太阳马上就要大起来了。”
 
-露琪尔从阳光强烈的室外走进门，视线猛地一暗。索利亚商会的仓库不算小，但空间被高大的货架挤得满满当当，三个巨大的木质货箱堆在墙侧，盖着防灰的麻布。左手边一张半宽的书桌，桌上亮着一盏老旧的星术台灯，传来些许蚀刻回路运转的杂音。桌上堆着厚厚几叠报货单，露琪尔眼尖，看到顶上几张的落款都是艾瑟瑞姆样式的商会印章。
+露琪尔从阳光强烈的室外走进门，视线猛地一暗。
+
+索利亚商会的仓库不算小，但空间被高大的货架挤得满满当当，三个巨大的木质货箱堆在墙侧，盖着防灰的麻布。左手边一张半宽的书桌，桌上亮着一盏老旧的星术台灯，传来些许蚀刻回路运转的杂音。桌上堆着厚厚几叠报货单，露琪尔眼尖，看到顶上几张的落款都是艾瑟瑞姆样式的商会印章。
 
 “小心脚下。今天吉米和巴依被多米尼克派去跟一船临时进港的穗稻，我在替他们清点昨天到的一批货，箱子还没收起来。”米埃尔的声音从房间另一头的货架后面传来，“交接的是星元是吧？要二型衡台？”
 
@@ -213,7 +215,9 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 覆盖界星石表面的星座般花纹已经退去，只剩下半部分微微亮着均匀的蓝光。露琪尔看清了石柱侧边横线旁边标着的一列小小数字，蓝光顶端对应的横线旁写着“30”。
 
-“准备状态下的界星石只能检测温度。用这个扳机调整玛娜流向，可以把它切换到激活状态。”米埃尔按动衡台一侧的小金属块，界星石上的复杂花纹再次闪现，一层淡蓝色的光幕从下方的金属框升起，覆盖了整个衡台。“激活状态的界星石会在衡台周围形成局域结界，把内部温度固定在激活那一刻的读数。至于为什么星元需要用二型衡台——”
+“准备状态下的界星石只能检测温度。用这个扳机调整玛娜流向，可以把它切换到激活状态。”米埃尔按动衡台一侧的小金属块，界星石上的复杂花纹再次闪现，一层淡蓝色的光幕从下方的金属框升起，覆盖了整个衡台。
+
+“激活状态的界星石会在衡台周围形成局域结界，把内部温度固定在激活那一刻的读数。至于为什么星元需要用二型衡台——”
 
 “是因为它的重量会随温度变化！”露琪尔像上课抢答一样举起手，“我刚刚在货品图鉴上看到过！”
 
@@ -241,9 +245,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 她感觉自己约莫等了五分钟——或者没那么长，只是大太阳底下的时间太难熬——“牧夫”号靠岸一侧降下一条小艇，朝她这边划过来。
 
-艇划得很慢。
-
-她在心里数到三十的时候，艇还没靠岸。
+艇划得很慢，她在心里数到三十的时候，艇还没靠岸。
 
 数到一百二十的时候，艇靠了。
 
@@ -311,7 +313,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 维里乌斯沉默了片刻。“拉佐女士这样教你的？”
 
-“她这样教我。她说，‘这一步我们做得不多，但是做了不会错。’”
+“她是这样教我的。”
 
 维里乌斯没有再说什么。他从外袍内侧取出一只掌心大小的圆盘装置，看了一眼，又收了回去。
 
@@ -333,13 +335,9 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 十一河磅十二河克。
 
-她抬头看了维里乌斯一眼，对方面无表情。
+她抬头看了维里乌斯一眼，对方面无表情。露琪尔在心里飞快过了一遍那些“差二十多河克仍然合理”的可能，又一一排除。她再拨了一次秤杆，指针来回晃了两下，倔强地指回原位。
 
-露琪尔在心里飞快过了一遍那些“差二十多河克仍然合理”的可能，又一一排除。她再拨了一次秤杆，指针来回晃了两下，倔强地指回原位。
-
-她意识到的时候，自己已经开口了。
-
-“先生。我需要验一下第十一箱。”
+她意识到的时候，自己已经开口了。“先生。我需要验一下第十一箱。”
 
 “你验便是，前十箱都验了，不差最后两箱这点时间。”维里乌斯的话里带了点挖苦。
 
@@ -367,9 +365,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 “我没说有次品。我说我要逐一验。”
 
-维里乌斯的目光在她脸上停了三秒。
-
-最后他把那张瘦削的脸侧过去，淡淡地说了一句“验吧。”
+维里乌斯的目光在她脸上停了三秒。最后他把那张瘦削的脸侧过去，淡淡地说了一句“验吧。”
 
 *
 
@@ -431,9 +427,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 维里乌斯开始指挥水手把十二只箱子重新搬回小艇。露琪尔站在平台车边，把登记册塞回夹板，抱在怀里，看着那艘小艇划开海面的反光，朝“牧夫号”的方向回去。
 
-午时的钟声从远处的港务司钟楼传过来，一下，又一下。
-
-她在第七号石阶上又站了一会儿，才意识到，自己刚刚整整半个时辰几乎一句多余的话都没说。
+午时的钟声从远处的港务司钟楼传过来，一下，又一下。她在第七号石阶上又站了一会儿，才意识到，自己刚刚整整半个时辰几乎一句多余的话都没说。
 
 她想，等下回去要把这件事告诉萨拉，但她不知道该怎么写——萨拉一定不会相信她姐姐能憋半个时辰不说话。
 
@@ -481,7 +475,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 “你下工了再吼，”佩特拉说，“先把戈登克尔的事接过去。”
 
-露琪尔鼓了一下腮帮：“行行行，先戈登克尔。”她压低声音又补一句，“但是真的，你信不信，我看到差快三十河克的时候眼珠子都快瞪出来了——”
+露琪尔鼓了一下腮帮：“行行行，先戈登克尔。”她压低声音又补一句，“但是真的，你信不信，我看到差快三十河克的时候眼睛都快瞪出来了——”
 
 “我信我信。”
 
@@ -529,7 +523,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 “那是我忘了灭！”
 
-“嗯。”米埃尔莞尔一笑，送她到门口，“你忘了灭。”
+米埃尔莞尔一笑，送她到门口，“对对，是你忘了灭。”
 
 她回到合约处的时候，佩特拉已经把戈登克尔银行那份清算汇报搬过来摞在她桌上了。
 
