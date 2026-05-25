@@ -2,7 +2,7 @@
 2:"$Sreact.suspense"
 3:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
 8:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-4:Tae02,
+4:Taf8c,
 
 ### 一
 
@@ -50,15 +50,13 @@
 
 “所以阿尔玛先生让你上去一趟。”
 
-露琪尔愣了几秒。
-
-“……上去？让我上三楼？”
+露琪尔愣了几秒，“……上去？让我上三楼？”
 
 “他叫了你的名字。”
 
 “……行吧。”她把夹板搁在自己桌上，整理了一下袖口和衣领，又把脖子上的丝巾解开，仔细地重新打了结，准备上楼。佩特拉抬眼瞄了她一下，“你的丝巾歪了，别那么紧张。”
 
-“我没紧张。”
+“我没紧张。”露琪尔下意识地反驳。
 
 “那你怎么还在来回扯它？”
 
@@ -72,9 +70,7 @@
 
 “进来吧。”
 
-索利亚商会的副主席坐在一张深色橡木桌后面，手里捏着一份还没定章的合约。看见她进来，他抬起头，眉头短促地皱了一下。
-
-“维奥拉。”
+索利亚商会的副主席坐在一张深色橡木桌后面，手里捏着一份还没定章的合约。看见她进来，他抬起头，眉头短促地皱了一下。“维奥拉。”
 
 “阿尔玛先生，您找我。”
 
@@ -114,19 +110,19 @@
 
 露琪尔回到一楼合约处，把多米尼克刚交给她的夹板摊在自己的桌子上，然后怔怔地坐了半分钟。
 
-“佩特拉。”
+“佩特拉。”她有些呆滞地开口。
 
-“嗯？”
+“嗯？”佩特拉正低头翻着一叠票据，随口应了一声。
 
 “阿尔玛先生说拉佐姐姐夸过我两次。”
 
 “我知道，我也听她夸过你。”
 
-“……你知道？”
+“……你知道？”露琪尔转过头看自己的朋友，露出一个震惊的表情。
 
 “全分部都知道。就你不知道。”佩特拉头也不抬，“专心，专心。”
 
-露琪尔没接话，从夹板里抽出合约开始读。
+露琪尔没好意思再接话，低头从夹板里抽出合约开始读。
 
 阿斯托戈商会旗下“牧夫”号大三桅帆船，贸易品编号一百五十三：经艾瑟瑞姆王家研究院核准，由特别仪式区星轨蚀刻总所生产，二百四十枚洛林八阶星元，分十二箱，每箱二十枚；炎阳季十八日巳时二刻，由制式小艇在谢兰港西一区第七号石阶接驳上岸；现场验讫，签发汇票，总价四万八千尼卡特整。交货负责人：阿斯托戈商会斯特拉拉分部副主事，维里乌斯·里恩。
 
@@ -246,7 +242,7 @@
 
 “拉佐女士不来了？”
 
-“她身体不适。”
+“她身体不适。”露琪尔答。
 
 “身体不适。”维里乌斯轻声重复了一遍，眼神在露琪尔脸上停了一刹那。她猜得到对方在估算她的年龄，他没有掩饰这个动作的意思。“今日由你接货？”
 
@@ -304,9 +300,7 @@
 
 “她是这样教我的。”
 
-维里乌斯没有再说什么。他从外袍内侧取出一只掌心大小的圆盘装置，看了一眼，又收了回去。
-
-“现在是巳时三刻。”
+维里乌斯没有再说什么。他从外袍内侧取出一只掌心大小的圆盘装置，看了一眼，又收了回去。“现在是巳时三刻。”
 
 露琪尔知道他的潜台词是“你在浪费我的时间”。
 
@@ -338,7 +332,7 @@
 
 “按合约第十一条，若收货方对箱内货品质量有正当怀疑理由，有权要求逐一核验。核验期间若出现货物毁损，相应损失由收货方承担。”露琪尔脱口而出，随后才后知后觉地意识到，按自己的薪水，恐怕承担不起这个“相应损失”——一枚洛林八阶两百尼卡特，但凡弄坏一枚，接下来两季她都得靠佩特拉接济度日了。
 
-“你的那个正当理由，是什么？”
+维里乌斯眯了眯眼，“你的那个正当理由，是什么？”
 
 露琪尔又看了一眼衡台上的砝码读数。
 
@@ -358,9 +352,7 @@
 
 *
 
-露琪尔把第十一箱搬下衡台，放在平台车的前侧，取下铅封。
-
-二十枚星元整齐地排在箱内衬里上。她按编号一枚一枚剥开铅箔，把每一枚捧到日光下转一个角度，看晶体中心那条极细的金线。
+露琪尔把第十一箱搬下衡台，放在平台车的前侧，取下铅封。二十枚星元整齐地排在箱内衬里上。她按编号一枚一枚剥开铅箔，把每一枚捧到日光下转一个角度，看晶体中心那条极细的金线。
 
 第一枚，金线。
 
@@ -370,11 +362,7 @@
 
 第十六枚——
 
-露琪尔的手停下。
-
-她把这一枚举高一些，再转一个角度。光线照进去，晶体内部清透得几乎像水，中心那条线是红色的。
-
-她又换一个角度。依旧是红色，有点像血。
+露琪尔的手停下，她把这一枚举高一些，转一个角度。光线照进去，晶体内部清透得几乎像水，中心那条线是红色的。她又换一个角度，依旧是红色，有点像血。
 
 她把这一枚摆到一旁，继续剥下一枚。
 
@@ -386,9 +374,7 @@
 
 “先生，您看一眼这一枚。”
 
-维里乌斯接过去。他没有摘手套，用指尖搓了搓那枚晶体的边缘，又把它举起来对着日光看。他看到晶体里那条红线时，瞳孔微微缩了一下。
-
-随后他把那枚晶体放回掌心，从外袍内侧取出一枚极小的玻璃镜片，一边用手指摩擦晶体的表面，一边透过镜片仔细看。
+维里乌斯接过去。他没有摘手套，用指尖搓了搓那枚晶体的边缘，又把它举起来对着日光看。他看到晶体里那条红线时，瞳孔微微缩了一下。随后他把那枚晶体放回掌心，从外袍内侧取出一枚极小的玻璃镜片，一边用手指摩擦晶体的表面，一边透过镜片仔细看。
 
 露琪尔在心里数到十五的时候，维里乌斯才开口。
 
@@ -428,7 +414,7 @@
 
 “你查出来那批星元一枚有质量问题，所以对方延期交付了。”
 
-“是。”
+“是。”露琪尔点头。
 
 “星元迟到对我们下游向研究所的供货周转是有影响的。”
 
@@ -448,59 +434,57 @@
 
 他回到桌后坐下，从抽屉里取出一本小册子，那是分部的工时记录簿。他翻到当日那一页，把露琪尔的名字下一栏添了一行：临时受派接货，洛林八阶星元二百四十枚——记一次代理。
 
-“你师傅烧到明日能不能起还不知道。”多米尼克说，“我让佩特拉今日下午把戈登克尔银行那份清算汇报送你那里，你接着做。”
+“你师傅烧到明日能不能起还不知道。”多米尼克说，“午饭后我让佩特拉把戈登克尔银行那份清算汇报送你那里，你接着做。”
 
 “……是。”
 
-露琪尔退出办公室时，看到楼梯口佩特拉正探着头往走廊这边看，她没忍住，扑过去抓住佩特拉的肩膀小声叫：“佩特拉你知不知道你知不知道——”
+露琪尔退出办公室时，看到楼梯口佩特拉正探着头往走廊这边看，她没忍住，扑过去抓住朋友的肩膀：“佩特拉我和你说——”
 
-“嘘嘘嘘——”佩特拉一边压住她一边笑，“阿尔玛先生还在屋里，你别在这儿吼。”
+“嘘嘘嘘——”佩特拉连忙抬手压住她，一边笑一边小声警告，“阿尔玛先生还在屋里，你别在这儿叫。”
 
-“我没吼！”
+“我没叫！”
 
-“你吼了。”
+“你叫了。”
 
-“……那我去楼下吼。”
+露琪尔被噎了一下，赌气似的撇撇嘴，“……那我去楼下叫。”
 
-“你下工了再吼，”佩特拉说，“先把戈登克尔的事接过去。”
+“你下工了再叫，”佩特拉说，“先把戈登克尔的事接过去。”
 
-露琪尔鼓了一下腮帮：“行行行，先戈登克尔。”她压低声音又补一句，“但是真的，你信不信，我看到差快三十河克的时候眼睛都快瞪出来了——”
+露琪尔鼓了鼓腮帮：“行行行，先戈登克尔，先戈登克尔。”随后她忍不住又开口，“你敢信吗，当时称出来的时候差了快三十河克——”
 
-“我信我信。”
+“我信我信。”佩特拉嘴里这么说着，脚已经走下了楼梯。
 
-“啊——”
-
-“快去！”
+“等等！我还没说完呢！”
 
 *
 
-午饭后她抱着二型衡台出门又转到南侧，敲仓库门。
+午饭后露琪尔抱着二型衡台出门又转到南侧，敲仓库门。
 
-米埃尔来开门，看到她手里的衡台先笑了一下。“回来啦。”
+米埃尔来开门，看到她手里的衡台先笑了一下。“回来啦？”
 
-“瓦兰爷爷。”
+“嗯，回来了。”
 
 “进来吧。”
 
-她跟着进了仓库。米埃尔把衡台接过去，手指拂过界星石顶部，整个石柱闪了一下，随后熄灭，恢复成了露琪尔第一次看到它时的样子。他把界星石小心地从衡台上取下来，检查了侧边的玛娜回路，又用一块软布擦底座的金属框。“出什么事了没有？”
+她跟着米埃尔进了仓库。后者把衡台接过去，手指拂过界星石顶部，整个石柱闪了一下，随后熄灭，恢复成了露琪尔第一次看到它时的样子。他随即把界星石小心地从衡台上取下来，检查了侧边的玛娜回路，又用一块软布擦底座的金属框。“交货时有出什么事吗？”
 
-“出了。”露琪尔说，“第十一箱差了二十五河克，我在里面找出一枚伪品。”
+“出了一点事。”露琪尔说，“第十一箱差了二十五河克，我在里面找出一枚伪品。”
 
 “伪品什么样？”
 
 “晶体清透得像水，里面那条线是红色的。”
 
-米埃尔擦衡台的手停了一下，没抬眼，只是点了点头。
+米埃尔擦衡台的手停了一下，但他没说话，只是点了点头。
 
-过了一会儿，他又点了一次头。他把衡台放回那张半宽书桌的边角上，转身从档案架上抽出一本旧簿子，翻了几页，又合上，没说话。
+过了一会儿，他又点了一次头。他把衡台移到半宽书桌的边角上，转身从档案架上抽出一本旧簿子，翻了几页，又合上。
 
-“瓦兰爷爷？”
+“瓦兰爷爷？”露琪尔忍不住开口。
 
 “嗯？”
 
 “……您怎么了？”
 
-“没怎么。”他回头看露琪尔，“我在想这一批是不是总所另一个部门产的。下次我跟多米尼克提一句。”
+“没怎么。”米埃尔回头看她，“我在想这一批星元是不是总所另一个部门产的。下次我跟多米尼克提一句。”
 
 “我明白了。”
 
@@ -526,7 +510,7 @@
 
 “您怎么样了？您还能跑环城路吗？”
 
-“我现在连下楼都得扶着栏杆，跑什么环城路。”卡尔米娜笑了一下，眉骨上还留着没干透的虚汗，“午饭后多米尼克带口信到我家，把上午的情况大略说了，我下午就过来看一眼。”
+“我现在连下楼都得扶着栏杆，跑什么环城路。”卡尔米娜笑了一下，眉骨上还留着没干透的虚汗，“午饭后多米尼克带口信到我家，把上午的情况大略说了，我现在就过来看一眼。”
 
 她让露琪尔把那份合约拿来，看完点了点头，把东西递回去。
 
@@ -578,15 +562,13 @@
 
 斯特拉拉那边的回话傍晚时分就到了。
 
-阿斯托戈商会派人把回执送到索利亚分部，回执上简短地写着：经蚀刻总所内部初步核查，该批星元确有一枚被替换为改制水晶，系总所内值班学徒舞弊所致，涉案学徒已被开除并交由司法院分司处置。蚀刻总所向索利亚商会致歉，并提议次日重新交付整批货物，单价不变，总价以二百三十九枚计。
+阿斯托戈商会派人把回执送到索利亚分部，回执上简短地写着：经蚀刻总所内部初步核查，该批星元确有一枚被替换为改制水晶，系总所内值班学徒舞弊所致。涉案学徒已被开除并交由司法院分司处置，蚀刻总所向索利亚商会致歉，并提议次日重新交付整批货物。单价不变，总价以二百三十九枚计。
 
 回执末尾另附一行：“特谢索利亚商会波托马利分部露琪尔·维奥拉小姐之尽职。”
 
 多米尼克把回执拿到合约处交给露琪尔，没多说，转身上楼了。
 
-露琪尔看完最后一行，然后又看了一遍，抬起头时佩特拉已经站在她对面，端端正正地行了一个商会礼。
-
-“维奥拉小姐，您万安。”
+露琪尔看完最后一行，然后又看了一遍，抬起头时佩特拉已经站在她对面，端端正正地行了一个商会礼。“维奥拉小姐，您万安。”
 
 “佩特拉——”
 
@@ -604,7 +586,7 @@
 
 她转头，伸手把桌上那个相框正了一下，萨拉在画里开心地笑着。
 
-露琪尔看着那张脸，过了一会儿，从夹板里抽出一张空白纸。她把纸铺在桌上，拿笔蘸了墨水，开始写：“女儿来波托马利已经四十二日，一切顺利，望勿挂念。索利亚商会的大家都很好，请帮我转谢托里叔叔的介绍。”
+她看着那张脸，过了一会儿，从夹板里抽出一张空白纸。她把纸铺在桌上，拿笔蘸了墨水，开始写：“女儿来波托马利已经四十二日，一切顺利，望勿挂念。索利亚商会的大家都很好，请帮我转谢托里叔叔的介绍。”
 
 她空了几行，继续写“又及，今日做了一件师傅会满意的小事。”写完她想了想，把“师傅会满意的”几个字划掉，改成“师傅没有挑出毛病的”。然后又把“没有挑出毛病的”也划掉，最终留下：“今日做了一件小事。”
 
@@ -618,13 +600,11 @@
 
 “今天真的来啦？”
 
-“今天来了。”
-
-她把三枚分铸币放在摊台上，接过装着柠檬汁的木杯，靠在临海的石栏上小口小口地喝。
+“今天来了。”她点点头，把三枚分铸币放在摊台上，接过装着柠檬汁的木杯，靠在临海的石栏上小口小口地喝。
 
 海上几艘卡帕尼快帆船刚出港，借着雨季伊始稳定的东南风一路朝北，驶向翡翠海峡，桅顶的索旗被风吹得直直地朝前展开。再远些的海面已经被夕阳染成橙红色，白日的热度正在退去——这正是波托马利一天里最舒服的时段。
 
-“今天遇到好事儿了？”她放下空杯子的时候，马拉戈笑着问。
+“今天遇到好事儿了？”她放下空杯子的时候，马拉戈问道。
 
 “是，不过也就是件小事儿。”露琪尔抬起头，回给他一个灿烂的微笑。
 
@@ -658,11 +638,11 @@
 
 “艾瑟瑞姆是个很纯粹也很固执的地方。”我挑选着用词，“那里的人花一辈子看星星，看星星又是一件特别需要专注的事。”
 
-“……什么意思？”
+“什么意思？”
 
 “意思是，他们大多数人对‘另一个人的看法跟自己不同’这种事，通常没有什么准备。”
 
-露琪尔咀嚼的动作停了一下。“听起来确实是里恩先生那种人。”
+露琪尔咀嚼的动作停了一下。“……听起来确实是里恩先生那种人。”
 
 “不过你说得没错，”我接下去，“在艾瑟瑞姆几乎人人都会用魔法。倒不如说，整个艾瑟瑞姆王国都是建立在星术上的。”
 
@@ -761,7 +741,7 @@
 **塞勒内斯 于大陆历1502年三（炎阳）季19日 波托马利**
 
 **Selenus 1502.III.19 In Porto Marino**
-0:{"buildId":"lp0_Mn4Jy5J2nfbJXE4Ys","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/衡台","article":{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","content":"$4","titleImagePath":"/compendium/诸域纪闻/衡台.webp","titleImageInsertLine":1}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"q6cVFuHvaLtXjPKgm1gWE","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/衡台","article":{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","content":"$4","titleImagePath":"/compendium/诸域纪闻/衡台.webp","titleImageInsertLine":1}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true}]
 7:["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
