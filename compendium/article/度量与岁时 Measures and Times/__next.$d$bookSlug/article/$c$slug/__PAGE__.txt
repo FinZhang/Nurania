@@ -185,12 +185,12 @@
 
 **长度**
 
-1 露卡 = 1000 里尔 ≈ 500 步米
-1 里尔 = 100 分里尔 ≈ 0.5 步米
+1 露卡 = 1000 斯尔 ≈ 500 步米
+1 斯尔 = 100 分斯尔 ≈ 0.5 步米
 
-平方单位以**叶**为前缀，立方单位以**树**为前缀：1 叶里尔 ≈ 0.25 平方步米，1 树里尔 ≈ 0.125 立方步米。
+平方单位以**叶**为前缀，立方单位以**树**为前缀：1 叶斯尔 ≈ 0.25 平方步米，1 树斯尔 ≈ 0.125 立方步米。
 
-需要特别指出的是，"分"在希尔文诺体系中表示**百分之一**（1 分里尔 = 1 里尔 / 100），与人类通用单位中"分"表示十分之一（1 分步米 = 1 步米 / 10）的用法不同。这一错位经常让初学跨制换算的商人和学者出错，卡里司泰的会计行业为此留下了"宁多记一遍，毋少记一位"的行话。
+需要特别指出的是，"分"在希尔文诺体系中表示**百分之一**（1 分斯尔 = 1 斯尔 / 100），与人类通用单位中"分"表示十分之一（1 分步米 = 1 步米 / 10）的用法不同。这一错位经常让初学跨制换算的商人和学者出错，卡里司泰的会计行业为此留下了"宁多记一遍，毋少记一位"的行话。
 
 **重量**
 
@@ -211,7 +211,7 @@
 
 贸易档案中还有一个现象值得指出——历年贸易记录上，精灵方似乎有意回避使用圣树历落款，仅以人类方的纪年记录交易日期；但这种回避在林缘议厅文书中却并不存在（如上文三份和约所示）。这一区别比较微妙：圣树历是否对使用场合有要求，只能见于具备一定礼仪规格的文书？还是对使用人员有要求，只能由特定身份的人书写？数量庞大的贸易档案本应是极为优良的历法信源材料，但由于希尔文诺的有意回避，目前学界不得不依赖于林缘议厅签署的、数量极少的官方条约进行相关研究，这种局面是否是精灵族有意为之，至今没有定论。
 
-笔者注：卡里司泰自由城市作为大陆唯一一处以希尔文诺体系与通用体系双轨并行为常态的地方，是观察精灵-人类度量衡对照系如何运转的最佳窗口。市集上"三里尔半"与"两步米"会同时叫卖，"一多特"与"十二河磅有余"在同一柜台上彼此换算，店铺账册往往同页双栏；各国驻卡里司泰贸易机构的会计人员入职第一课，便是分清两种"分"——人类的"分步米"是十分之一步米，精灵的"分里尔"则是百分之一里尔。卡里司泰之外，整个大陆能同时熟练运用两套度量衡的人寥寥无几，哪怕落叶精灵也往往入乡随俗，在进入人类社会后便开始使用人类的单位体系：希尔文诺体系在人类社会中的渗透深度实际非常有限。
+笔者注：卡里司泰自由城市作为大陆唯一一处以希尔文诺体系与通用体系双轨并行为常态的地方，是观察精灵-人类度量衡对照系如何运转的最佳窗口。市集上"三斯尔半"与"两步米"会同时叫卖，"一多特"与"十二河磅有余"在同一柜台上彼此换算，店铺账册往往同页双栏；各国驻卡里司泰贸易机构的会计人员入职第一课，便是分清两种"分"——人类的"分步米"是十分之一步米，精灵的"分斯尔"则是百分之一斯尔。卡里司泰之外，整个大陆能同时熟练运用两套度量衡的人寥寥无几，哪怕落叶精灵也往往入乡随俗，在进入人类社会后便开始使用人类的单位体系：希尔文诺体系在人类社会中的渗透深度实际非常有限。
 
 ::: fold 守密人注
 
@@ -221,10 +221,10 @@
 
 | 诺拉尼亚人类通用单位 | 地球公制对照    | 希尔文诺单位 | 地球公制对照     |
 | ---------- | --------- | ------ | ---------- |
-| 一厘步米       | 6 毫米      | 一分里尔   | 3 毫米       |
-| 一分步米       | 6 厘米      | 一里尔    | 0.3 米      |
+| 一厘步米       | 6 毫米      | 一分斯尔   | 3 毫米       |
+| 一分步米       | 6 厘米      | 一斯尔    | 0.3 米      |
 | 一步米        | 0.6 米     | 一露卡    | 300 米      |
-| 一陆里        | 600 米     | 一叶里尔   | 0.09 平方米   |
+| 一陆里        | 600 米     | 一叶斯尔   | 0.09 平方米   |
 | 一平方陆里      | 0.36 平方公里 | 一树露卡   | 0.027 立方千米 |
 | 一立方步米      | 0.216 立方米 |        |            |
 
@@ -262,7 +262,7 @@
 诺拉尼亚之一年为三百日，和其所在世界的公转周期保持一致，地球年为三百六十五日有余，因此二者并非数值等价的单位。本设定集中"大陆历1503年"等纪年表述，仅在世界观内部作为时间锚点，不应直接换算为地球年代。
 
 :::
-0:{"buildId":"nGAO977VoICjEmpUhWmM-","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"度量与岁时 Measures and Times","article":{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","content":"$4"}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"eyNsjQrMtRQcTfg7a5tsq","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","title":"成年之日·童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"度量与岁时 Measures and Times","article":{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","content":"$4"}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true}]
 7:["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
