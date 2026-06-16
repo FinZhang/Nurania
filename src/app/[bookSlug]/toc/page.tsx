@@ -52,6 +52,7 @@ export default async function TocPage({ params }: Props) {
       <div className="relative z-10 container-nurania py-12 lg:py-20">
         <Link
           href="/"
+          prefetch={false}
           className="inline-flex items-center gap-2 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] mb-8 transition-colors"
         >
           <ArrowLeft className="h-4 w-4" />

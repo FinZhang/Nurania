@@ -58,6 +58,7 @@ export default function TocSection({ bookSlug, entry, index = 0, depth = 0 }: Pr
     >
       {isArticle ? (
         <Link
+          prefetch={false}
           href={`/${bookSlug}/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
           className={`@container flex items-start gap-2 py-1.5 rounded px-2 -ml-2 hover:text-[var(--gold-dark)] transition-colors glow-hover @toc-entry-wide:items-center ${levelStyle}`}
         >

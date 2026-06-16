@@ -33,6 +33,7 @@ export default function ArticleNavTree({
             <li key={entry.slug} style={{ paddingLeft }} className="py-0.5">
               <Link
                 ref={isActive ? activeLinkRef : undefined}
+                prefetch={false}
                 href={`/${bookSlug}/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
                 className={`block py-1 pr-2 rounded text-sm transition-colors ${
                   isActive

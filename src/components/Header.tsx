@@ -44,6 +44,7 @@ export default function Header() {
         ) : (
           <Link
             href="/"
+            prefetch={false}
             className="flex items-center gap-2 text-[var(--ink)] hover:text-[var(--gold-dark)] transition-colors glow-hover rounded px-2 py-1"
           >
             <BookOpen className="h-5 w-5 md:h-6 md:w-6" />
@@ -56,6 +57,7 @@ export default function Header() {
           <nav className="flex items-center gap-4">
             <Link
               href="/"
+              prefetch={false}
               className="text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors"
             >
               书架

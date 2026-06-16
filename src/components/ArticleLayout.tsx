@@ -270,6 +270,7 @@ export default function ArticleLayout({
           <nav className="mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
             {prevEntry ? (
               <Link
+                prefetch={false}
                 href={`/${bookSlug}/article/${prevEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
                 className="inline-flex items-center gap-1.5 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors text-sm max-w-[45%]"
               >
@@ -281,6 +282,7 @@ export default function ArticleLayout({
             )}
             {nextEntry ? (
               <Link
+                prefetch={false}
                 href={`/${bookSlug}/article/${nextEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
                 className="inline-flex items-center gap-1.5 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors text-sm max-w-[45%] ml-auto text-right"
               >
