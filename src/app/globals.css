@@ -308,3 +308,58 @@ footer [aria-hidden="true"] {
   border-top: 1px solid var(--parchment-aged);
   margin: 1.5em 0;
 }
+
+/* 表格 */
+.article-markdown-table-wrapper {
+  overflow-x: auto;
+  margin: 1.25em 0;
+  width: 100%;
+}
+
+.article-markdown-table-wrapper table,
+.article-markdown table {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  font-size: 0.95em;
+  margin: 0;
+}
+
+.article-markdown-table-wrapper thead tr,
+.article-markdown thead tr {
+  background-color: color-mix(in srgb, var(--parchment-dark) 50%, var(--parchment));
+  color: var(--ink);
+}
+
+.article-markdown-table-wrapper th,
+.article-markdown-table-wrapper td,
+.article-markdown th,
+.article-markdown td {
+  padding: 0.5em 0.9em;
+  border: 1px solid var(--parchment-aged);
+  text-align: left;
+  color: var(--ink);
+  white-space: normal;
+  min-width: 5em;
+  word-break: break-all;
+}
+
+.article-markdown-table-wrapper th,
+.article-markdown th {
+  font-family: var(--font-cinzel), "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 0.875em;
+  letter-spacing: 0.03em;
+  word-break: keep-all;
+}
+
+.article-markdown-table-wrapper tbody tr:nth-child(even),
+.article-markdown tbody tr:nth-child(even) {
+  background-color: var(--parchment-light);
+}
+
+.article-markdown-table-wrapper tbody tr:hover,
+.article-markdown tbody tr:hover {
+  background-color: var(--parchment-dark);
+  opacity: 0.85;
+}

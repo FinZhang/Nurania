@@ -2,7 +2,9 @@
 
 import React, { useState, useCallback, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { parseFoldBlocks } from "@/lib/fold-blocks";
+import articleMdComponents from "@/lib/article-md-components";
 import { ChevronDown, ChevronRight } from "lucide-react";
 
 /** 吸顶时的 top 值（与 tailwind top-16 一致，单位 px） */
@@ -98,7 +100,7 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
         if (block.type === "md") {
           return (
             <div key={i} className="article-markdown mb-6">
-              <ReactMarkdown>{block.content}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>{block.content}</ReactMarkdown>
             </div>
           );
         }
@@ -148,14 +150,14 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
                   </span>
                 ) : (
                   <span className="fold-title-md">
-                    <ReactMarkdown components={foldTitleMarkdownComponents}>{block.title}</ReactMarkdown>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]} components={foldTitleMarkdownComponents}>{block.title}</ReactMarkdown>
                   </span>
                 )}
               </span>
             </button>
             {isExpanded && (
               <div className="article-markdown fold-block-body px-4 pt-12 pb-5 md:px-5 md:pt-14 md:pb-6">
-                <ReactMarkdown>{body}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>{body}</ReactMarkdown>
               </div>
             )}
           </section>
