@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
 2:"$Sreact.suspense"
-3:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
+3:I[53360,["/Nurania/next/static/chunks/6c5f5433610eea4c.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
 8:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-4:T10d5c,
+4:T10d52,
 ### 一
 
 盛夏的午后，溪水被晒得温吞吞的。赫利娅坐在一块半浸在水里的石头上，双脚敲着水面。她的眼睛闭着，嘴唇一张一合，几乎没有声音。
@@ -893,7 +893,7 @@
 
 “这是伊瑟娜女士托我带给您的。”
 
-赫利娅接过来，布袋很沉。她解开袋子的扣绳，里面是一柄精制钢剑与一张松木长弓。两件兵器都是她平日在训练场用过的样式——剑柄的缠皮还是去年伊瑟娜亲手帮她换过的那种交叉打法，弓弦上的指槽也是按训练弓的位置开的。剑刃被上了一层很薄的油，弓臂被擦得发亮，剑鞘内侧的卡环是全新的，闪着些微的银光。
+赫利娅接过来，布袋很沉。她解开袋子的扣绳，里面是一柄精制钢剑与一张松木长弓。两件兵器都是她平日在训练场用过的样式——剑柄的缠皮还是去年伊瑟娜亲手帮她换过的那种交叉打法，弓臂上的指槽也是按训练弓的位置开的。剑刃被上了一层很薄的油，弓臂被擦得发亮，剑鞘内侧的卡环是全新的，闪着些微的银光。
 
 “她有话托我传达，”灰衣精灵继续，“‘横斩的时候手腕不要翻过头，否则用不上力。’”
 
@@ -919,9 +919,11 @@
 
 走了一阵赫利娅意识到自己其实有一点不相信刚才发生的事。她身上现在带的剑和弓是老师给她准备的，背包是养父亲手收拾的，装在里面的斗篷是养母织的，介绍信是里尔的爷爷开的——这些东西分开来都太熟悉了，熟悉到她觉得只要她再多走一段，背后林子里就会传来老师的声音——
 
-“赫利娅。”伊瑟娜会赶上她，揉揉她的头，“上面那帮老头子把事情搞错了，回去吧，我跟波丽卡他们都急死了。”
+“赫利娅。”
 
-或者是里尔，他会骑着自己的风鸟从北边天上落下来，急匆匆站到她面前，“赫利娅！你怎么自己一个人在这儿，跟我回去——”，她背后的佩莉还会偷偷和她吐舌头，像是在得意第一次坐上里尔的风鸟。
+伊瑟娜会赶上她，揉揉她的头，“上面那帮老头子把事情搞错了，回去吧，我跟波丽卡他们都急死了。”
+
+或者是里尔，他会骑着自己的风鸟从北边天上落下来，急匆匆站到她面前，“赫利娅！你怎么自己一个人在这儿，跟我回去——”，他背后的佩莉还会偷偷和她吐舌头，像是在得意第一次坐上里尔的风鸟。
 
 回到希尔文尼亚之后，卡约内爷爷已经在等着她了，摸着她的头说“是长老们闹了一场误会”。她回到家的时候，波丽卡已经把蘑菇杂煮汤热好了。她想象自己一边装作还在生气，一边大口大口地喝那一碗汤——
 
@@ -935,7 +937,7 @@
 
 下面是较小的一行：
 
-“林缘议厅，此处往西二十一陆里（四十二露卡）。卡里司泰，此处往东六十二陆里（一百二十四露卡）。”
+“林缘议厅，此处往西十五陆里（三十露卡）。卡里司泰，此处往东三十二陆里（六十四露卡）。”
 
 她在界碑前站了很久，最后她抬起脚，迈过去。她走过界碑的那一步走得很平常，跟她在希尔文尼亚过去几万个日子里的任何一步都没有区别。
 
@@ -1073,7 +1075,7 @@
 
 **塞勒内斯 于大陆历1507年二（清和）季24日 弗密纳北森**
 
-**Selenus 1507.II.24 In Northern Forest of Formina**0:{"buildId":"i9QRgW78-SXVmMi8a4tCd","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","title":"成年之日·童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","article":{"slug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","title":"成年之日·童年","titleEn":"Coming of Age·Childhood","content":"$4"}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+**Selenus 1507.II.24 In Northern Forest of Formina**0:{"buildId":"bX2l4lv4TCkSnUohLJ5ac","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","title":"成年之日·童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","article":{"slug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","title":"成年之日·童年","titleEn":"Coming of Age·Childhood","content":"$4"}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true}]
 7:["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]

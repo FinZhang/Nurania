@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
 2:"$Sreact.suspense"
-3:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
+3:I[53360,["/Nurania/next/static/chunks/6c5f5433610eea4c.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
 8:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-4:Taf98,
+4:Tafdd,
 
 ### 一
 
@@ -264,11 +264,11 @@
 
 水手们把十二只杉木箱四个一组依次抬上石阶，按露琪尔指定的位置排成两列。每只箱子的边角都嵌着铅封，上面印着研究院的徽记。
 
-她从左列第一箱开始，搬上平台车检查铅封，密封完整，无外力痕迹。她在登记册上记了一笔，然后把箱子抬上衡台，调整砝码，秤杆晃了片刻，停在中央：十河磅八十七河克。她翻到之前从货品图鉴上抄下来的星元重量表，找到三十三星度那一行。
+她从左列第一箱开始，搬上平台车检查铅封，密封完整，无外力痕迹。她在登记册上记了一笔，然后把箱子抬上衡台，调整砝码，秤杆晃了片刻，停在中央：十二河磅八十七河克。她翻到之前从货品图鉴上抄下来的星元重量表，找到三十三星度那一行。
 
 洛林八阶星元，三十三星度参考标准质量为五十三到五十五河克。
 
-露琪尔心算了一下，重量没问题，她在登记册上记下数字，拍下铅封，开箱。二十枚星元齐整地排在衬里上，每一枚都裹着薄铅箔。她戴上提前准备好的薄棉手套，从中间抽一枚，剥开铅箔的一角——里面是一枚约莫拇指长的暗蓝色晶体，光线照上去时，晶体中心浮出一道极细的金线。
+露琪尔心算了一下，扣掉箱子的定重后没问题，她在登记册上记下数字，拍下铅封，开箱。二十枚星元齐整地排在衬里上，每一枚都裹着薄铅箔。她戴上提前准备好的薄棉手套，从中间抽一枚，剥开铅箔的一角——里面是一枚约莫拇指长的暗蓝色晶体，光线照上去时，晶体中心浮出一道极细的金线。
 
 洛林星元——粗加工后的魔矿晶体在表面和内部蚀刻回路后，注入玛娜封装的星术制品，可为各种小型星术设备供能。露琪尔回忆自己在图鉴上看到的内容，星元阶数对应晶体内封装的玛娜浓度，八阶是艾瑟瑞姆官方允许出口的最高等级。
 
@@ -276,11 +276,11 @@
 
 她瞥见维里乌斯皱了皱眉，却强迫自己手下的动作不停。
 
-第二箱验重，十河磅八十二河克，抽验一枚，无误。
+第二箱验重，十二河磅八十二河克，抽验一枚，无误。
 
-第三箱验重，十河磅八十九河克，抽验一枚，无误。
+第三箱验重，十二河磅八十九河克，抽验一枚，无误。
 
-第四箱验重，十河磅八十四河克，抽验一枚，无误。
+第四箱验重，十二河磅八十四河克，抽验一枚，无误。
 
 ……
 
@@ -304,7 +304,7 @@
 
 露琪尔知道他的潜台词是“你在浪费我的时间”。
 
-第八、第九、第十箱：十河磅八十四河克，八十河克，八十九河克，抽验三枚均无误。
+第八、第九、第十箱：十二河磅八十四河克，八十河克，八十九河克，抽验三枚均无误。
 
 第十一箱。
 
@@ -312,11 +312,11 @@
 
 调整砝码，秤杆晃了片刻，停在中央。
 
-十一河磅十二河克。
+十三河磅十二河克。
 
 她盯着那个读数，愣了两秒。她把砝码再细推半分，秤杆立刻歪向一边；她调回砝码，再把秤杆轻轻拨了一下，秤杆回到正中央。
 
-十一河磅十二河克。
+十三河磅十二河克。
 
 她抬头看了维里乌斯一眼，对方面无表情。露琪尔在心里飞快过了一遍那些“差二十多河克仍然合理”的可能，又一一排除。她再拨了一次秤杆，指针来回晃了两下，倔强地指回原位。
 
@@ -336,7 +336,7 @@
 
 露琪尔又看了一眼衡台上的砝码读数。
 
-“十一河磅十二河克。前十箱在十河磅八十到九十河克之间，差二十五河克。”
+“十三河磅十二河克。前十箱在十二河磅八十到九十河克之间，差二十五河克。”
 
 “一枚洛林八阶——”
 
@@ -516,11 +516,11 @@
 
 “你称第十一箱的时候多少重？”
 
-露琪尔翻了翻登记册。“十一河磅十二河克。”
+露琪尔翻了翻登记册。“十三河磅十二河克。”
 
 “其他几箱呢？”
 
-“都是十河磅八十多河克，没有超过九十的。”
+“都是十二河磅八十多河克，没有超过九十的。”
 
 “嗯。”卡尔米娜又点了一下头。她的脸还有些苍白，但眼神依旧是露琪尔印象里那种认真，“那个里恩先生有没有为难你？”
 
@@ -686,7 +686,7 @@
 
 “清透得像水，中间一条红线。”我重复了一遍露琪尔的描述，回过头看向研究院时期的同僚，“这是用水晶包住的星术装药，激发玛娜回路会爆炸的那种。”
 
-“把装药封进水晶，再打磨成和星元差不多的外形和质地，同时保证途中不爆炸，要的技术远不是一个刚接触蚀刻的学徒能有的。是卡伊尔伯爵的人？”
+“把装药封进水晶，把重量压得尽可能低，再打磨成和星元差不多的外形和质地，同时保证途中不爆炸，要的技术远不是一个刚接触蚀刻的学徒能有的。是卡伊尔伯爵的人？”
 
 “犯人还在审，要花点时间，但初步推测是他的人。”维里乌斯答，“卡伊尔伯爵领离特别仪式区最近的城市有三家技术水平足够的设备作坊，安插人和货都很容易。而且他在反对女王陛下的开放政策上一直是最卖力的。”
 
@@ -741,7 +741,7 @@
 **塞勒内斯 于大陆历1502年三（炎阳）季19日 波托马利**
 
 **Selenus 1502.III.19 In Porto Marino**
-0:{"buildId":"i9QRgW78-SXVmMi8a4tCd","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","title":"成年之日·童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/衡台","article":{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","content":"$4","titleImagePath":"/compendium/诸域纪闻/衡台.webp","titleImageInsertLine":1}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+0:{"buildId":"bX2l4lv4TCkSnUohLJ5ac","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/成年之日·童年","title":"成年之日·童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸域纪闻 Chronicles of the Realms/衡台","article":{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","content":"$4","titleImagePath":"/compendium/诸域纪闻/衡台.webp","titleImageInsertLine":1}}]}],["$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true}]
 7:["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]

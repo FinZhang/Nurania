@@ -1,19 +1,19 @@
 1:"$Sreact.fragment"
 2:"$Sreact.suspense"
-3:I[2971,["/Nurania/next/static/chunks/833a487333ab4273.js"],"default"]
+3:I[2971,["/Nurania/next/static/chunks/6c5f5433610eea4c.js"],"default"]
 4:I[39756,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"default"]
 5:I[37457,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"default"]
-6:I[13642,["/Nurania/next/static/chunks/833a487333ab4273.js"],"default"]
+6:I[13642,["/Nurania/next/static/chunks/6c5f5433610eea4c.js"],"default"]
 8:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 a:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
 c:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
 e:I[68027,[],"default"]
-:HL["/Nurania/next/static/chunks/12078cea65209e01.css","style"]
+:HL["/Nurania/next/static/chunks/e62763231da064d4.css","style"]
 :HL["/Nurania/next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Nurania/next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"i9QRgW78-SXVmMi8a4tCd","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E8%A1%A1%E5%8F%B0",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E8%A1%A1%E5%8F%B0","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/12078cea65209e01.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/833a487333ab4273.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[]],"S":true}
-f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
-10:Taf98,
+0:{"P":null,"b":"bX2l4lv4TCkSnUohLJ5ac","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E8%A1%A1%E5%8F%B0",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E8%A1%A1%E5%8F%B0","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/e62763231da064d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/6c5f5433610eea4c.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L7",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/0e297347350ee2b2.js","async":true,"nonce":"$undefined"}]],["$","$L8",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[]],"S":true}
+f:I[53360,["/Nurania/next/static/chunks/6c5f5433610eea4c.js","/Nurania/next/static/chunks/088430588bf85aac.js","/Nurania/next/static/chunks/0e297347350ee2b2.js"],"default"]
+10:Tafdd,
 
 ### 一
 
@@ -275,11 +275,11 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 水手们把十二只杉木箱四个一组依次抬上石阶，按露琪尔指定的位置排成两列。每只箱子的边角都嵌着铅封，上面印着研究院的徽记。
 
-她从左列第一箱开始，搬上平台车检查铅封，密封完整，无外力痕迹。她在登记册上记了一笔，然后把箱子抬上衡台，调整砝码，秤杆晃了片刻，停在中央：十河磅八十七河克。她翻到之前从货品图鉴上抄下来的星元重量表，找到三十三星度那一行。
+她从左列第一箱开始，搬上平台车检查铅封，密封完整，无外力痕迹。她在登记册上记了一笔，然后把箱子抬上衡台，调整砝码，秤杆晃了片刻，停在中央：十二河磅八十七河克。她翻到之前从货品图鉴上抄下来的星元重量表，找到三十三星度那一行。
 
 洛林八阶星元，三十三星度参考标准质量为五十三到五十五河克。
 
-露琪尔心算了一下，重量没问题，她在登记册上记下数字，拍下铅封，开箱。二十枚星元齐整地排在衬里上，每一枚都裹着薄铅箔。她戴上提前准备好的薄棉手套，从中间抽一枚，剥开铅箔的一角——里面是一枚约莫拇指长的暗蓝色晶体，光线照上去时，晶体中心浮出一道极细的金线。
+露琪尔心算了一下，扣掉箱子的定重后没问题，她在登记册上记下数字，拍下铅封，开箱。二十枚星元齐整地排在衬里上，每一枚都裹着薄铅箔。她戴上提前准备好的薄棉手套，从中间抽一枚，剥开铅箔的一角——里面是一枚约莫拇指长的暗蓝色晶体，光线照上去时，晶体中心浮出一道极细的金线。
 
 洛林星元——粗加工后的魔矿晶体在表面和内部蚀刻回路后，注入玛娜封装的星术制品，可为各种小型星术设备供能。露琪尔回忆自己在图鉴上看到的内容，星元阶数对应晶体内封装的玛娜浓度，八阶是艾瑟瑞姆官方允许出口的最高等级。
 
@@ -287,11 +287,11 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 她瞥见维里乌斯皱了皱眉，却强迫自己手下的动作不停。
 
-第二箱验重，十河磅八十二河克，抽验一枚，无误。
+第二箱验重，十二河磅八十二河克，抽验一枚，无误。
 
-第三箱验重，十河磅八十九河克，抽验一枚，无误。
+第三箱验重，十二河磅八十九河克，抽验一枚，无误。
 
-第四箱验重，十河磅八十四河克，抽验一枚，无误。
+第四箱验重，十二河磅八十四河克，抽验一枚，无误。
 
 ……
 
@@ -315,7 +315,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 露琪尔知道他的潜台词是“你在浪费我的时间”。
 
-第八、第九、第十箱：十河磅八十四河克，八十河克，八十九河克，抽验三枚均无误。
+第八、第九、第十箱：十二河磅八十四河克，八十河克，八十九河克，抽验三枚均无误。
 
 第十一箱。
 
@@ -323,11 +323,11 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 调整砝码，秤杆晃了片刻，停在中央。
 
-十一河磅十二河克。
+十三河磅十二河克。
 
 她盯着那个读数，愣了两秒。她把砝码再细推半分，秤杆立刻歪向一边；她调回砝码，再把秤杆轻轻拨了一下，秤杆回到正中央。
 
-十一河磅十二河克。
+十三河磅十二河克。
 
 她抬头看了维里乌斯一眼，对方面无表情。露琪尔在心里飞快过了一遍那些“差二十多河克仍然合理”的可能，又一一排除。她再拨了一次秤杆，指针来回晃了两下，倔强地指回原位。
 
@@ -347,7 +347,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 露琪尔又看了一眼衡台上的砝码读数。
 
-“十一河磅十二河克。前十箱在十河磅八十到九十河克之间，差二十五河克。”
+“十三河磅十二河克。前十箱在十二河磅八十到九十河克之间，差二十五河克。”
 
 “一枚洛林八阶——”
 
@@ -527,11 +527,11 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 “你称第十一箱的时候多少重？”
 
-露琪尔翻了翻登记册。“十一河磅十二河克。”
+露琪尔翻了翻登记册。“十三河磅十二河克。”
 
 “其他几箱呢？”
 
-“都是十河磅八十多河克，没有超过九十的。”
+“都是十二河磅八十多河克，没有超过九十的。”
 
 “嗯。”卡尔米娜又点了一下头。她的脸还有些苍白，但眼神依旧是露琪尔印象里那种认真，“那个里恩先生有没有为难你？”
 
@@ -697,7 +697,7 @@ f:I[53360,["/Nurania/next/static/chunks/833a487333ab4273.js","/Nurania/next/stat
 
 “清透得像水，中间一条红线。”我重复了一遍露琪尔的描述，回过头看向研究院时期的同僚，“这是用水晶包住的星术装药，激发玛娜回路会爆炸的那种。”
 
-“把装药封进水晶，再打磨成和星元差不多的外形和质地，同时保证途中不爆炸，要的技术远不是一个刚接触蚀刻的学徒能有的。是卡伊尔伯爵的人？”
+“把装药封进水晶，把重量压得尽可能低，再打磨成和星元差不多的外形和质地，同时保证途中不爆炸，要的技术远不是一个刚接触蚀刻的学徒能有的。是卡伊尔伯爵的人？”
 
 “犯人还在审，要花点时间，但初步推测是他的人。”维里乌斯答，“卡伊尔伯爵领离特别仪式区最近的城市有三家技术水平足够的设备作坊，安插人和货都很容易。而且他在反对女王陛下的开放政策上一直是最卖力的。”
 
