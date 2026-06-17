@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Sparkles } from "lucide-react";
 import type { RecentArticle } from "@/lib/content";
+import { articleHref } from "@/lib/links";
 
 interface Props {
   bookSlug: string;
@@ -22,7 +23,7 @@ export default function RecentUpdates({ bookSlug, items }: Props) {
           <li key={item.slug} className="list-none">
             <Link
               prefetch={false}
-              href={`/${bookSlug}/article/${item.slug.split("/").map(encodeURIComponent).join("/")}`}
+              href={articleHref(bookSlug, item.slug)}
               className="@container flex items-start gap-2 py-1.5 rounded px-2 -ml-2 hover:text-[var(--gold-dark)] transition-colors glow-hover @toc-entry-wide:items-center text-base text-[var(--ink)]"
             >
               <Sparkles

@@ -1,14 +1,12 @@
 "use client";
 
 /**
- * 根布局级错误边界：替代 Next 默认的「Application error: a client-side exception has occurred」白屏。
- * 因为它会整体替换根布局，globals.css 不一定生效，故用内联样式自带羊皮纸配色。
- * 自动重载策略与 src/app/error.tsx 一致（时间节流防死循环）。
+ * 根布局级错误边界：替代 Next 默认的「Application error」白屏。
+ * 会整体替换根布局，globals.css 不一定生效，故用内联样式自带羊皮纸配色。
+ * 自动重载策略见 useAutoReloadOnError（与 src/app/error.tsx 一致）。
  */
 
-import { useEffect, useState } from "react";
-
-const AUTO_RELOAD_THROTTLE_MS = 10000;
+import { useAutoReloadOnError } from "@/lib/useAutoReloadOnError";
 
 const card: React.CSSProperties = { maxWidth: 460 };
 const btn: React.CSSProperties = {
@@ -29,20 +27,7 @@ export default function GlobalError({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
-  const [autoReloading, setAutoReloading] = useState(false);
-
-  useEffect(() => {
-    console.error("[Nurania] 应用级错误：", error);
-    if (process.env.NODE_ENV !== "production") return;
-    if (typeof window === "undefined") return;
-    const now = Date.now();
-    const last = Number(sessionStorage.getItem("nurania-last-auto-reload") || "0");
-    if (now - last < AUTO_RELOAD_THROTTLE_MS) return;
-    sessionStorage.setItem("nurania-last-auto-reload", String(now));
-    setAutoReloading(true);
-    const t = setTimeout(() => window.location.reload(), 600);
-    return () => clearTimeout(t);
-  }, [error]);
+  const autoReloading = useAutoReloadOnError(error, "[Nurania] 应用级错误：");
 
   return (
     <html lang="zh-CN">

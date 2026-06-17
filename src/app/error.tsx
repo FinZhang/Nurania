@@ -1,18 +1,11 @@
 "use client";
 
 /**
- * 路由段错误边界：当文章/目录等子页面在客户端渲染或软跳转取数据失败时触发。
- * 典型场景：静态部署主机偶发把 RSC 负载的连接中途关闭（控制台报 "Connection closed."）。
- * 这类错误几乎都是临时的——硬加载同一地址即可恢复，因此生产环境下自动重载兜底。
- *
- * 防死循环：用 sessionStorage 记录上次自动重载的时间戳，若距上次自动重载不足
- * AUTO_RELOAD_THROTTLE_MS 又立刻报错，说明大概率不是临时问题，则停下显示手动选项。
- * 否则每次发生都会自动重载（不再像旧版那样每地址只自动一次）。
+ * 路由段错误边界：文章/目录等子页面在客户端渲染或软跳转取数据失败时触发。
+ * 自动重载策略见 useAutoReloadOnError（时间节流防死循环）。
  */
 
-import { useEffect, useState } from "react";
-
-const AUTO_RELOAD_THROTTLE_MS = 10000;
+import { useAutoReloadOnError } from "@/lib/useAutoReloadOnError";
 
 export default function Error({
   error,
@@ -21,20 +14,7 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
-  const [autoReloading, setAutoReloading] = useState(false);
-
-  useEffect(() => {
-    console.error("[Nurania] 页面加载出错：", error);
-    if (process.env.NODE_ENV !== "production") return;
-    if (typeof window === "undefined") return;
-    const now = Date.now();
-    const last = Number(sessionStorage.getItem("nurania-last-auto-reload") || "0");
-    if (now - last < AUTO_RELOAD_THROTTLE_MS) return; // 刚自动重载过又报错 → 非临时问题，停下
-    sessionStorage.setItem("nurania-last-auto-reload", String(now));
-    setAutoReloading(true);
-    const t = setTimeout(() => window.location.reload(), 600);
-    return () => clearTimeout(t);
-  }, [error]);
+  const autoReloading = useAutoReloadOnError(error, "[Nurania] 页面加载出错：");
 
   return (
     <div className="container-nurania py-20 md:py-28 flex flex-col items-center text-center gap-5">

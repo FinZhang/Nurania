@@ -1,10 +1,8 @@
 "use client";
 
 import React from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import Image from "next/image";
-import articleMdComponents from "@/lib/article-md-components";
+import ArticleMarkdown from "./ArticleMarkdown";
 
 /** 题图默认按 800×1200 (2:3) 渲染；加载后根据图片真实宽高比调整框高度 */
 const DEFAULT_IMAGE_ASPECT = "2/3";
@@ -36,9 +34,9 @@ export function TitleImageFigure({
           fill
           className="object-contain"
           sizes="(max-width: 768px) 100vw, 400px"
-          onLoadingComplete={(img) => {
-            // Load only affects layout (aspect-ratio), so even if it shifts slightly once, the final
-            // frame will match the actual image ratio without letterboxing.
+          onLoad={(e) => {
+            // 仅影响布局（aspect-ratio）；即便首帧略有跳动，最终也会匹配图片真实比例而不留黑边
+            const img = e.currentTarget;
             setAspectRatio(getAspectRatio(img.naturalWidth, img.naturalHeight));
           }}
         />
@@ -63,7 +61,7 @@ export default function MarkdownWithTitleImage({ content, imagePath, imageAlt, i
   return (
     <div className="flex flex-col md:contents">
       {/* 窄屏：题图代码所在行插入图片 */}
-      <div className="order-1 article-markdown md:hidden">{contentBefore.trim() ? <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>{contentBefore}</ReactMarkdown> : null}</div>
+      <div className="order-1 article-markdown md:hidden">{contentBefore.trim() ? <ArticleMarkdown>{contentBefore}</ArticleMarkdown> : null}</div>
 
       <TitleImageFigure
         imagePath={imagePath}
@@ -71,13 +69,12 @@ export default function MarkdownWithTitleImage({ content, imagePath, imageAlt, i
         className="order-2 my-6 w-full md:order-none md:float-right md:mt-[-5rem] md:mb-4 md:ml-6 md:w-[400px]"
       />
 
-      <div className="order-3 article-markdown md:hidden">{contentAfter.trim() ? <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>{contentAfter}</ReactMarkdown> : null}</div>
+      <div className="order-3 article-markdown md:hidden">{contentAfter.trim() ? <ArticleMarkdown>{contentAfter}</ArticleMarkdown> : null}</div>
 
       {/* 宽屏：题图 float-right，正文全宽从左侧排，流到图下 */}
       <div className="order-none hidden md:block article-markdown">
-        <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>{content}</ReactMarkdown>
+        <ArticleMarkdown>{content}</ArticleMarkdown>
       </div>
     </div>
   );
 }
-

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Library, ScrollText } from "lucide-react";
 import type { ArticleEntry } from "@/lib/content-types";
+import { articleHref } from "@/lib/links";
 
 interface Props {
   bookSlug: string;
@@ -59,7 +60,7 @@ export default function TocSection({ bookSlug, entry, index = 0, depth = 0 }: Pr
       {isArticle ? (
         <Link
           prefetch={false}
-          href={`/${bookSlug}/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
+          href={articleHref(bookSlug, entry.slug)}
           className={`@container flex items-start gap-2 py-1.5 rounded px-2 -ml-2 hover:text-[var(--gold-dark)] transition-colors glow-hover @toc-entry-wide:items-center ${levelStyle}`}
         >
           {titleContent}

@@ -4,7 +4,7 @@ import React, { useState, useCallback, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { parseFoldBlocks } from "@/lib/fold-blocks";
-import articleMdComponents from "@/lib/article-md-components";
+import ArticleMarkdown from "./ArticleMarkdown";
 import { ChevronDown, ChevronRight } from "lucide-react";
 
 /** 吸顶时的 top 值（与 tailwind top-16 一致，单位 px） */
@@ -93,19 +93,21 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
     setExpanded((prev) => ({ ...prev, [index]: !prev[index] }));
   }, [expanded]);
 
-  let foldIndex = -1;
+  // 给每个折叠块分配从 0 起的稳定序号（md 块为 -1）；纯函数计算，避免渲染期可变计数
+  const foldKeyByIndex = blocks.map((b, i) =>
+    b.type === "fold" ? blocks.slice(0, i).filter((x) => x.type === "fold").length : -1
+  );
   return (
     <div className="markdown-with-folds">
       {blocks.map((block, i) => {
         if (block.type === "md") {
           return (
             <div key={i} className="article-markdown mb-6">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>{block.content}</ReactMarkdown>
+              <ArticleMarkdown>{block.content}</ArticleMarkdown>
             </div>
           );
         }
-        foldIndex += 1;
-        const key = foldIndex;
+        const key = foldKeyByIndex[i];
         const isExpanded = expanded[key] ?? false;
         const body = collapseLeadingBlankLines(dropRedundantHeading(block.content, block.title));
 
@@ -157,7 +159,7 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
             </button>
             {isExpanded && (
               <div className="article-markdown fold-block-body px-4 pt-12 pb-5 md:px-5 md:pt-14 md:pb-6">
-                <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>{body}</ReactMarkdown>
+                <ArticleMarkdown>{body}</ArticleMarkdown>
               </div>
             )}
           </section>

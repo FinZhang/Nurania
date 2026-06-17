@@ -32,22 +32,31 @@ function getTitleFromFile(filePath: string, baseName: string): { title: string; 
   }
 }
 
+/** 内容目录：非隐藏（不以 "." 开头）的子目录 */
+function isContentDir(d: fs.Dirent): boolean {
+  return d.isDirectory() && !d.name.startsWith(".");
+}
+
+/** 文章文件：.md 文件，排除 README 与以 "_" 开头的文件 */
+function isArticleFile(d: fs.Dirent): boolean {
+  return (
+    d.isFile() &&
+    d.name.endsWith(".md") &&
+    d.name.toLowerCase() !== "readme.md" &&
+    !d.name.startsWith("_")
+  );
+}
+
 /** 递归扫描目录，构建层级结构 */
-function scanDir(dirPath: string, baseSlug: string, _dataDir: string): ArticleEntry[] {
+function scanDir(dirPath: string, baseSlug: string): ArticleEntry[] {
   if (!fs.existsSync(dirPath)) return [];
 
   const entries: ArticleEntry[] = [];
   const items = fs.readdirSync(dirPath, { withFileTypes: true });
 
   // 先处理文件夹，再处理 .md 文件，保持顺序
-  const dirs = items.filter((d) => d.isDirectory() && !d.name.startsWith("."));
-  const files = items.filter(
-    (d) =>
-      d.isFile() &&
-      d.name.endsWith(".md") &&
-      d.name.toLowerCase() !== "readme.md" &&
-      !d.name.startsWith("_")
-  );
+  const dirs = items.filter(isContentDir);
+  const files = items.filter(isArticleFile);
 
   /** 读取该目录下的 _order.json 获取自定义顺序（名称数组） */
   let orderList: string[] = [];
@@ -77,7 +86,7 @@ function scanDir(dirPath: string, baseSlug: string, _dataDir: string): ArticleEn
   for (const dir of dirs) {
     const subPath = path.join(dirPath, dir.name);
     const slug = baseSlug ? `${baseSlug}/${dir.name}` : dir.name;
-    const children = scanDir(subPath, slug, _dataDir);
+    const children = scanDir(subPath, slug);
     sortableItems.push({
       name: dir.name,
       entry: {
@@ -116,7 +125,7 @@ function scanDir(dirPath: string, baseSlug: string, _dataDir: string): ArticleEn
 
 /** 获取站点目录结构（层级） */
 export function getSiteToc(bookSlug: string): ArticleEntry[] {
-  return scanDir(getDataDir(bookSlug), "", getDataDir(bookSlug));
+  return scanDir(getDataDir(bookSlug), "");
 }
 
 /** 最近更新条目（按文件 mtime，取前 5 篇） */
@@ -133,15 +142,10 @@ function collectArticlePaths(dirPath: string, baseSlug: string): { slug: string;
   const items = fs.readdirSync(dirPath, { withFileTypes: true });
   for (const d of items) {
     const full = path.join(dirPath, d.name);
-    if (d.isDirectory() && !d.name.startsWith(".")) {
+    if (isContentDir(d)) {
       const slug = baseSlug ? `${baseSlug}/${d.name}` : d.name;
       result.push(...collectArticlePaths(full, slug));
-    } else if (
-      d.isFile() &&
-      d.name.endsWith(".md") &&
-      d.name.toLowerCase() !== "readme.md" &&
-      !d.name.startsWith("_")
-    ) {
+    } else if (isArticleFile(d)) {
       const baseName = d.name.replace(/\.md$/, "");
       const slug = baseSlug ? `${baseSlug}/${baseName}` : baseName;
       result.push({ slug, filePath: full });

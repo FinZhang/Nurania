@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import type { ArticleEntry } from "@/lib/content-types";
+import { articleHref } from "@/lib/links";
 
 interface Props {
   bookSlug: string;
@@ -34,7 +35,7 @@ export default function ArticleNavTree({
               <Link
                 ref={isActive ? activeLinkRef : undefined}
                 prefetch={false}
-                href={`/${bookSlug}/article/${entry.slug.split("/").map(encodeURIComponent).join("/")}`}
+                href={articleHref(bookSlug, entry.slug)}
                 className={`block py-1 pr-2 rounded text-sm transition-colors ${
                   isActive
                     ? "text-[var(--gold-dark)] font-medium bg-[var(--parchment-dark)]/50"

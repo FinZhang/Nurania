@@ -18,6 +18,7 @@ import MarkdownWithTitleImage from "./MarkdownWithTitleImage";
 import { TitleImageFigure } from "./MarkdownWithTitleImage";
 import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
 import { BASE_PATH } from "@/lib/basePath";
+import { articleHref } from "@/lib/links";
 
 /** 大陆总览-地理概述页的 slug，该页正文上方显示可放大地图 */
 const GEOGRAPHY_OVERVIEW_SLUG = "大陆总览 Overview/地理";
@@ -271,7 +272,7 @@ export default function ArticleLayout({
             {prevEntry ? (
               <Link
                 prefetch={false}
-                href={`/${bookSlug}/article/${prevEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
+                href={articleHref(bookSlug, prevEntry.slug)}
                 className="inline-flex items-center gap-1.5 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors text-sm max-w-[45%]"
               >
                 <ChevronLeft className="h-4 w-4 flex-shrink-0" />
@@ -283,7 +284,7 @@ export default function ArticleLayout({
             {nextEntry ? (
               <Link
                 prefetch={false}
-                href={`/${bookSlug}/article/${nextEntry.slug.split("/").map(encodeURIComponent).join("/")}`}
+                href={articleHref(bookSlug, nextEntry.slug)}
                 className="inline-flex items-center gap-1.5 text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors text-sm max-w-[45%] ml-auto text-right"
               >
                 <span>下一篇：{nextEntry.title}</span>
