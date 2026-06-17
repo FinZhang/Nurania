@@ -43,15 +43,11 @@ export default function ArticleLayout({
   const searchParams = useSearchParams();
   const router = useRouter();
   const [isHoveringNav, setIsHoveringNav] = useState(false);
-  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  // 移动端侧栏开合直接由 URL ?sidebar=1 派生（单一数据源），无需用 state 镜像
+  const mobileNavOpen = searchParams?.get("sidebar") === "1";
   const navContainerRef = useRef<HTMLDivElement>(null);
   const activeLinkRef = useRef<HTMLAnchorElement | null>(null);
   const lastAutoScrolledSlugRef = useRef<string | null>(null);
-
-  /** 文章页：URL ?sidebar=1 与导航面板状态同步 */
-  useEffect(() => {
-    setMobileNavOpen(searchParams?.get("sidebar") === "1");
-  }, [searchParams]);
 
   /** 窄屏打开侧栏后恢复点击前的滚动位置，避免被 Next 或浏览器滚到顶部 */
   useEffect(() => {
@@ -68,7 +64,7 @@ export default function ArticleLayout({
   }, [mobileNavOpen]);
 
   const closeMobileNav = () => {
-    setMobileNavOpen(false);
+    // 移除 ?sidebar=1，mobileNavOpen 随 URL 派生为 false
     if (pathname) router.replace(pathname, { scroll: false });
   };
 

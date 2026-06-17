@@ -2,7 +2,6 @@
  * 一键部署：build → deploy:rewrite → 在 out 目录内 git add / commit / push 到 web-release
  * 用法：在项目根目录执行 node scripts/deploy-push.js 或 npm run deploy:push
  */
-const fs = require("fs");
 const { spawnSync } = require("child_process");
 const path = require("path");
 

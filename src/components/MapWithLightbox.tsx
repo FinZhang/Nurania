@@ -17,7 +17,6 @@ export default function MapWithLightbox() {
   const dragStart = useRef({ x: 0, y: 0, panX: 0, panY: 0 });
   const pinchStart = useRef({ dist: 0, scale: 1 });
   const scaleRef = useRef(scale);
-  scaleRef.current = scale;
 
   const handleOpen = () => setLightboxOpen(true);
   const handleClose = () => {
@@ -27,8 +26,13 @@ export default function MapWithLightbox() {
   };
 
   const panRef = useRef(pan);
-  panRef.current = pan;
   const mapTransformRef = useRef<HTMLDivElement | null>(null);
+
+  // 让 scale/pan 的 ref 跟随 state（在 commit 后同步），供事件处理与直接改 DOM 时读取最新值
+  useEffect(() => {
+    scaleRef.current = scale;
+    panRef.current = pan;
+  }, [scale, pan]);
 
   const applyTransform = useCallback(() => {
     const el = mapTransformRef.current;
@@ -76,6 +80,8 @@ export default function MapWithLightbox() {
       "position:fixed;inset:0;z-index:9999;pointer-events:auto;";
     document.body.appendChild(wrapper);
     containerRef.current = wrapper;
+    // 命令式创建 portal 容器后需触发一次渲染把灯箱挂进去——此处 setState 刻意且必要
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLightboxContainer(wrapper);
 
     const onWheel = (e: WheelEvent) => {
@@ -160,9 +166,7 @@ export default function MapWithLightbox() {
         const dist = getTouchDist(e);
         if (pinchStart.current.dist > 0) {
           const ratio = dist / pinchStart.current.dist;
-          setScale((s) =>
-            Math.min(4, Math.max(0.3, pinchStart.current.scale * ratio))
-          );
+          setScale(Math.min(4, Math.max(0.3, pinchStart.current.scale * ratio)));
         }
       }
     },
