@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,12637,t=>{"use strict";function e(t,e){let o=e.split("/").map(encodeURIComponent).join("/");return`/${t}/article/${o}`}t.s(["articleHref",()=>e])}]);
