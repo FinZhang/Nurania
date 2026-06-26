@@ -12,19 +12,19 @@ f:I[63491,["/Nurania/next/static/chunks/911bbb02b1c4cdfb.js"],"default"]
 :HL["/Nurania/next/static/chunks/1fd6e82d1e4b3e96.css","style"]
 :HL["/Nurania/next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Nurania/next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"_x6dImH4tBxzq56Yi8JAB","c":["","compendium","article","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations","%E5%BF%92%E5%A5%A5%E8%A5%BF%E6%96%AF",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations/%E5%BF%92%E5%A5%A5%E8%A5%BF%E6%96%AF","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/1fd6e82d1e4b3e96.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/6e3ce8e0c91f6804.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/8fc0ac8bbc5d5478.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/3548cb099ad61741.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/f81039c8341e0685.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+0:{"P":null,"b":"Ur97MjfQfkvb6ekdQ--om","c":["","compendium","article","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations","%E5%BF%92%E5%A5%A5%E8%A5%BF%E6%96%AF",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations/%E5%BF%92%E5%A5%A5%E8%A5%BF%E6%96%AF","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/1fd6e82d1e4b3e96.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/6e3ce8e0c91f6804.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/8fc0ac8bbc5d5478.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/3548cb099ad61741.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/f81039c8341e0685.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
 10:I[53360,["/Nurania/next/static/chunks/6e3ce8e0c91f6804.js","/Nurania/next/static/chunks/3548cb099ad61741.js","/Nurania/next/static/chunks/f81039c8341e0685.js","/Nurania/next/static/chunks/088430588bf85aac.js"],"default"]
-11:T3bca,
+11:T52e7,
 > “信仰无根便是童话。”
 
 
 ### 概述
 
-忒奥西斯圣治领（The Theosis Dominion），通称圣治领或圣领(The Dominion)，是位于大陆中央北部地区的正教会神权共和国，首都圣城索菲亚。圣领北临北门湾，西北接尼希尔伊玛目酋邦，西南毗邻索拉瑞斯帝国，东北面葛林沃尔克的南北山脉与密林，东南则为阿布丹提亚帝国。圣领国土两百七十万平方陆里，划分为五个牧首区，最大城市为首都兼宗教中心圣城索菲亚。圣领大部分国土为地势平坦的稀树平原，适宜人口聚居。十四世纪索菲亚大运河竣工后，圣领人口快速攀升，截止至大陆历1500年，忒奥西斯全领公民人口已达一千五百万。
+忒奥西斯圣治领（The Theosis Dominion），通称圣治领或圣领(The Dominion)，是位于大陆中央北部地区的正教会神权共和国，首都圣城索菲亚。圣领北临北门湾，西北接尼希尔伊玛目酋邦，西南毗邻索拉瑞斯帝国，东北面葛林沃尔克的南北山脉与密林，东南则为阿布丹提亚帝国。圣领国土两百七十万平方陆里，划分为五个都主教区，最大城市为首都兼宗教中心圣城索菲亚。圣领大部分国土为地势平坦的稀树平原，适宜人口聚居。十四世纪索菲亚大运河竣工后，圣领人口快速攀升，截止至大陆历1500年，忒奥西斯全领公民人口已达一千五百万。
 
 基于唯一神信仰的正教会诞生于大陆历一世纪，最早分布于西诺拉尼亚的索拉瑞斯地区，并逐渐传播至整个大陆。1159年，索拉瑞斯帝国开国皇帝阿利昂将帝国东部土地捐献给大牧首，正教会获得世俗领地成为政治实体，即为如今的忒奥西斯圣领。十三世纪末第一次阿索战争中，忒奥西斯作为索拉瑞斯帝国的盟友参战，战后领土东扩至葛林沃尔克山南脉山脚。此政治立场直接导致了正教会内部的第二次宗教改革尝试，失败后阿布丹提亚帝国境内正教会宣布独立，脱离牧首厅管辖成立公教会。十四世纪第二次阿索战争期间圣领维持了政治中立，同世纪后叶，忒奥西斯主动联合索拉瑞斯帝国开凿索菲亚大运河，其成为了历史上最庞大的人造工程之一。十五世纪后，圣领与索拉瑞斯帝国的关系再次趋于紧密，在第三次阿索战争中提供了除军事外的全面支持，引发了正教会与公教会的新一轮宗教外交冲突。
 
-忒奥西斯圣领诞生即成为大陆正教信仰的宗教中心，依靠各国庞大的信徒数量而具有强大的政治影响力。外交方面，原则应保持中立的牧首厅实际政治立场长期偏向索拉瑞斯帝国，在第一次阿索战争中的军事行动直接导致正教会大分裂，分裂后的丹提亚公教会与圣领正教会长期关系紧张。忒奥西斯绝大部分人口为正教信众的公民，非信众居民虽被允许在圣领境内正常生活和工作，但在诸多经济和政治权利上会受到限制。神启魔法与正教信仰的紧密联系亦使圣领垄断了大量优秀的祷言人才，其作用横跨军事防御与民用建设两端。直属牧首厅的圣仪军作为大陆最具规模的法术军事力量之一，除承担国防与宗教武装职能外，也被广泛用于大型民用工程建设，索菲亚大运河正是其最具代表性的成果。 
+忒奥西斯圣领诞生即成为大陆正教信仰的宗教中心，其外交立场鲜明地由教义决定，与大陆各国关系亲疏判然有别。外交方面，原则应保持中立的牧首厅实际政治立场长期偏向索拉瑞斯帝国，在第一次阿索战争中的军事行动直接导致正教会大分裂，分裂后的丹提亚公教会与圣领正教会长期关系紧张。忒奥西斯绝大部分人口为正教信众的公民，非信众居民虽被允许在圣领境内正常生活和工作，但在诸多经济和政治权利上会受到限制。神启魔法与正教信仰的紧密联系亦使圣领垄断了大量优秀的祷言人才，其作用横跨军事防御与民用建设两端。直属牧首厅的圣仪军作为大陆最具规模的法术军事力量之一，除承担国防与宗教武装职能外，也被广泛用于大型民用工程建设，索菲亚大运河正是其最具代表性的成果。 
 
 ### 历史
 
@@ -48,9 +48,47 @@ f:I[63491,["/Nurania/next/static/chunks/911bbb02b1c4cdfb.js"],"default"]
 
 ### 政治与军事
 
+忒奥西斯圣领是大陆唯一的神权共和国，最高元首称**大牧首**，终身任期。前任大牧首去世后，由**枢机主教团**在闭门会议上以无记名投票选出继任者。枢机主教团是圣领事实上的最高权力机构，大牧首主持枢机主教团，并掌握枢机主教的选任权——枢机主教由大牧首从全大陆都主教中选任，以圣领各都主教区的都主教为主体，历史上偶有来自索拉瑞斯、卡帕尼者。现任大牧首为西奥多三世（1417 年生，1467 年继位），原任牧首厅圣礼厅枢机主教。
+
+圣领最高行政机构为**牧首厅**，主厅是大牧首与枢机主教团的议事场所——学界提及"牧首厅"时，多数情况下即指这一主厅。主厅之下设六个分厅按职能分管：**圣礼厅**（宗教事务，含索拉瑞斯凯撒血脉测试）、**省察厅**（监察）、**司牧厅**（民生）、**神启厅**（神启魔法）、**传信厅**（外交）、**卫教厅**（军事）。审判庭与圣约瑟商会均为牧首厅直属机构，因规模与职能特殊，不纳入分厅序列。
+
+#### 政教合一与地方治理
+
+圣领自上而下实行完全的政教合一体制，教会即政府。全境划为五个**都主教区**，是最高一级行政区划，长官称**都主教**；都主教区下分若干**教区**，是最小一级行政区划，长官称**主教**。教区之内，各城镇与乡村的基层教会由**司祭**分管，不再单列为一级行政区划。所有行政官员均为神职人员（修士或修女），非正教信徒无法进入这一体系。
+
+司法独立于行政层级，由**审判庭**承担。其最高长官称**大审判长**，由枢机主教团任命，与大牧首同为终身任期；审判庭在各教区均设分支机构，在索拉瑞斯帝国境内另设分庭。按两国协议，审判庭在索拉瑞斯境内开展宗教事务时仅负有知会帝国官方的义务，无需取得许可。除处理异端事务外，审判庭也负责追捕、处置未经许可的神启魔法使用者，诺万尼斯流放同样由审判庭全权执行。
+
+审判庭另设有独立于军事系统的强制执行编制，由**审判官**及其扈从组成——这一安排在圣领体制中较为特殊：大陆其他地区在和平时期的司法强制一般由军队兼任。
+
+#### 军事力量
+
+圣领的军事力量由两支主力部队与两类特殊编制构成。
+
+**护教军**是圣领最主要的常规部队，下分五个师，由各都主教区与所属教区分别组建，平时分散驻防各级教区，兼有日常治安职能，战时由卫教厅统一征召、整编为军。护教军士兵须为正教信徒。**圣仪军**是牧首厅直属的法术作战部队，全员为经层层选拔的神启魔法精锐，是大陆最强大的魔法军事力量之一。除军事职能外，圣仪军也承担大型工程建设，索菲亚大运河即其最具代表性的成果（详见经济节）。圣仪军成员以魔法能力为首要选拔标准，故未必是神职人员，但须宣誓效忠圣领与大牧首。
+
+**宗座卫队**驻扎于圣城索菲亚，是大牧首与枢机主教团的近卫，承担圣城卫戍与宗教仪仗职能，不参与正面作战。宗座卫队高层成员从不出现在公共场合，人数、姓名、年龄、能力等均不对外公开。
+
+**圣礼骑士**是索拉瑞斯凯撒派出的龙骑士经大牧首册封后承担的特殊身份，最重要的义务是保卫圣领免于军事入侵，名义上为圣领最强战力；但这一义务限于防御，不能用于主动进攻。相关内容可参阅索拉瑞斯篇军事节。
+
+#### 外交立场
+
+圣领的外交立场高度由教义主导，这是它与大陆其他主要国家最根本的区别。
+
+圣领视索拉瑞斯凯撒为唯一神在人间所立的合法统治者，两国是大陆当代最为紧密的政治组合。1295 年教会大分裂后，正教会大牧首与公教会宗主教互相开除教籍，公教会也因此成为与圣领关系最恶劣的组织（详见大陆总览宗教篇）。阿布丹提亚帝国因本身世俗化程度较高，与圣领的官方外交关系未受国内公教总会掣肘，但近两个世纪以来，同样因星术技术依赖、境内神启人才不断流向圣领两点而趋于紧张。艾瑟瑞姆主修星术、卡帕尼过度商业化、尼希尔保有奴隶制，三者均与正教教义相悖，圣领对其外交态度偏向负面，关系普遍僵硬。
+
+圣领对希尔文诺的态度较为微妙。人类对精灵自然魔法的运行机理本就所知有限；而同为异种族的巨龙，其龙族魔法所引发的神学争议在历史上曾冲击教会，直接导致了第一次宗教改革（详见大陆总览魔法篇与宗教篇）。因此近代圣领在涉非人类问题上一贯谨慎，对精灵事务长期保持中立、不主动介入。牧首厅直属的圣约瑟商会则不受此限，照常参与精灵-人类贸易。
+
+#### 当代裂痕
+
+索拉瑞斯凯撒雷尔金一世的血统造假指控若属实，当时主管圣礼厅的西奥多枢机便是直接共犯——这一历史负担在反对雷尔金朝合法性的索拉瑞斯军团长之中早已成为流言主轴。在这些军团长所辖的行省之内，圣礼厅乃至圣领整体的政治地位较以往明显下降。
+
+更近期的矛盾来自三战之后。圣领在战后主动支持索拉瑞斯拖延南西比尔平原的领土交接，并与雷尔金二世政权进一步靠拢——这些做法使反对凯撒的诸军团长更加坚信凯撒与圣领之间存在利益绑定，同时也令圣领与阿布丹提亚、公教会的关系明显恶化。
+
+这一系列裂痕的内部因果链与圣领—索拉瑞斯互为人质的深层结构，详见笔者行观别录的相关篇章。
+
 ### 经济
 
-大运河的开通从根本上重塑了圣领的农业格局。运河竣工前，西比尔平原因缺乏水源灌溉而农业产出相当有限；运河下游带来的稳定水源令西比尔平原逐步开垦为良田，使圣领在近两个世纪内经历了大陆农业版图中最显著的结构性变化之一。染料作物是圣领主要的农业经济作物，北临北门湾的海岸位置亦使圣领历史上深度参与凛冰洋捕捞，特色奢侈海产长期作为高价值出口商品流向大陆各地权贵阶层。平原腹地远离运河灌溉的区域天然草场广布，以牛羊放牧为主要土地利用方式，羊毛与皮革作为副产品有一定的对外出口。
+忒奥西斯的经济格局以索菲亚大运河的开通作为分界明确地分出两个阶段。运河竣工前，西比尔平原因缺乏水源灌溉而农业产出相当有限；运河开通后，其带来的稳定水源令西比尔平原逐步开垦为良田，使圣领在近两个世纪内经历了大陆农业版图中最显著的结构性变化之一。染料作物是圣领主要的农业经济作物，北临北门湾的海岸位置亦使圣领历史上深度参与凛冰洋捕捞，特色奢侈海产长期作为高价值出口商品流向大陆各地权贵阶层。平原腹地远离运河灌溉的区域天然草场广布，以牛羊放牧为主要土地利用方式，羊毛与皮革作为副产品有一定的对外出口。
 
 圣领的支柱制造业是染料业，形成了从原料种植、染料提炼到纺织品染色加工的完整产业链，对外同时以原料染料和染色成品两种形式出口。其中正紫色染料来源于独特原料，在正教会神学体系中被视为神圣之色，明令禁止出口，仅限于教会组织内部流通使用。染料作物托伊尔莓是圣领产业体系中值得单独提及的例子：其提取亮蓝色染料后的脱色干制副产物是上好的发酵原料，催生了圣领极为发达的酿酒产业，高品质的托伊尔莓酒既长期出现在正教会的宗教仪式中，也作为奢侈品大量出口。依托索菲亚银矿的稳定供给，圣领的银制品业同样高度发达，宗教器具历来以纯银打造，工艺精湛奢华，非宗教用途的银制品亦作为高价值商品对外出口。圣领的产业组织以各地分教会和牧首厅附属手工业为主体，教会在生产资料的持有与劳动力调配上均居于主导地位。
 
@@ -68,7 +106,7 @@ f:I[63491,["/Nurania/next/static/chunks/911bbb02b1c4cdfb.js"],"default"]
 
 圣领拥有且仅拥有牧首厅直属的**圣约瑟商会**及其各地分商会，成员均为教会神职人员，负责圣领境内一切跨地区贸易与对外跨国贸易事务。圣约瑟商会在大陆其他国家的主要口岸均设有分部，但相较于境内活动较为收敛。大陆学界普遍认为圣约瑟商会兼具审判庭秘密情报网络的功能，其商会分部同时充当信息搜集渠道，尽管圣领官方对此完全否认。圣领不存在工匠行会。
 
-圣领境内的物流运输依托主干路网与大运河两套体系。主干路网连接各牧首区的主要城市，大运河则是圣领最重要的内部贸易通道，运河沿岸催生了多座新兴城市，圣城索菲亚借此进一步扩张为兼具政治、宗教与经济中心地位的大都会。北门湾作为大运河的北部入口，是尼希尔魔矿经凛冰洋航线进入大陆主要贸易网的关键节点，圣领从中征收的河金亦是牧首厅的重要财政收入来源。
+圣领境内的物流运输依托主干路网与大运河两套体系。主干路网连接各都主教区的主要城市，大运河则是圣领最重要的内部贸易通道，运河沿岸催生了多座新兴城市，圣城索菲亚借此进一步扩张为兼具政治、宗教与经济中心地位的大都会。北门湾作为大运河的北部入口，是尼希尔魔矿经凛冰洋航线进入大陆主要贸易网的关键节点，圣领从中征收的河金亦是牧首厅的重要财政收入来源。
 
 #### 索菲亚之水
 

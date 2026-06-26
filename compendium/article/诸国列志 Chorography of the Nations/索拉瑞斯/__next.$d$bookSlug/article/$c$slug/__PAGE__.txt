@@ -2,7 +2,7 @@
 2:"$Sreact.suspense"
 3:I[53360,["/Nurania/next/static/chunks/6e3ce8e0c91f6804.js","/Nurania/next/static/chunks/3548cb099ad61741.js","/Nurania/next/static/chunks/f81039c8341e0685.js","/Nurania/next/static/chunks/088430588bf85aac.js"],"default"]
 9:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-4:T4373,
+4:T59d1,
 > “生于战火，溺于和平。”
 
 
@@ -12,7 +12,7 @@
 
 大陆学界普遍认为索拉瑞斯地域的人类活动起源于大陆历一世纪前叶。由于地理阻隔，该地区的部落文明各自独立发展建立王国，其中最为强大的七国国王于328年建立了后世称为“七王约”的政治邦联。该邦联存续四个世纪，期间内部矛盾丛生，内乱不断。8世纪中叶，诺万尼斯大叛乱导致邦联彻底解体，西诺拉尼亚由此进入了王国乱战的黑暗时期。大陆历12世纪，索拉尔王国统一西大陆诸国，国王阿利昂受牧首册封成为第一代龙裔凯撒，开启了索拉瑞斯的集权帝国时代。作为政治交换，帝国东部的大陆中部领土被阿利昂捐献给教会，忒奥西斯圣领由此建立，成为索拉瑞斯的保护国。十三世纪和十四世纪的第一与第二次阿索战争中，帝国作为获胜方，获得了圣领南部的大片平原耕地领土与人口。十五世纪前叶，索拉瑞斯陷入了长达三十年的继承内战，凯撒的帝权受到了巨大削弱，此被普遍认为是其近代第三次阿索战争战败的诱因之一。
 
-自帝国时代确立以来，索拉瑞斯帝国始终是诺拉尼亚最具军事与政治影响力的的国家之一，并与阿布丹提亚帝国共同构成当代大陆格局的两极。帝国实行的军团-行省一体化制度可以有效地将国力转化为军力，其传承悠久的龙骑兵团常被视作大陆最精锐的作战部队之一。作为注重军事扩张的国家，索拉瑞斯在国际外交上也往往采用强势施压态度，与邻国尼希尔，艾瑟瑞姆，阿布丹提亚关系长期紧张。帝国尊正教为帝国国教，宗教氛围浓厚，超过八成公民是正教会信徒。索拉瑞斯帝国与忒奥西斯圣领签有单方面保证独立协议，并定期选派龙骑士接受牧首册封成为督教使。
+自帝国时代确立以来，索拉瑞斯帝国始终是诺拉尼亚最具军事与政治影响力的的国家之一，并与阿布丹提亚帝国共同构成当代大陆格局的两极。帝国实行的军团-行省一体化制度可以有效地将国力转化为军力，其传承悠久的龙骑兵团常被视作大陆最精锐的作战部队之一。作为注重军事扩张的国家，索拉瑞斯在国际外交上也往往采用强势施压态度，与邻国尼希尔，艾瑟瑞姆，阿布丹提亚关系长期紧张。帝国尊正教为帝国国教，宗教氛围浓厚，超过八成公民是正教会信徒。索拉瑞斯帝国与忒奥西斯圣领签有单方面保证独立协议，并定期选派龙骑士接受牧首册封成为圣礼骑士。
 
 ### 历史
 
@@ -60,6 +60,40 @@
 
 ### 政治与军事
 
+索拉瑞斯帝国是世袭君主专制国家，最高统治者称**龙裔凯撒**，名出皇室自开国凯撒阿利昂以来的巨龙族血脉。凯撒即位须由忒奥西斯大牧首主持册封礼，体现君权神授原则。皇位继承由阿利昂晚年制定的《龙裔继嗣法》规定，以凯撒直系子嗣的龙血浓度为据，牧首厅主持血脉测试。十五世纪初第七代凯撒驾崩，其子嗣血统均未达标，引发了长达三十年的继承内战。现任凯撒为雷尔金二世（1440 年生，1470 年登基），是继承内战胜出者雷尔金一世之孙。这场内战不仅消耗了帝国国力，更动摇了基于血脉传承的帝权根基——雷尔金二世的皇位来自军事胜利而非血脉无争议的传承，部分军团长对其合法性的认可程度始终有限。
+
+凯撒之下设三大中央机构：**御前咨政院**为最高文官机构，主理行政与立法；**御前参谋部**为最高军官机构，主理战略与军事调度；**御使巡查院**居二者之间，定期巡查各行省的行政与军事运行，仅有上报权，处分权归凯撒。**巡查分院**作为巡查院在各行省的常驻机构，也是三大中央机构选拔人才的唯一渠道，不经行省政府体系，以隔绝地方人事影响中央。
+
+帝国最高司法权由凯撒亲掌，民事刑事案件由地方两级裁判所处理，跨行省纠纷与涉及巡查分院的案件均上报中央，由凯撒亲判。
+
+#### 军团行省制与地方治理
+
+帝国国土划为八个**军团行省**，一行省对应一军团。行省下再按地理划分为若干**行省区**。行省政府的最高长官称**行省总督**，始终由军团长兼任，先由军团内部推举候选人、再经凯撒任免，任期二十年；行省区设区政府，长官称区长。
+
+行省政府在辖区内对经济生产与行政事务享有较高的自主权，按凯撒御令完成中央指派事务，并上缴部分收入作为中央财政来源。地方司法由**行省**与**区**两级裁判所承担，处理民事刑事。战时军团军费由各行省财政自行负担，这导致八大军团的战力存在可观差异，富庶行省的军团明显胜过贫瘠者。
+
+八位行省总督每年须赴首都索尔因，在叙职大会上向凯撒当面汇报本行省一年的施政与军务。
+
+#### 军事力量
+
+帝国实行全民军事化——全国适龄男性均须定期参加军事训练，平时从事生产，战时按军团需要征召。编制以**军团**为最高单位，下设**团**、**大队**、**小队**，一团对应一行省区。军民一体化最直接的体现是地方决策机关的双重属性：行省政府战时即军团司令部，行省区政府即团司令部，各级行政人员同时为战时军官团；这一安排使帝国可以在不维持庞大常备军的前提下迅速完成动员。
+
+常规编制之外，另有三支特殊力量。**神启法术部队**于战时由各军团向辖内地方教会征调，常规调动须先报教会审核，确认不违教义后再行下达，紧急情况下可先调后审，事后由调动区域各地方教会联席裁定。**龙骑兵团**直属凯撒，因禁卫属性也称**近卫龙骑兵团**，其强大的跨地形作战能力是帝国维持西诺拉尼亚统一的关键支柱。**龙骑士团**共八位成员，皆为顶尖战士兼神启魔法师，名义上忠于凯撒，实际拥有相当大的自决权，地位基本与军团长平起平坐。
+
+龙骑士团中，由大牧首册封的**圣礼骑士**地位相对特殊——席位限一人、完全自愿，历史上有过缺位时期。圣礼骑士平时参与圣领事务，原则上承担圣领防卫，但仍是龙骑士团成员，名义上受凯撒调配。第二次阿索战争期间，时任圣礼骑士便在圣领维持中立的情况下随索拉瑞斯军队参战。圣礼骑士的相关内容可参见忒奥西斯篇军政节。
+
+#### 外交立场
+
+索拉瑞斯与阿布丹提亚帝国构成当代大陆格局的两极。在国际外交上常采取强势施压姿态，与北方尼希尔、东南卡帕尼、南方艾瑟瑞姆等邻国长期存在边境摩擦，但除阿索战争之外均未升级为正式战争。
+
+帝国与忒奥西斯圣领是大陆当代最紧密的政治组合：索拉瑞斯尊正教为国教，定期推荐龙骑士前往圣领接受册封为圣礼骑士。两国在十三世纪曾为完全的军事同盟，这一同盟直接诱发了第二次宗教改革与教会大分裂；当代关系虽已相对松散，但仍是大陆最稳定的双边关系。
+
+希尔文诺大森林与帝国北部隔冠脊山南脉相望，经由山间隘口连通。索拉瑞斯历来对希尔文诺森林资源有所谋划，曾在森林边缘进行过有限的军事行动，但未取得实质成果。当下帝国官方对民间越境偷猎偷伐长期默许：不主动追究，被精灵逮捕之后也不出手干预。
+
+#### 当代政治格局
+
+索拉瑞斯当前局势围绕两条主线展开。其一是军备重整的财政压力：三战失败削减了帝国东部农业产地，而凯撒的复仇主义路线与持续扩军同时要求大量投入，帝国财政已处于承压状态；学界有观点认为帝国正考虑对大运河下游商船增收通行费，若付诸实施将直接冲击凛冰洋—大运河—翡翠海峡的魔矿主干航线。其二是龙裔合法性危机的持续深化：龙骑士团三战几乎全程未予参战，帝国从未就此给出正式说明；若干军团长默许凯撒血统测试造假的传言在辖区流传，至今未被澄清，已在大陆各国战略层面引发了对龙骑士团实际可动员程度的重新评估。
+
 ### 经济
 
 索拉瑞斯的经济核心是冶铁与铸造业。裂境山脉丰富的铁矿资源催生了大陆最成熟的金属加工体系，武器、甲胄、农具与工具的制造水平居大陆之首，铁矿原料与各类铁制成品均是帝国最重要的出口商品。武器与甲胄的出口对大陆各国设有总量限制，配额稀少且价格高昂；农具与工具类产品限制相对宽松。帝国的出口管制更多体现为总量控制而非定向封锁——对单一国家的定向禁令意义有限，因为任何国家均可经第三方市场间接获取。
@@ -81,7 +115,7 @@
 帝国境内不存在商会组织，跨国贸易完全由军团官方垄断，不存在任何形式的民间跨国贸易。境内边境口岸有外国商会（主要为卡帕尼商会）的分部驻扎，其业务被完全限制在与当地官方军团政府进行贸易。对外贸易以卡帕尼尼卡特铸币及尼卡特汇票锚定结算。
 
 境内物流以镜心湖湖运和冠脊山脉与裂境山脉之间的狭长谷地陆运为主干，将西部镜心湖区的粮食与产出运抵首都地区和奥利提斯平原。帝国缺乏贯通东西两大人口核心区的大型河道，河运相对不发达，仅在镜心湖沿岸承担区域性贸易往来。海运方面，大星洋北部的西索拉瑞斯海岸航线贯通镜心湖湖区与帝国西南角边境城镇，是帝国西部的重要沿海补充路线。
-0:{"buildId":"_x6dImH4tBxzq56Yi8JAB","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/童年","title":"童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·上","title":"在人间·上","titleEn":"Coming of Age·In the Human World I","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·下","title":"在人间·下","titleEn":"Coming of Age·In the Human World II","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸国列志 Chorography of the Nations/索拉瑞斯","article":{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","content":"$4","titleImagePath":"/compendium/诸国列志/索拉瑞斯.webp","titleImageInsertLine":3}}]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"Ur97MjfQfkvb6ekdQ--om","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/童年","title":"童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·上","title":"在人间·上","titleEn":"Coming of Age·In the Human World I","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·下","title":"在人间·下","titleEn":"Coming of Age·In the Human World II","isArticle":true}],"isArticle":false},{"slug":"旅记 Itinerary","title":"旅记 Itinerary","children":[{"slug":"旅记 Itinerary/阿布丹提亚篇","title":"阿布丹提亚篇","titleEn":"Folios of Abundantia","isArticle":true},{"slug":"旅记 Itinerary/忒奥西斯篇","title":"忒奥西斯篇","titleEn":"Folios of Theosis","isArticle":true},{"slug":"旅记 Itinerary/希尔文诺","title":"希尔文诺篇","titleEn":"Folios of Sylvanor","isArticle":true}],"isArticle":false}],"currentSlug":"诸国列志 Chorography of the Nations/索拉瑞斯","article":{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","content":"$4","titleImagePath":"/compendium/诸国列志/索拉瑞斯.webp","titleImageInsertLine":3}}]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/3548cb099ad61741.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/f81039c8341e0685.js","async":true}]
 7:["$","script","script-2",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]

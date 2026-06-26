@@ -12,9 +12,9 @@ f:I[63491,["/Nurania/next/static/chunks/911bbb02b1c4cdfb.js"],"default"]
 :HL["/Nurania/next/static/chunks/1fd6e82d1e4b3e96.css","style"]
 :HL["/Nurania/next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Nurania/next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"_x6dImH4tBxzq56Yi8JAB","c":["","compendium","article","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations","%E5%B8%8C%E5%B0%94%E6%96%87%E8%AF%BA",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations/%E5%B8%8C%E5%B0%94%E6%96%87%E8%AF%BA","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/1fd6e82d1e4b3e96.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/6e3ce8e0c91f6804.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/8fc0ac8bbc5d5478.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/3548cb099ad61741.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/f81039c8341e0685.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
+0:{"P":null,"b":"Ur97MjfQfkvb6ekdQ--om","c":["","compendium","article","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations","%E5%B8%8C%E5%B0%94%E6%96%87%E8%AF%BA",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9B%BD%E5%88%97%E5%BF%97%20Chorography%20of%20the%20Nations/%E5%B8%8C%E5%B0%94%E6%96%87%E8%AF%BA","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/1fd6e82d1e4b3e96.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/6e3ce8e0c91f6804.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":["$","base",null,{"href":"/Nurania/"}]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/8fc0ac8bbc5d5478.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/3548cb099ad61741.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/f81039c8341e0685.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[]],"S":true}
 10:I[53360,["/Nurania/next/static/chunks/6e3ce8e0c91f6804.js","/Nurania/next/static/chunks/3548cb099ad61741.js","/Nurania/next/static/chunks/f81039c8341e0685.js","/Nurania/next/static/chunks/088430588bf85aac.js"],"default"]
-11:T2651,
+11:T3d04,
 > “森林的诗歌永不停歇。”
 
 
@@ -24,9 +24,9 @@ f:I[63491,["/Nurania/next/static/chunks/911bbb02b1c4cdfb.js"],"default"]
 
 精灵族被认为是诺拉尼亚大陆最早出现的智慧族群之一，其起源年代已难以确证，但最为保守的推断亦至少可追溯至五千年前。在相当漫长的历史时期内，希尔文诺始终与人类社会保持隔绝，其存在亦未被人类文明所系统记录。大陆历1132年，艾瑟瑞姆的一支测绘考察队在冠脊山脉任务中误入希尔文诺大森林，并与当地精灵氏族部落发生首次直接接触，这一古老文明方才进入人类世界的认知范围。此后，希尔文诺与人类诸国建立了形式上的外交关系，但其对外接触始终极为有限。大多数精灵部落仍对外族保持高度排斥态度，数百年来，获准进入希尔文诺的人类始终寥寥无几。
 
-希尔文诺精灵的社会与文化传统高度保守，其制度体系普遍被认为植根于希尔文诺大圣树的信仰结构之上。在精灵的观念中，个体被视为圣树的叶片，而各氏族部落则象征其分枝。希尔文诺每十年召开一次万叶庭集会，借助圣树魔法，以所有精灵直接参与的方式商议重大事务，并轮选叶络枢机院的长老席位，负责处理日常行政与对外事务。关于各氏族在这一体系中的实际影响力分布，以及内部决策过程的具体运作方式，人类学界所知始终有限。随着与外界社会的有限接触，希尔文诺原有的文化结构亦不可避免地受到影响，人类的艺术形式、社会观念与魔法技术产物流入森林内部，引发了部分年轻氏族对希尔文诺进一步开放的讨论。一些精灵因此选择或被迫离开森林，因失去使用圣树魔法的能力而被称为“落叶”，其数量与去向迄今缺乏系统记录。
+希尔文诺精灵的社会与文化传统高度保守，其制度体系普遍被认为植根于希尔文诺大圣树的信仰结构之上。在精灵的观念中，个体被视为圣树的叶片，而各氏族部落则象征其分枝。希尔文诺每三十年召开一次万叶庭集会，各氏族族长与长老亲赴希尔文尼亚，借助圣树魔法令全体精灵同步旁听，并以全体投票的形式决定议案是否推行，同时轮选叶络枢机院的长老席位，负责处理日常行政与对外事务。关于各氏族在这一体系中的实际影响力分布，人类学界所知始终有限。随着与外界社会的有限接触，希尔文诺原有的文化结构亦不可避免地受到影响，人类的艺术形式、社会观念与魔法技术产物流入森林内部，引发了部分年轻氏族对希尔文诺进一步开放的讨论。一些精灵因此选择或被迫离开森林，因失去使用圣树魔法的能力而被称为“落叶”，其数量与去向迄今缺乏系统记录。
 
-在国际政治层面，希尔文诺因其地理位置与长期中立立场，被各国视为大陆事务中的天然缓冲区与仲裁者。叶络枢机院于1203年在大森林南部边界设立的林缘议厅，已被诸国默认为举行国际会谈与缔结条约的指定场所。过去数个世纪间，包括三次阿索战争的停战和约在内，多项重要国际协定均在枢机院长老代表的见证下完成。尽管历史上各国均曾对希尔文诺的战略价值有所觊觎，但彼此间的制衡与对精灵实力的不确定评估，使相关企图始终停留在试探层面。索拉瑞斯帝国曾进行过有限的森林边缘军事行动，但未取得任何实质成果，此后各国对精灵军事能力的认知长期处于模糊状态。凭借这种难以评估的威慑力与稳定的中立姿态，希尔文诺在大陆国际秩序中逐步确立了其独特而稳固的地位。
+在国际政治层面，希尔文诺因其地理位置与长期中立立场，被各国视为大陆事务中的天然缓冲区与仲裁者。叶络枢机院于1203年在大森林东南边界设立的林缘议厅，已被诸国默认为举行国际会谈与缔结条约的指定场所。过去数个世纪间，包括三次阿索战争的停战和约在内，多项重要国际协定均在枢机院长老代表的见证下完成。尽管历史上各国均曾对希尔文诺的战略价值有所觊觎，但彼此间的制衡与对精灵实力的不确定评估，使相关企图始终停留在试探层面。索拉瑞斯帝国曾进行过有限的森林边缘军事行动，但未取得任何实质成果，此后各国对精灵军事能力的认知长期处于模糊状态。凭借这种难以评估的威慑力与稳定的中立姿态，希尔文诺在大陆国际秩序中逐步确立了其独特而稳固的地位。
 
 ### 历史
 
@@ -46,7 +46,51 @@ f:I[63491,["/Nurania/next/static/chunks/911bbb02b1c4cdfb.js"],"default"]
 
 希尔文诺的内部社会结构、文化传统与精灵族的日常生活方式，因其高度的封闭性而极难被人类研究者直接观察。现有认知大多来自"落叶"精灵的转述，以及林缘议厅对外接触中的有限信息，其可靠性与代表性均存在相当的不确定性。
 
+#### 希尔文诺七诫
+
+希尔文诺子民被视为圣树的叶片，圣树对叶片的教化构成了精灵族个人信条的核心，沉淀为七条自幼诵习、贯穿一生的诫律，统称希尔文诺七诫。诫条采用古老的训诫体例，每条由一句取自根、叶、雨露、年轮等森林意象的题首，与一句以"汝须"起句的训诲构成。七诫被认为直接出自大圣树，由历代万叶庭口传维系。
+
+第一诫：言出如根入土 — "汝须诚实：不可虚言、不可收回。"
+
+第二诫：勿以巨木碾蕨 — "汝须公正：不得以强凌弱、以长欺幼。"
+
+第三诫：雨露之恩皆偿 — "汝须感恩：授于汝者，汝终须归回。"
+
+第四诫：所诺刻于年轮 — "汝须守信：风雨不可磨，时日不可废。"
+
+第五诫：一叶不贪朝露 — "汝须知足：不囤奢靡之物，不溺片刻之欢。"
+
+第六诫：光照众木无偏 — "汝须等视：蕨草与橡树同沐，守门人与族长同语。"
+
+第七诫：枝叶不忘其本 — "汝须铭记：心系圣树所在，此身终归于根。"
+
+在圣树荫蔽下，希尔文诺子民对七诫的遵循几近自然之事；然而进入人类社会后，原本无需付出代价的诫条逐一变成了须以意志维系的承诺——这是落叶精灵之间反复被提及的话题之一。
+
 ### 政治与军事
+
+本节信息主要来源于林缘议厅及卡里司泰的跨族接触记录，以及数位落叶精灵的直接描述，三者所能提供的视角均极为有限，因此本节存在大量未知、模糊与缺漏。
+
+#### 万叶庭与叶络枢机院
+
+精灵族最高权力机构称**万叶庭**，每三十年召开一次，集会地点位于希尔文尼亚。届时各氏族族长与长老亲赴该地，与叶络枢机院诸长老共同议事；全体精灵借助圣树魔法与集会同步连接，以旁听者身份参与其中。万叶庭所提出的议案，由全体精灵投票表决后方可推行。以上机制综合数位落叶精灵陈述整理而来，精灵族内部并不视之为机密；各氏族在万叶庭中的实际影响力分布，则至今不为外界所知。
+
+万叶庭的另一重要职能是轮选**叶络枢机院**的长老席位。叶络枢机院为希尔文诺日常行政与对外事务机构，席位约十余个，任期延续至下次万叶庭，得票最多的长老出任**枢机院司院**，即枢机院首席。枢机院长老同时承担圣树信仰的宗教职责，但其具体运作方式外界几乎无从了解。希尔文诺跨氏族事务由枢机院居中协调；各氏族在本族领地内保持高度自治，各有族长与长老主持，具体氏族数量不详。
+
+#### 外交立场
+
+希尔文诺以高度的独立性与封闭性著称，极少主动参与人类国家之间的政治博弈，近几个世纪以来主要以调停者或见证人身份在国际舞台上活动。
+
+人类各国对希尔文诺的态度因自身利益而各有侧重。艾瑟瑞姆长期申请进入精灵领地未果，在卡里司泰专设王家研究院特别研究所从事精灵社会学研究，是大陆对精灵研究规模最大的人类国家。卡帕尼对希尔文诺持纯粹贸易立场，往来可观，不涉政治主张。阿布丹提亚对其调停人地位表示欢迎，维持中立邦交。忒奥西斯在精灵事务上一贯谨慎，保持中立，圣约瑟商会则照常参与人类-精灵贸易往来。索拉瑞斯历来对希尔文诺大森林的资源与战略价值有所图谋，官方对民间越境偷猎偷伐长期默许。尼希尔与希尔文诺几乎没有直接外交关系，也不存在正式贸易渠道。
+
+#### 林缘议厅
+
+**林缘议厅**由叶络枢机院主导建立，1203 年落成于冠脊山脉东南脉隘口。其建立源于两方需求的契合：精灵族参与大陆事务调停的意愿，与各国对可信中立谈判场所的长期需求恰好相互迎合。林缘议厅建成后迅速成为大陆重大国际会谈与条约缔结的指定场所，每次会谈均由叶络枢机院至少两位长老出席，担任主持与见证人，会后发布一式多份公文存档。三次阿索战争停战和约、丹提亚-瑞姆技术协约等大陆历史上重要的国际协定几乎均在此签署；三百余年来，经林缘议厅见证的协定从未出现单方撕毁的情形，其公信力与权威已为各国所普遍认可。议厅附属的**对外贸易所**进而推动了自由城市卡里司泰的建立（详见经济节）。
+
+#### 当代格局
+
+当代希尔文诺内部面临的最显著变化，是数个世纪以来与人类世界接触加深所带来的社会冲击。贸易、外交与文化交流在精灵社会内部导致了明显分歧：部分氏族倡导进一步开放，另一部分则视之为对传统秩序与圣树信仰的侵蚀，坚持保守立场。这一分歧随近一个世纪以来落叶现象的明显加速而愈发凸显——进入人类社会的精灵族人数逐年增长，其成因是自愿出走还是某种内部结构性压力所致，在人类学界至今仍是未解的研究课题。
+
+各国对希尔文诺战略价值的觊觎，至今未能转化为任何实质行动，原因有二：其一，各国之间的相互制衡使单方面的扩张企图难以实施；其二，精灵族军事能力高度不透明，各国始终无法做出可靠的战略评估。关于后者，索拉瑞斯是唯一尝试以军事手段试探希尔文诺边界的人类国家，但其行动以部队被轻松全歼告终，未留下任何有助于推断精灵战力的情报。落叶精灵离开大森林后失去圣树魔法，也使人类学界无从借此研究精灵魔法体系。综合已有记录，当前学界的共识是希尔文诺的军事实力只会高于各国的估计，不会更低。
 
 ### 经济
 
