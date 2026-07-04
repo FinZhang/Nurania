@@ -7,8 +7,14 @@ import { parseFoldBlocks } from "@/lib/fold-blocks";
 import ArticleMarkdown from "./ArticleMarkdown";
 import { ChevronDown, ChevronRight } from "lucide-react";
 
-/** 吸顶时的 top 值（与 tailwind top-16 一致，单位 px） */
-const STICKY_TOP_PX = 64;
+/** 吸顶 top 的兜底值（宽屏 top-16 = 64px），实际值从按钮 computed style 读取以适配窄屏页眉高度 */
+const STICKY_TOP_FALLBACK_PX = 64;
+
+/** 读取按钮当前生效的 sticky top（top-14 md:top-16 随视口变化） */
+function getStickyTop(btn: HTMLElement): number {
+  const t = parseFloat(getComputedStyle(btn).top);
+  return Number.isFinite(t) ? t : STICKY_TOP_FALLBACK_PX;
+}
 
 /** 从可能带 Markdown 的标题中取出纯文本（如 "### 神启学派-祷言" -> "神启学派-祷言"） */
 function getPlainTitle(mdTitle: string): string {
@@ -60,18 +66,18 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
   const blocks = parseFoldBlocks(content);
   const [expanded, setExpanded] = useState<Record<number, boolean>>({});
   const sectionRefsRef = useRef<Record<number, HTMLElement | null>>({});
-  /** 吸顶状态下收起时，待滚动的折叠块 key，使收起后标题停留在吸顶位置 */
-  const collapsingStickyKeyRef = useRef<number | null>(null);
+  /** 吸顶状态下收起时，待滚动的折叠块 key 与当时的吸顶 top（收起后 sticky 失效读不到），使收起后标题停留在吸顶位置 */
+  const collapsingStickyRef = useRef<{ key: number; top: number } | null>(null);
 
   useEffect(() => {
-    const key = collapsingStickyKeyRef.current;
-    if (key == null) return;
-    collapsingStickyKeyRef.current = null;
-    const section = sectionRefsRef.current[key];
+    const pending = collapsingStickyRef.current;
+    if (pending == null) return;
+    collapsingStickyRef.current = null;
+    const section = sectionRefsRef.current[pending.key];
     const btn = section?.querySelector("button");
     if (btn) {
       const rect = btn.getBoundingClientRect();
-      const delta = rect.top - STICKY_TOP_PX;
+      const delta = rect.top - pending.top;
       if (Math.abs(delta) > 0.5) window.scrollBy(0, delta);
     }
   }, [expanded]);
@@ -84,9 +90,10 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
         const btn = section.querySelector("button");
         const contentEl = section.lastElementChild as HTMLElement | null;
         if (btn && contentEl && contentEl !== btn) {
+          const stickyTop = getStickyTop(btn);
           const rect = btn.getBoundingClientRect();
-          const isSticky = rect.top >= STICKY_TOP_PX - 4 && rect.top <= STICKY_TOP_PX + 4;
-          if (isSticky) collapsingStickyKeyRef.current = index;
+          const isSticky = rect.top >= stickyTop - 4 && rect.top <= stickyTop + 4;
+          if (isSticky) collapsingStickyRef.current = { key: index, top: stickyTop };
         }
       }
     }
@@ -130,7 +137,7 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
               onClick={() => toggle(key)}
               className={`w-full text-left py-3 px-4 md:px-5 font-medium text-[var(--ink)] transition-colors hover:bg-[var(--parchment-aged)]/20 shrink-0 ${
                 isExpanded
-                  ? "sticky z-10 top-16 bg-[var(--parchment-light)]/95 backdrop-blur-sm border-b border-[var(--parchment-aged)] shadow-sm rounded-t-lg"
+                  ? "sticky z-10 top-14 md:top-16 bg-[var(--parchment-light)]/95 backdrop-blur-sm border-b border-[var(--parchment-aged)] shadow-sm rounded-t-lg"
                   : ""
               }`}
               aria-expanded={isExpanded}

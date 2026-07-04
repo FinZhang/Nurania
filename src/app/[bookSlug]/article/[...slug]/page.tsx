@@ -25,9 +25,19 @@ interface Props {
   params: Promise<{ bookSlug: string; slug: string[] }>;
 }
 
+/** URL 段解码：非法编码（如 %zz）返回 null，走 404 而非抛错 */
+function decodeSlug(slugParts: string[]): string | null {
+  try {
+    return slugParts.map((s) => decodeURIComponent(s)).join("/");
+  } catch {
+    return null;
+  }
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { bookSlug, slug: slugParts } = await params;
-  const slug = slugParts.map((s) => decodeURIComponent(s)).join("/");
+  const slug = decodeSlug(slugParts);
+  if (!slug) return {};
 
   const book = getBookBySlug(bookSlug);
   if (!book) return {};
@@ -46,7 +56,8 @@ export default async function ArticlePage({ params }: Props) {
   const book = getBookBySlug(bookSlug);
   if (!book || !slugParts?.length) notFound();
 
-  const slug = slugParts.map((s) => decodeURIComponent(s)).join("/");
+  const slug = decodeSlug(slugParts);
+  if (!slug) notFound();
   const article = getArticleBySlug(bookSlug, slug);
   if (!article) notFound();
 

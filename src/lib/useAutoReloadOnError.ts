@@ -19,9 +19,14 @@ export function useAutoReloadOnError(error: unknown, logLabel: string): boolean 
     if (process.env.NODE_ENV !== "production") return;
     if (typeof window === "undefined") return;
     const now = Date.now();
-    const last = Number(sessionStorage.getItem("nurania-last-auto-reload") || "0");
-    if (now - last < AUTO_RELOAD_THROTTLE_MS) return;
-    sessionStorage.setItem("nurania-last-auto-reload", String(now));
+    // sessionStorage 不可用（如部分隐私模式会抛异常）时无法节流，宁可不自动重载也不冒死循环风险
+    try {
+      const last = Number(sessionStorage.getItem("nurania-last-auto-reload") || "0");
+      if (now - last < AUTO_RELOAD_THROTTLE_MS) return;
+      sessionStorage.setItem("nurania-last-auto-reload", String(now));
+    } catch {
+      return;
+    }
     // 刻意的一次性瞬时过渡：切到「正在自动重新加载…」提示后随即 reload，不存在级联渲染问题
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setAutoReloading(true);

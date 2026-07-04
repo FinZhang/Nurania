@@ -31,9 +31,16 @@ export function extractH3Headings(content: string): H3Heading[] {
   const result: H3Heading[] = [];
   const idCount = new Map<string, number>();
   const lines = content.split("\n");
+  let inCodeFence = false;
 
   for (const line of lines) {
     const trimmed = line.trim();
+    // 代码围栏（``` / ~~~）内的 "###" 是代码而非标题，跳过
+    if (/^(```|~~~)/.test(trimmed)) {
+      inCodeFence = !inCodeFence;
+      continue;
+    }
+    if (inCodeFence) continue;
     const match = trimmed.match(/^###\s+(.+)$/);
     if (!match) continue;
     const raw = match[1].trim();

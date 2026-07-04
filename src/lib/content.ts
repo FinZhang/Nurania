@@ -5,6 +5,7 @@
 
 import fs from "fs";
 import path from "path";
+import { spawnSync } from "child_process";
 import matter from "gray-matter";
 import type { ArticleEntry, ArticleContent } from "./content-types";
 import { flattenArticles } from "./content-types";
@@ -154,25 +155,102 @@ function collectArticlePaths(dirPath: string, baseSlug: string): { slug: string;
   return result;
 }
 
-/** 按文章文件最后修改时间取最近 5 篇 */
+/**
+ * data 下所有文件的 git 最后提交时间（仓库相对 posix 路径 -> ISO 时间）。
+ * 文件 mtime 在 clone/checkout 后会整体重置为检出时间，不能反映真实更新日期，
+ * 因此「最近更新」以 git 提交时间为准；工作区有未提交改动的文件从表中剔除，回退用 mtime。
+ * undefined = 未初始化；null = git 不可用（此时全部回退 mtime）。
+ */
+let gitDatesCache: Map<string, string> | null | undefined;
+
+function stripGitQuotes(p: string): string {
+  return p.replace(/^"(.*)"$/, "$1");
+}
+
+function getGitLastCommitDates(): Map<string, string> | null {
+  if (gitDatesCache !== undefined) return gitDatesCache;
+  gitDatesCache = null;
+  try {
+    const gitOpts = { cwd: process.cwd(), encoding: "utf8" as const, windowsHide: true, maxBuffer: 32 * 1024 * 1024 };
+    const log = spawnSync(
+      "git",
+      ["-c", "core.quotepath=false", "log", "--pretty=format:%x00%cI", "--name-only", "--", "data"],
+      gitOpts
+    );
+    if (log.status !== 0 || typeof log.stdout !== "string") return null;
+
+    // 输出按提交倒序：每块首行为 \0+ISO 时间，其后为该次提交涉及的文件；首次出现即最后提交时间
+    const map = new Map<string, string>();
+    let currentDate = "";
+    for (const rawLine of log.stdout.split("\n")) {
+      const line = rawLine.replace(/\r$/, "");
+      if (line.startsWith("\0")) {
+        currentDate = line.slice(1).trim();
+        continue;
+      }
+      if (!line || !currentDate) continue;
+      const p = stripGitQuotes(line);
+      if (!map.has(p)) map.set(p, currentDate);
+    }
+
+    const status = spawnSync(
+      "git",
+      ["-c", "core.quotepath=false", "status", "--porcelain", "--", "data"],
+      gitOpts
+    );
+    if (status.status === 0 && typeof status.stdout === "string") {
+      for (const rawLine of status.stdout.split("\n")) {
+        const entry = rawLine.replace(/\r$/, "").slice(3);
+        // 重命名条目形如 "old -> new"，两侧都按脏文件处理
+        for (const part of entry.split(" -> ")) {
+          const p = stripGitQuotes(part.trim());
+          if (p) map.delete(p);
+        }
+      }
+    }
+    gitDatesCache = map;
+  } catch {
+    gitDatesCache = null;
+  }
+  return gitDatesCache;
+}
+
+/** 单个文件的更新时间：git 最后提交时间优先，无记录（未提交/无 git）时回退 mtime */
+function getUpdatedAt(filePath: string): Date {
+  const gitDates = getGitLastCommitDates();
+  if (gitDates) {
+    const relPosix = path.relative(process.cwd(), filePath).split(path.sep).join("/");
+    const iso = gitDates.get(relPosix);
+    if (iso) {
+      const d = new Date(iso);
+      if (!Number.isNaN(d.getTime())) return d;
+    }
+  }
+  return fs.statSync(filePath).mtime;
+}
+
+/** 按文章最后更新时间（git 提交时间，回退 mtime）取最近 5 篇 */
 export function getRecentArticles(bookSlug: string, limit = 5): RecentArticle[] {
   const dataDir = getDataDir(bookSlug);
   const all = collectArticlePaths(dataDir, "");
-  const withMtime = all
+  const withDate = all
     .map(({ slug, filePath }) => {
-      const stat = fs.statSync(filePath);
       const baseName = path.basename(filePath, ".md");
       const { title, titleEn } = getTitleFromFile(filePath, baseName);
       return {
         slug,
         title,
         titleEn,
-        updatedAt: stat.mtime,
+        updatedAt: getUpdatedAt(filePath),
       };
     })
-    .sort((a, b) => b.updatedAt.getTime() - a.updatedAt.getTime())
+    .sort(
+      (a, b) =>
+        b.updatedAt.getTime() - a.updatedAt.getTime() ||
+        a.slug.localeCompare(b.slug, "zh-CN")
+    )
     .slice(0, limit);
-  return withMtime.map(({ slug, title, titleEn, updatedAt }) => ({
+  return withDate.map(({ slug, title, titleEn, updatedAt }) => ({
     slug,
     title,
     titleEn,
@@ -209,8 +287,11 @@ function parseTitleImage(content: string): {
 }
 
 export function getArticleBySlug(bookSlug: string, slug: string): ArticleContent | null {
-  const filePath = path.join(getDataDir(bookSlug), `${slug}.md`);
+  const dataDir = getDataDir(bookSlug);
+  const filePath = path.resolve(dataDir, `${slug}.md`);
 
+  // slug 来自 URL：拒绝解析到 dataDir 之外的路径（如含 ".." 的穿越）
+  if (!filePath.startsWith(path.resolve(dataDir) + path.sep)) return null;
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, "utf-8");

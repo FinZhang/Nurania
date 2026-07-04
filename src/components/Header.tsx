@@ -73,9 +73,9 @@ export default function Header() {
                 本书目录
               </button>
             )}
-            {bookSlug && (
+            {book && (
               <a
-                href={`${BASE_PATH}/${bookSlug}/toc`}
+                href={`${BASE_PATH}/${book.slug}/toc`}
                 className={`text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors ${isArticlePage ? "hidden md:inline" : ""}`}
               >
                 本书目录

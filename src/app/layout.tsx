@@ -29,9 +29,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <head>
-        <base href="/Nurania/" />
-      </head>
       <body
         className={`${cormorant.variable} ${cinzel.variable} antialiased parchment-texture min-h-screen flex flex-col`}
         suppressHydrationWarning

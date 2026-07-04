@@ -13,18 +13,37 @@ interface Props {
   children: ReactNode;
 }
 
+function normalizeText(s: string): string {
+  return s.replace(/\s+/g, " ").trim();
+}
+
+/**
+ * 按标题文本匹配分配 id，而非按位置：DOM 中的 h3 数量可能少于提取结果
+ * （折叠块未展开时其内容不渲染），按位置分配会让后续锚点整体错位。
+ * 题图文章宽/窄屏两套 DOM 会让同一标题出现两次：同名 id 队列循环分配，
+ * 点击跳转时由 ArticleLayout 在同 id 候选中选取可见元素。
+ */
 function assignH3Ids(container: HTMLDivElement, headings: H3Heading[]) {
   const h3s = container.querySelectorAll<HTMLHeadingElement>("h3");
   h3s.forEach((el) => {
     el.removeAttribute("id");
   });
   if (headings.length === 0) return;
-  const n = Math.min(h3s.length, headings.length);
-  // 带题图时可能同时存在两套 DOM（如 md:hidden + hidden md:block），后一套为当前视口可见；将 id 赋给最后 n 个 h3，保证可见的那套有正确 id
-  const start = h3s.length - n;
-  for (let i = 0; i < n; i++) {
-    h3s[start + i].id = headings[i].id;
+
+  const queues = new Map<string, { ids: string[]; next: number }>();
+  for (const h of headings) {
+    const key = normalizeText(h.text);
+    const q = queues.get(key);
+    if (q) q.ids.push(h.id);
+    else queues.set(key, { ids: [h.id], next: 0 });
   }
+
+  h3s.forEach((el) => {
+    const q = queues.get(normalizeText(el.textContent ?? ""));
+    if (!q) return;
+    el.id = q.ids[q.next % q.ids.length];
+    q.next += 1;
+  });
 }
 
 export default function ArticleHeadingIdInjector({ headings, children }: Props) {

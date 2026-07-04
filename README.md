@@ -41,7 +41,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 npm run deploy:push
 ```
 
-该命令会依次执行：**build** → **deploy:rewrite** → 进入 `out` 执行 **git add .**、**git commit**（带日期）、**git push origin HEAD:web-release**。若无变更会跳过 commit/push。
+该命令会依次执行：**build** → **deploy:rewrite** → 进入 `out` 执行 **git add .**、**git commit**（带日期）、**git push origin HEAD:web-release**。若无变更会跳过 commit，但仍会 push（可补投递上次推送失败的提交）。若 `out` 尚未初始化为 Git 仓库，脚本会报错并给出初始化步骤。
 
 ### 手动部署
 

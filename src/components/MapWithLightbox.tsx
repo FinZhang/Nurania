@@ -19,11 +19,21 @@ export default function MapWithLightbox() {
   const scaleRef = useRef(scale);
 
   const handleOpen = () => setLightboxOpen(true);
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     setLightboxOpen(false);
     setScale(1.2);
     setPan({ x: 0, y: 0 });
-  };
+  }, []);
+
+  /** 灯箱打开时按 Escape 关闭 */
+  useEffect(() => {
+    if (!lightboxOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") handleClose();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [lightboxOpen, handleClose]);
 
   const panRef = useRef(pan);
   const mapTransformRef = useRef<HTMLDivElement | null>(null);

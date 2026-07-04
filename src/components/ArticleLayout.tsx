@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import Image from "next/image";
@@ -52,9 +52,14 @@ export default function ArticleLayout({
   /** 窄屏打开侧栏后恢复点击前的滚动位置，避免被 Next 或浏览器滚到顶部 */
   useEffect(() => {
     if (!mobileNavOpen) return;
-    const raw = typeof window !== "undefined" ? sessionStorage.getItem("nurania-scroll-before-sidebar") : null;
+    let raw: string | null = null;
+    try {
+      raw = sessionStorage.getItem("nurania-scroll-before-sidebar");
+      if (raw != null) sessionStorage.removeItem("nurania-scroll-before-sidebar");
+    } catch {
+      return;
+    }
     if (raw == null) return;
-    sessionStorage.removeItem("nurania-scroll-before-sidebar");
     const y = parseInt(raw, 10);
     if (Number.isNaN(y)) return;
     const id = requestAnimationFrame(() => {
@@ -63,10 +68,20 @@ export default function ArticleLayout({
     return () => cancelAnimationFrame(id);
   }, [mobileNavOpen]);
 
-  const closeMobileNav = () => {
+  const closeMobileNav = useCallback(() => {
     // 移除 ?sidebar=1，mobileNavOpen 随 URL 派生为 false
     if (pathname) router.replace(pathname, { scroll: false });
-  };
+  }, [pathname, router]);
+
+  /** 侧栏打开时按 Escape 关闭 */
+  useEffect(() => {
+    if (!mobileNavOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeMobileNav();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [mobileNavOpen, closeMobileNav]);
 
   /** 导航栏内当前选中项居中（宽屏非悬停时，或移动端打开时） */
   const scrollActiveIntoView = () => {
