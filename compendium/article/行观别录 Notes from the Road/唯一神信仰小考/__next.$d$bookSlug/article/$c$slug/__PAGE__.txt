@@ -2,7 +2,7 @@
 2:"$Sreact.suspense"
 3:I[53360,["/Nurania/next/static/chunks/27ac9b8ec347c021.js","/Nurania/next/static/chunks/3548cb099ad61741.js","/Nurania/next/static/chunks/f81039c8341e0685.js","/Nurania/next/static/chunks/088430588bf85aac.js"],"default"]
 9:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-4:T6955,
+4:T6971,
 进入圣领已经一季有余，这阵子让笔者印象最深的是，在这片土地上人们的时间是和信仰紧紧绑定在一起的。每五日，礼拜的钟声便把市集与农事叫停一次；年季的名称是垂恩和神焰，不是清和和炎阳；问起今天是哪一天，得到的回答常常是"离某个节庆还有几日"。在圣领，历法不只是记事的工具，也是宗教渗入日常生活的最好例子。
 
 笔者没有宗教信仰，这一点在此处预先说明，提请读者注意。唯一神信仰的纲要，笔者在其他几篇有关大陆宗教的文章里已经写过，而且写得尽量公正客观；本篇收录的是则是纲要之外的细目：死后去处的等第、一生的功课、审对神启魔法的垄断、同一部圣典的两种读法，诸如此类，供有兴趣的读者与其他宗教文章对照参阅。
@@ -83,9 +83,9 @@
 
 ### 附录二 索菲亚圣典（节选）
 
-### 创世录
+#### 创世录
 
-### 第一章
+##### 第一章
 
 1 起初，天界之外，尽都是虚；虚充满各处，黑暗笼罩，别无一物。 2 神从太初就有，住在天界；神的目光运行在混沌之上。 3 神说："要有地。"神就从虚中分出地元素，聚成土壤，铺成大地；神看着是好的。 4 神说："要有水。"神从虚中分出水元素，注成江海，引成河湖；神看着是好的。 5 神说："要有风。"神从虚中分出风元素，展成天空，充满大气；神看着是好的。 6 神说："要有火。"神从虚中分出火元素，万物就都动起来：山岭隆起，谷壑裂开，云气聚拢，大雨降下；神看着是好的。
 
@@ -95,21 +95,21 @@
 
 13 末了神造人。人却是活物中最蒙昧、最软弱的：没有草木的深根，没有走兽的厚皮和利爪，赤身站在严寒饥饿之中，不能自存。 14 神怜悯他们，说："我要把我权柄的一份，分给我的儿女。" 15 神就把智性分给人，叫人能思想、能记忆、能编织术式；又把亲和之力分给人，叫人能觉察大地间的四元素，驱使它们。 16 神对人说："这力是我借给你们的，不是赐给你们的。你们要照我的教诲用它，不可僭越。" 17 这是神与人立约的起头，也是人负债的起头。
 
-### 第二章
+##### 第二章
 
 1 那时人虽有了权柄，却不知道怎样使用；神就亲自降临现界，行走在大地上。 2 神的形象无人能描述；祂向各人显现，都照那人心里最尊崇的样式，所以众人所见的各不相同。 3 有见祂是老者的，有见祂是妇人的，其实都是同一位神。
 
 4 神行走四日，把教诲传给跟随祂的人；祂拣选了约翰、伊琳娜、约瑟、保罗四个人随行，把前四日的教化分别交托他们。 5 到第五日，神说："我在地上的工成了，教诲已经交托我的仆人。"说了这话，就升回天界。 6 从此定第五日为人向神礼拜的日子；神所拣选的四人，后世称为四使徒。
 
-### 第七章
+##### 第七章
 
 22 当神造活物的时候，曾取自己的一滴血，造了世上最初的智慧之族，就是巨龙。 23 巨龙是神直系的血脉，生来就承受神的权柄；它们的力本出于神，不用借，也不欠债。 24 所以凡与龙立契、行龙之法术的，不算僭越，也不算负债：这是神所喜悦的。
 
 *笔者注：此第七章成文于大陆历760年，正教会第四次都主教会议召开前后。牧首厅宣布大天使盖昂在诺万尼斯元素枯竭事件后降临于圣城索菲亚，传达神意，《创世录》遂新添一章。诺万尼斯流放之刑于同年建立，后被索拉瑞斯借鉴成为帝国极刑之一。*
 
-### 弥赛亚记
+#### 弥赛亚记
 
-### 第三章
+##### 第三章
 
 1 神在世的日子，拣选约翰，称他作先知，又立他作弥赛亚，把深奥的教诲交托给他。 2 神对约翰说："你要听，也要叫世人听见。 3 凡受这权柄之惠的，或是亲手行了，或是因人所行的得了益处，都是欠我债的；这债是人生来就背负的，名叫宿债。 4 你们凭自己还不清这债。惟有信我、遵行我教诲的，我必免了他的债，这就称为义。 5 凡称了义的，死后必在冥界得安息，等候轮回的日子，重回现界。
 
@@ -117,50 +117,50 @@
 
 12 至于其余的罪，无论大小，你们若犯了，就当求赦免；凡认罪求赦的，我必不轻看。 13 那日你们各人都要站在冥界之门，在我使者面前受审判。 14 站立得住的，得享安息，等候新的轮回；站立不住的，就交给虚界。 15 所以你们当谨守我的话，如同谨守性命。"
 
-### 神言书
+#### 神言书
 
-### 第二章
+##### 第二章
 
 9 神论到祂所借出的力，晓谕众人说： 10 "这力不是你们自己的，乃是我的；我借给你们用，你们当存敬畏的心领受。 11 你们行这力，当先在我仆人的手下受教，学了才可行；不可任意妄为，也不可为私欲行它。 12 你们行这力，要为我的名，为护卫正信的人，为惩治罪人与悖逆的；这样行的，就是谨；不这样行的，就是不谨，是三样大罪的头一样。
 
 13 你们要听那警戒的话：凡在一处屡屡妄用这力的，那地的元素必渐渐稀薄，流出去不再回来。 14 用得越多，那地越枯；到了尽头，元素凝滞不动，那地就成了死地，活物不能存留——这是妄用我权柄的报应。 15 你们看见那枯竭之地，就当想起末后的日子，心里惧怕。 16 至于那日子几时来到，没有人知道，惟有神知道；所以要节制，要敬畏：宁可少用，不可滥用。"
 
-### 箴言集
+#### 箴言集
 
-### 第十五章
+##### 第十五章
 
 1 敬畏神，是智慧的开端；认清自己的亏欠，是智慧的根基。 2 智慧人省察己过，如照镜自见其面；愚昧人遮掩己过，必不亨通。 3 诚实的口，为神所喜悦；虚谎的舌，为神所憎恶。 4 勤劳的手必得饱足，懒惰的人必受穷乏。 5 骄傲在败坏以先，谦卑在尊荣以前。 6 知足的人心里常乐，贪婪的人昼夜不安。
 
 7 你要孝敬父母，如同敬神；要爱邻舍，如同爱自己。 8 不可贪恋不属你的，不可夺取别人的；不可行奸淫，不可无故杀人。 9 义人虽死，他的名必存留；恶人虽活，他的路必灭没。 10 你手中若有余，就当分给缺乏的；你口中若有话，就当说诚实的。 11 这些不是难行的道，乃是近在你心里、你口里的；你若遵行，就必得福。
 
-### 四福音
+#### 四福音
 
-### 约翰福音 第十四章
+##### 约翰福音 第十四章
 
 1 约翰既受了神的教诲，神向他显现，颁下圣诏说："从此，你要叫世人都称颂我的名。" 2 约翰就在现界立起头一座教会，招聚信的人，把从神领受的教诲传给他们。 3 后来约翰为道受逼迫，被钉在十字架上；他在架上仍传讲神的道，一昼一夜口不停息，听见的人都稀奇。 4 到了午夜前一刻，约翰说："我在地上的事完成了。"说了这话，气就断了；他的魂径直升入天界。
 
-### 伊琳娜福音 第五章
+##### 伊琳娜福音 第五章
 
 1 伊琳娜与约瑟结为夫妻，他们的婚姻蒙神祝福，作了世人相爱的榜样。 2 二人同行西诺拉尼亚，传扬神的道；所到之处，病人得医治，争讼得平息，立约的不再背约。 3 后来他们为道受逼迫。伊琳娜先殉道；临刑的时候，她脸上毫无惧色，倒像睡了的人一般安然。 4 凡看见她死的，都说："这真是个义人。"
 
-### 约瑟福音 第六章
+##### 约瑟福音 第六章
 
 1 约瑟是头一个在大地上行神所借之力的人；他一伸手行这力，人与神"借予"的约就显明于世，世人从此都负了宿债。 2 约瑟走遍各城各乡，凡枯朽的，他使它更新；凡破损的，他使它复完。 3 伊琳娜殉道之后，约瑟也随她去了，死在同一条道路上。 4 二人先后而死，魂却同归天界，永不分离。
 
-### 保罗福音 第十二章
+##### 保罗福音 第十二章
 
 1 保罗走遍各地传道，行了许多神迹，困苦的人都来投奔他。 2 有一次，保罗为护卫信徒争战，四样的元素都耗尽了，再没有可用之力。 3 保罗就举目望天球；天上的以太竟应他而动，他便显出神迹，救了众人的性命。 4 保罗年老的时候，遭逢逼迫，就一路向极西去，走进群山之中。 5 他到了一片大水旁边；那水平静如镜，映着天球的星辰，水的北边有河往旷野流去。 6 追赶他的人在那里追上了他。保罗望着那水说："我在地上的路，到这里尽了。" 7 他们就在水边害了他；他的魂升入天界，他的身体却没有人知道葬在哪里。
 
-### 预言书
+#### 预言书
 
-### 第九章
+##### 第九章
 
 1 神将末后的事指示约翰；约翰就把所见的异象写下来，说： 2 我看见那守望天球的使者埃塞莉斯飞在空中，大声喊着说："天球裂开了！天球裂开了！" 3 以太的天球从高天崩裂，虚界的虚如潮水涌进现界。 4 虚潮所到之处，大地崩裂，山岳喷火，风雨大作；过去之后，只剩死地，没有活物存留，那地就归了虚界。
 
 5 我又看见唯一神带着四位天使长再临现界，向天下万灵施行审判。 6 凡称义的，得进冥界躲避；不信的和犯罪的，留在现界，被虚潮吞灭。 7 那被吞灭的众异端，他们的力聚在一处，生出三只大兽：一名不谨，一名不智，一名不爱；三兽转身攻打冥界。 8 我又看见四位天使长率天使的军队从天界降下，众巨龙也随他们与三兽争战，昼夜不息：这就是末日之战。
 
 9 三兽终必灭亡；冥界也被虚吞没，其中的生灵消亡大半，惟有少数蒙使者引渡，得进天界。 10 于是宇宙复归于虚，像太初一样。 11 我又看见神造新天新地；凡蒙庇于天界的，都被引进去，承受新的命运与福分。 12 这话是可信的，是真实的。看哪，末后的事必要成就。
-0:{"buildId":"3_GEBMUXWPCJ-ikakQV-N","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/宗教","title":"宗教概述","titleEn":"The Religions","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true},{"slug":"行观别录 Notes from the Road/唯一神信仰小考","title":"唯一神信仰小考","titleEn":"A Brief Study on the One God Faith","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/童年","title":"童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·上","title":"在人间·上","titleEn":"Coming of Age·In the Human World I","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·下","title":"在人间·下","titleEn":"Coming of Age·In the Human World II","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/送别","title":"送别","titleEn":"The Farewell","isArticle":true}],"isArticle":false}],"currentSlug":"行观别录 Notes from the Road/唯一神信仰小考","article":{"slug":"行观别录 Notes from the Road/唯一神信仰小考","title":"唯一神信仰小考","titleEn":"A Brief Study on the One God Faith","content":"$4"}}]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"0DG6MHtF2BfudpcVFlIsP","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/宗教","title":"宗教概述","titleEn":"The Religions","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true},{"slug":"行观别录 Notes from the Road/唯一神信仰小考","title":"唯一神信仰小考","titleEn":"A Brief Study on the One God Faith","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/童年","title":"童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·上","title":"在人间·上","titleEn":"Coming of Age·In the Human World I","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·下","title":"在人间·下","titleEn":"Coming of Age·In the Human World II","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/送别","title":"送别","titleEn":"The Farewell","isArticle":true}],"isArticle":false}],"currentSlug":"行观别录 Notes from the Road/唯一神信仰小考","article":{"slug":"行观别录 Notes from the Road/唯一神信仰小考","title":"唯一神信仰小考","titleEn":"A Brief Study on the One God Faith","content":"$4"}}]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/3548cb099ad61741.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/f81039c8341e0685.js","async":true}]
 7:["$","script","script-2",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]
