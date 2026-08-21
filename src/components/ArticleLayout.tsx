@@ -15,7 +15,7 @@ import MarkdownContent from "./MarkdownContent";
 import MapWithLightbox from "./MapWithLightbox";
 import MarkdownWithFoldBlocks from "./MarkdownWithFoldBlocks";
 import MarkdownWithTitleImage from "./MarkdownWithTitleImage";
-import { TitleImageFigure } from "./MarkdownWithTitleImage";
+import ArticleImageFigure from "./ArticleImageFigure";
 import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
 import { BASE_PATH } from "@/lib/basePath";
 import { articleHref } from "@/lib/links";
@@ -235,7 +235,7 @@ export default function ArticleLayout({
           <ArticleHeadingIdInjector headings={inArticleHeadings}>
           {hasFoldBlocks(article.content) && article.titleImagePath ? (
             <div className="article-with-title-image-and-folds flex flex-col md:contents">
-              <TitleImageFigure
+              <ArticleImageFigure
                 imagePath={article.titleImagePath}
                 imageAlt={article.title}
                 className="order-1 my-6 w-full md:order-none md:float-right md:mt-[-5rem] md:mb-4 md:ml-6 md:w-[400px]"
@@ -264,7 +264,7 @@ export default function ArticleLayout({
           </ArticleHeadingIdInjector>
 
           {/* 上一篇 / 下一篇 */}
-          <nav className="mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
+          <nav className="clear-both mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
             {prevEntry ? (
               <Link
                 prefetch={false}

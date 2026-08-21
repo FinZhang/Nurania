@@ -209,6 +209,47 @@ footer [aria-hidden="true"] {
   }
 }
 
+/* 正文插图：窄屏整行；宽屏浮动于一侧，正文环绕，上沿与插图代码所在行的正文对齐 */
+.article-illustration {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .article-illustration {
+    width: var(--illustration-width, 340px);
+    max-width: 60%;
+    margin-top: 0.35em; /* 与环绕正文首行的字面顶部对齐（抵消行高留白） */
+    margin-bottom: 1rem;
+  }
+  .article-illustration-right {
+    float: right;
+    margin-left: 1.75rem;
+  }
+  .article-illustration-left {
+    float: left;
+    margin-right: 1.75rem;
+  }
+}
+
+/* 图注：图片下方小字 */
+.article-image-caption {
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--ink-faded);
+  text-align: center;
+  font-style: italic;
+}
+
+/* 正文容器包住浮动的题图/插图，避免浮出到下方的上一篇/下一篇等区块 */
+.article-markdown::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /* 文章内 Markdown 渲染（各级标题与正文） */
 .article-markdown {
   color: var(--ink);
