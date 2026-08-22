@@ -12,6 +12,9 @@ function getAspectRatio(width: number, height: number) {
   return `${width}/${height}`;
 }
 
+const FRAME_CLASS =
+  "article-image-frame relative w-full rounded-lg overflow-hidden border border-[var(--parchment-aged)] shadow-md bg-[var(--parchment-dark)]/10";
+
 interface Props {
   imagePath: string;
   imageAlt: string;
@@ -24,6 +27,10 @@ interface Props {
   /** 图注，渲染在图片下方 */
   caption?: string;
   sizes?: string;
+  /** 传入则整个图框变为按钮（用于点击放大），并显示放大光标 */
+  onActivate?: () => void;
+  /** 图片加载后回传真实宽高比（宽/高），供灯箱等按真实比例排版 */
+  onNaturalAspect?: (ratio: number) => void;
 }
 
 /**
@@ -38,29 +45,45 @@ export default function ArticleImageFigure({
   style,
   caption,
   sizes = "(max-width: 768px) 100vw, 400px",
+  onActivate,
+  onNaturalAspect,
 }: Props) {
   const [aspectRatio, setAspectRatio] = React.useState<string>(defaultAspect);
 
+  const image = (
+    <Image
+      src={imagePath}
+      alt={imageAlt}
+      fill
+      className="object-contain"
+      sizes={sizes}
+      onLoad={(e) => {
+        // 仅影响布局（aspect-ratio）；即便首帧略有跳动，最终也会匹配图片真实比例而不留黑边
+        const img = e.currentTarget;
+        const real = getAspectRatio(img.naturalWidth, img.naturalHeight);
+        if (real) setAspectRatio(real);
+        if (img.naturalHeight > 0) onNaturalAspect?.(img.naturalWidth / img.naturalHeight);
+      }}
+    />
+  );
+
   return (
     <figure className={className} style={style}>
-      <div
-        className="relative w-full rounded-lg overflow-hidden border border-[var(--parchment-aged)] shadow-md bg-[var(--parchment-dark)]/10"
-        style={{ aspectRatio }}
-      >
-        <Image
-          src={imagePath}
-          alt={imageAlt}
-          fill
-          className="object-contain"
-          sizes={sizes}
-          onLoad={(e) => {
-            // 仅影响布局（aspect-ratio）；即便首帧略有跳动，最终也会匹配图片真实比例而不留黑边
-            const img = e.currentTarget;
-            const real = getAspectRatio(img.naturalWidth, img.naturalHeight);
-            if (real) setAspectRatio(real);
-          }}
-        />
-      </div>
+      {onActivate ? (
+        <button
+          type="button"
+          onClick={onActivate}
+          className={`${FRAME_CLASS} block cursor-zoom-in focus:outline-none focus:ring-2 focus:ring-[var(--gold-dark)] focus:ring-offset-2`}
+          style={{ aspectRatio }}
+          aria-label={`放大查看：${imageAlt}`}
+        >
+          {image}
+        </button>
+      ) : (
+        <div className={FRAME_CLASS} style={{ aspectRatio }}>
+          {image}
+        </div>
+      )}
       {caption ? <figcaption className="article-image-caption">{caption}</figcaption> : null}
     </figure>
   );

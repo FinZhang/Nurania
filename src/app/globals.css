@@ -231,6 +231,26 @@ footer [aria-hidden="true"] {
     float: left;
     margin-right: 1.75rem;
   }
+  /* 整行版式：不浮动、居中，宽度默认占满正文栏（写在浮动规则之后以覆盖之） */
+  .article-illustration-block {
+    float: none;
+    width: var(--illustration-width, 100%);
+    max-width: 100%;
+    margin: 1.5rem auto 2rem;
+  }
+}
+
+/* 整行插图（如大陆地图）用更重的描边与投影，接近独立图版 */
+.article-illustration-block {
+  margin-bottom: 2rem;
+}
+.article-illustration-block .article-image-frame {
+  border-width: 2px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/* 正文首个元素即整行插图时不额外留上边距 */
+.article-markdown > .article-illustration-block:first-child {
+  margin-top: 0;
 }
 
 /* 图注：图片下方小字 */

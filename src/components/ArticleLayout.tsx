@@ -12,16 +12,12 @@ import { extractH3Headings } from "@/lib/headings";
 import ArticleNavTree from "./ArticleNavTree";
 import ArticleHeadingIdInjector from "./ArticleHeadingIdInjector";
 import MarkdownContent from "./MarkdownContent";
-import MapWithLightbox from "./MapWithLightbox";
 import MarkdownWithFoldBlocks from "./MarkdownWithFoldBlocks";
 import MarkdownWithTitleImage from "./MarkdownWithTitleImage";
 import ArticleImageFigure from "./ArticleImageFigure";
 import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
 import { BASE_PATH } from "@/lib/basePath";
 import { articleHref } from "@/lib/links";
-
-/** 大陆总览-地理概述页的 slug，该页正文上方显示可放大地图 */
-const GEOGRAPHY_OVERVIEW_SLUG = "大陆总览 Overview/地理";
 
 /** 文章内锚点滚动时，目标位置距视口顶部的偏移：页眉高度 + 约两行正文，避免被吸顶页眉遮挡 */
 const SCROLL_OFFSET_PX = 64 + 2 * 28; // 页眉 md:h-16 ≈ 64px，两行正文约 2×1.75rem ≈ 56px
@@ -231,7 +227,6 @@ export default function ArticleLayout({
               </p>
             )}
           </header>
-          {currentSlug === GEOGRAPHY_OVERVIEW_SLUG && <MapWithLightbox />}
           <ArticleHeadingIdInjector headings={inArticleHeadings}>
           {hasFoldBlocks(article.content) && article.titleImagePath ? (
             <div className="article-with-title-image-and-folds flex flex-col md:contents">
