@@ -2,8 +2,8 @@
 2:"$Sreact.suspense"
 3:I[53360,["/Nurania/next/static/chunks/27ac9b8ec347c021.js","/Nurania/next/static/chunks/3548cb099ad61741.js","/Nurania/next/static/chunks/f9d7327d7316321c.js","/Nurania/next/static/chunks/088430588bf85aac.js"],"default"]
 9:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-4:T77bc,
-布兰顿战役（The Battle of Branton）是第三次阿索战争前期的第一场决定性会战，发生于大陆历 1479 年炎阳季46日至金素季5日，历时约十天，战场位于西比尔平原东南缘的布兰顿河中下游两岸。阿布丹提亚帝国投入前线战斗人员约三十九万，由年仅十七岁的皇帝卡立曼七世·费内尔御驾亲征；索拉瑞斯帝国投入三个军团与近卫龙骑兵团共约五十四万五千人，凯撒雷尔金二世未亲临前线，部队由持凯撒御令的参谋长安托娜·维斯统一指挥。
+4:T7778,
+布兰顿战役（The Battle of Branton）是第三次阿索战争前期的第一场重要会战，发生于大陆历 1479 年炎阳季46日至金素季5日，历时约十天，战场位于西比尔平原东南缘的布兰顿河中下游两岸。阿布丹提亚帝国投入前线战斗人员约三十九万，由年仅十七岁的皇帝卡立曼七世·费内尔御驾亲征；索拉瑞斯帝国投入三个军团与近卫龙骑兵团共约五十四万五千人，凯撒雷尔金二世未亲临前线，部队由持凯撒御令的参谋长安托娜·维斯统一指挥。
 
 战役以阿布丹提亚获胜告终。索拉瑞斯三个军团被迫西撤至缪涅斯特一线重整，近卫龙骑兵团第一至第三旅在此役中损失近半，兵团长卢卡努斯·瓦伦重伤，三战后续战斗指挥由副团长代领。布兰顿战役是阿布丹提亚对龙工程兵团的首次实战投入，也是巨龙眷属自被编入索拉瑞斯军事体系以来第一次被成建制地摧毁。
 
@@ -11,7 +11,7 @@
 
 ### 一、战役背景
 
-第二次阿索战争结束后，两国边境在西比尔平原南部以布兰顿河下游为界，这条边界由以本河命名的《布兰顿和约》划定。布兰顿河上游一带的边界并不循河而行，河东岸的布兰顿城在二战和约中被割让给索拉瑞斯，一百多年来是帝国在这一方向上最靠东的据点。
+第二次阿索战争结束后，两国边境在西比尔平原南部以布兰顿河下游为界，这条边界由以本河命名的《布兰顿和约》划定。布兰顿河中游一带的边界并不循河而行，河东岸的布兰顿城在二战和约中被割让给索拉瑞斯，一百多年来是帝国边境最靠东的据点。
 
 1479 年清和季35日，阿布丹提亚对索拉瑞斯宣战。开战之初阿方即以突袭夺取布兰顿城，随后在布兰顿河东岸集结皇室近卫军、星术兵团与五位大公爵的地方军，准备西渡布兰顿河、向缪涅斯特一线推进。索拉瑞斯方面动员东部三个军团与近卫龙骑兵团编为第一集团军，渡索菲亚大运河东出，经缪涅斯特抵达布兰顿河西岸。阿方侦知索军动向后判断兵力对比不利于野战进攻，遂放弃西渡计划，依托布兰顿河在东岸构筑野战工事转取守势，意图以防守反击消耗索军。
 
@@ -21,7 +21,7 @@
 
 布兰顿河自北向南流经战场，中段接纳一条自西而来的支流后折向东南，于法拉利亚一带入海。下游近海一段河面开阔，不具备强渡条件，双方可能交锋的正面因此收缩在布兰顿城至汇口南方八十陆里之间的河段。
 
-支流的存在对索拉瑞斯一方尤为不利。它将西岸切为南北两个隔间，索军南北两翼之间的横向调动必须经汇口一带通过。位于两河交汇处的奥斯提乌姆镇因此成为整场战役的枢纽，索军的集团军指挥部在中辖军团到达后设置于此。西岸另一处要点是支流上游的卢佩尔库姆，索军自缪涅斯特东来的补给与增援皆经此地。东岸有米尔罗与法拉利亚两座城镇，前者为路网枢纽，后者位于河口，是阿方海上补给的入口。战场其余部分为开阔平原，仅有四片林地可供遮蔽，其中东北与东中两片正对可渡河段的后方。
+支流的存在将布兰顿西岸切为南北两个隔间，索军中北两翼之间的横向调动必须经汇口一带通过。位于两河交汇处的奥斯提乌姆镇因此成为整场战役的枢纽，索军的集团军指挥部在中辖军团到达后设置于此。西岸另一处要点是支流上游的卢佩尔库姆，索军自缪涅斯特东来的补给与增援皆经此地。东岸有米尔罗与法拉利亚两座城镇，前者为路网枢纽，后者位于布兰顿入翡翠海峡河口，是阿方海上补给来源方向。战场其余部分为开阔平原，仅有四片林地可供遮蔽，其中东北与东中两片正对可渡河段的后方。
 
 ### 二、战前部署
 
@@ -60,7 +60,7 @@
 
 索拉瑞斯三个军团则分批抵达。东奥利提斯军团与近卫龙骑兵团第一旅于炎阳季46日抵下游西岸，中辖军团与龙骑兵团第二第三旅48日晚抵奥斯提乌姆一带，西奥利提斯军团北上绕开阿方中翼防线，于金素季1日经中游渡河、出现于布兰顿城以南的东岸。索方的构想是以中辖在汇口正面压迫、牵制阿军中枢，以西奥利提斯在东岸展开平原进攻、迫使阿军沿东岸北调，待其横向调动展开时投入龙骑兵团。
 
-笔者注：梯次抵达在纸面上是稳妥的安排，实际上意味着索军在最初五日里并不享有它名义上的兵力优势。46日至47日，索方在场者仅东奥利提斯一部十五万；直至第五日为止，索军在场兵力始终少于阿军。索拉瑞斯方面显然认为采取守势的对手不会在河的另一侧主动出击——这个判断在战役第一天就被推翻了，只不过推翻它的并不是卡立曼七世。
+笔者注：梯次抵达实际上意味着索军在最初五日里并不享有它名义上的兵力优势。46日至47日，索方在场者仅东奥利提斯一部十五万；直至第五日为止，索军在场兵力始终少于阿军。索拉瑞斯方面显然认为采取守势的对手不会在河的另一侧主动出击——这个判断在战役第一天就被推翻了，只不过推翻它的并不是卡立曼七世。
 
 ### 三、战役经过
 
@@ -116,9 +116,9 @@
 
 <!-- 插图 compendium/行观别录/布兰顿战役/phase-IV-1.webp 宽度=400 右 可放大 -->
 
-金素季4日上午，卡立曼七世停止追击中辖军团，转北渡过支流，率军从侧翼攻击自布兰顿城方向往西南卢佩尔库姆靠拢的北翼索军。负责殿后的西奥利提斯军团轻步兵第一第三团在撤退中被歼。南翼波马里亚公爵得索军全线撤退情报，急欲扩大战果，第二次无视皇帝的命令，将佯攻改为实攻，渡河追击东奥利提斯军团；北翼阿格伯瑞军整编残部出城，追击自城下撤离的西奥利提斯军团轻步兵第二团，阿格伯瑞公爵在担架上亲自随军出击。
+金素季4日上午，卡立曼七世停止追击中辖军团，转北渡过支流，率军从侧翼攻击自布兰顿城往西南卢佩尔库姆方向靠拢的北翼索军。负责殿后的西奥利提斯军团轻步兵第一第三团在撤退中被歼。南翼波马里亚公爵得索军全线撤退情报，急欲扩大战果，第二次无视皇帝的命令，将佯攻改为实攻，渡河追击东奥利提斯军团；北翼阿格伯瑞军整编残部出城，追击自城下撤离的西奥利提斯军团轻步兵第二团，阿格伯瑞公爵在担架上亲自随军出击。
 
-索拉瑞斯方全线撤退。东奥利提斯军团回身反击波马里亚军，将其击退，但撤退令已下，雷辛放弃追击，向西北与中辖残部及指挥部会合后撤退，成为了索军三个军团中保存编制最完好的一个。北翼索军折损殿后的两个轻步兵团成功与中翼合流，阿方未继续追击，折返向东北反渡布兰顿河，将阿格伯瑞军缠住的轻步兵第二团包围全歼。西奥利提斯军团的三个轻步团在这两日内全部覆灭。
+索拉瑞斯方全线撤退。东奥利提斯军团回身反击波马里亚军，将其击退，但撤退令已下，军团长雷辛放弃追击，向西北与中辖残部及指挥部会合后撤退，成为了索军三个军团中保存编制最完好的一个。北翼索军折损殿后的两个轻步兵团成功与中翼合流，阿方未继续追击，折返向东北反渡布兰顿河，将阿格伯瑞军缠住的轻步兵第二团包围全歼。西奥利提斯军团的三个轻步团在这两日内全部覆灭。
 
 维斯收拢三军团残部后往西撤往缪涅斯特一线，与帝国后续到达的军团会合重整。阿布丹提亚军顺势西进占领卢佩尔库姆，就近整军。布兰顿战役至此结束。
 
@@ -165,13 +165,13 @@
 
 索拉瑞斯在此役中损失的不只是兵力。近卫龙骑兵团是帝国自建国以来维持西诺拉尼亚统治的核心支柱，也是历次阿索战争中决定战役走向的重要力量，其在布兰顿河上空的惨败使帝国在第三次阿索战争中被迫将它惯常的顶端常规战力半雪藏。战争最终以索拉瑞斯议和、签订《卡斯特鲁姆和约》告终，这一结局的军事基础是在布兰顿奠定的。
 
-布兰顿战役也暴露出了帝国指挥体制上的缺陷。龙骑兵团金素季2日的出击未经御前参谋部同意，而其确实被授予了这样的权力——历史这一安排确实有效地发挥了飞行部队的高机动性，但在其被阿方部署了针对性措施的当下，这一自决权反而成了关键时刻飞行与地面部队难以协同作战的软肋。而在同一场战争中，索拉瑞斯的龙骑士团以多数决议全程未予参战，帝国亦从未就此给出正式说明。两件事同时发生，指向的是同一个问题：凯撒名下最强的两支力量，能否真正发挥作用都无法由帝国的军事制度直接保证。
+布兰顿战役也暴露出了帝国指挥体制上的缺陷。龙骑兵团金素季2日的出击未经御前参谋部同意，而其确实被授予了这样的权力——历史这一安排确实有效地发挥了飞行部队的高机动性，但在其被阿方部署了针对性措施的当下，这一自决权反而成了关键时刻飞行与地面部队难以协同作战的软肋。而在同一场战争中，索拉瑞斯的龙骑士团以多数决议全程未予参战，帝国亦从未就此给出正式说明。两件事同时发生，指向的是同一个问题：凯撒名下最强的两支力量，能否真正发挥作用都无法由帝国的军事制度保证。
 
-笔者注：此处只想指出一个时间上的巧合。雷尔金二世登基于 1470 年，布兰顿之战发生在 1479 年，其间九年。一位血脉合法性本就受到质疑的凯撒，在其登基后的第一场大战中，一支直属于他本人的部队违背了前线的统一指挥，另一支名义上效忠于他本人的力量则干脆没有出现。此后二十年间帝国对外仍以龙骑士团作为威慑姿态的核心，但各国在评估索拉瑞斯军力时是否仍将其计入，恐怕已是另一回事。
+笔者注：雷尔金二世登基于 1470 年，布兰顿之战发生在 1479 年，其间九年。一位血脉合法性本就受到质疑的凯撒，在其登基后的第一场大战中，一支直属于他本人的部队违背了前线的统一指挥，另一支名义上效忠于他本人的力量则干脆没有出现。此后二十年间帝国对外仍以龙骑士团作为威慑姿态的核心，但各国在评估索拉瑞斯军力时是否仍将其计入，恐怕已是另一回事。
 
 ### 附录一：卡立曼七世的阵前演讲
 
-以下为阿布丹提亚方面通行的演讲文本，据称出自1479年金素季2日当日，近卫军书记官的记录。皇帝演讲由随行星术师放大声音传至全军，卡立曼七世时年十七岁，负轻伤，骑于马上。
+以下为阿布丹提亚方面通行的演讲文本，据称出自1479年金素季2日当日下午一位近卫军书记官的记录。皇帝演讲由随行星术师放大声音传至全军，卡立曼七世时年十七岁，负轻伤，骑于马上。
 
 > "The river behind you is called the Branton.
 > “你们背后的这条河，叫布兰顿。
@@ -206,10 +206,10 @@
 > There is one man I want to speak of.
 > 我要说一个人。
 > 
-> The Duke of Augaberry, Welten Duvelle, my father's cousin. Three days ago, in the north, he lost a leg and half an arm. He is inside Branton at this hour, ringed about by a Solarian legion. He cannot hear me.
-> 阿格伯瑞公爵，韦尔滕·迪韦勒，我的表叔。三天前他在北边丢了一条腿和一条小臂。他此刻在布兰顿城里，被索拉瑞斯人的一个军团层层包围，他听不见我说话。
+> The Duke of Augaberry, Welten Duvelle, my father's cousin. Yesterday, in the north, he lost a leg and half an arm. He is inside Branton at this hour, ringed about by a Solarian legion. He cannot hear me.
+> 阿格伯瑞公爵，韦尔滕·迪韦勒，我的表叔。昨天他在北边的战斗里丢了一条腿和一条小臂。他此刻在布兰顿城里，被索拉瑞斯人的一个军团层层包围，他听不见我说话。
 > 
-> The night they carried him off the field, he sent me an urgent letter asking to fight. He wrote:
+> Yesterday night, when they carried him off the field, he sent me an urgent letter asking to fight. He wrote:
 > 他被抬下来的那天夜里，急信向我请战。他说，
 > 
 > 'Let their blades and their spears come at me, boy. And when they raise their hands — go in like a sword, into their heart.'
@@ -237,7 +237,7 @@
 1502 年，阿布丹提亚画界为皇帝四十岁生日献上一幅巨幅油画，题为《卡立曼七世在布兰顿河边的演讲》，现悬于维里迪亚皇宫大厅。画面取皇帝拔剑掉转马头的一刻，背景是燃烧的河滩与远处的布兰顿河，近卫军、星术兵团、费洛菲尔德和斯拉格丹公爵的旗帜自画面右下角一路铺至地平线。此画在丹提亚境内有大量尺寸各异的临摹本流传，是当代帝国最广为人知的历史题材作品之一。
 
 笔者注：这两年笔者在阿布丹提亚旅居时，在各种公众场合看到过这幅画。画面上皇帝的马侧另有一骑，是一位身着戎装，四肢完好的老公爵，按位置与纹章只能是阿格伯瑞。而在演讲发生的那个下午，韦尔滕·迪韦勒缺着一条腿和一条小臂，被围在一百陆里以外的布兰顿城中。
-0:{"buildId":"1460_k8oc2axbqT-Na1lS","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/宗教","title":"宗教概述","titleEn":"The Religions","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/布兰顿战役","title":"布兰顿战役","titleEn":"The Battle of Branton","isArticle":true},{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true},{"slug":"行观别录 Notes from the Road/唯一神信仰小考","title":"唯一神信仰小考","titleEn":"A Brief Study on the One God Faith","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/童年","title":"童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·上","title":"在人间·上","titleEn":"Coming of Age·In the Human World I","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·下","title":"在人间·下","titleEn":"Coming of Age·In the Human World II","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/送别","title":"送别","titleEn":"The Farewell","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/铸币的两面","title":"铸币的两面","titleEn":"Two Sides of a Nicat","isArticle":true}],"isArticle":false}],"currentSlug":"行观别录 Notes from the Road/布兰顿战役","article":{"slug":"行观别录 Notes from the Road/布兰顿战役","title":"布兰顿战役","titleEn":"The Battle of Branton","content":"$4"}}]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+0:{"buildId":"6G0Znptd9sFrVHabiSE2C","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-[60vh] flex items-center justify-center text-[var(--ink-muted)]","children":"加载中…"}],"children":["$","$L3",null,{"bookSlug":"compendium","toc":[{"slug":"作者序","title":"炉边随记（代作者序）","titleEn":"Preface","isArticle":true},{"slug":"年表与大事记 Chronology","title":"年表与大事记","titleEn":"Chronology","isArticle":true},{"slug":"度量与岁时 Measures and Times","title":"度量与岁时","titleEn":"Measures and Times","isArticle":true},{"slug":"大陆总览 Overview","title":"大陆总览 Overview","children":[{"slug":"大陆总览 Overview/地理","title":"地理概述","titleEn":"The Geography","isArticle":true},{"slug":"大陆总览 Overview/魔法","title":"魔法概述","titleEn":"The Magic","isArticle":true},{"slug":"大陆总览 Overview/经济","title":"经济概述","titleEn":"The Economy","isArticle":true},{"slug":"大陆总览 Overview/宗教","title":"宗教概述","titleEn":"The Religions","isArticle":true},{"slug":"大陆总览 Overview/政治","title":"政治概述","titleEn":"The Politics","isArticle":true},{"slug":"大陆总览 Overview/文化","title":"文化概述","titleEn":"The Culture","isArticle":true}],"isArticle":false},{"slug":"诸国列志 Chorography of the Nations","title":"诸国列志 Chorography of the Nations","children":[{"slug":"诸国列志 Chorography of the Nations/阿布丹提亚","title":"阿布丹提亚帝国","titleEn":"The Abundantia Empire","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/索拉瑞斯","title":"索拉瑞斯帝国","titleEn":"Imperium Solaris","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/忒奥西斯","title":"忒奥西斯圣治领","titleEn":"The θέωσις(Theosis) Dominion","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/卡帕尼","title":"卡帕尼诸公联合","titleEn":"The United Principalities of Kapani","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/艾瑟瑞姆","title":"艾瑟瑞姆王国","titleEn":"The Kingdom of Aethyrium","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/尼希尔","title":"尼希尔伊玛目酋邦","titleEn":"The Nithil Imam-Chiefdom","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/希尔文诺","title":"希尔文诺","titleEn":"Sylvanor","isArticle":true},{"slug":"诸国列志 Chorography of the Nations/葛林沃尔克","title":"葛林沃尔克","titleEn":"Grimvolk","isArticle":true}],"isArticle":false},{"slug":"行观别录 Notes from the Road","title":"行观别录 Notes from the Road","children":[{"slug":"行观别录 Notes from the Road/布兰顿战役","title":"布兰顿战役","titleEn":"The Battle of Branton","isArticle":true},{"slug":"行观别录 Notes from the Road/当代经济考略","title":"当代经济格局考略","titleEn":"On the Economic Order of the Nurania","isArticle":true},{"slug":"行观别录 Notes from the Road/魔法矿石","title":"魔法矿石","titleEn":"The Magic Ore","isArticle":true},{"slug":"行观别录 Notes from the Road/唯一神信仰小考","title":"唯一神信仰小考","titleEn":"A Brief Study on the One God Faith","isArticle":true}],"isArticle":false},{"slug":"诸域纪闻 Chronicles of the Realms","title":"诸域纪闻 Chronicles of the Realms","children":[{"slug":"诸域纪闻 Chronicles of the Realms/沉默者","title":"沉默者","titleEn":"The Silent One","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/衡台","title":"衡台","titleEn":"The Weighing Scale","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/童年","title":"童年","titleEn":"Coming of Age·Childhood","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·上","title":"在人间·上","titleEn":"Coming of Age·In the Human World I","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/在人间·下","title":"在人间·下","titleEn":"Coming of Age·In the Human World II","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/送别","title":"送别","titleEn":"The Farewell","isArticle":true},{"slug":"诸域纪闻 Chronicles of the Realms/铸币的两面","title":"铸币的两面","titleEn":"Two Sides of a Nicat","isArticle":true}],"isArticle":false}],"currentSlug":"行观别录 Notes from the Road/布兰顿战役","article":{"slug":"行观别录 Notes from the Road/布兰顿战役","title":"布兰顿战役","titleEn":"The Battle of Branton","content":"$4"}}]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
 5:["$","script","script-0",{"src":"/Nurania/next/static/chunks/3548cb099ad61741.js","async":true}]
 6:["$","script","script-1",{"src":"/Nurania/next/static/chunks/f9d7327d7316321c.js","async":true}]
 7:["$","script","script-2",{"src":"/Nurania/next/static/chunks/088430588bf85aac.js","async":true}]
