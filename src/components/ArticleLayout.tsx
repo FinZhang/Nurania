@@ -262,7 +262,7 @@ export default function ArticleLayout({
           </IndexTermProvider>
 
           {/* 上一篇 / 下一篇 */}
-          <nav className="clear-both mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
+          <nav className="article-prevnext clear-both mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
             {prevEntry ? (
               <Link
                 prefetch={false}

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useCallback, useRef, useEffect } from "react";
+import { flushSync } from "react-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { parseFoldBlocks } from "@/lib/fold-blocks";
@@ -92,6 +93,47 @@ export default function MarkdownWithFoldBlocks({ content, firstFoldClearImageMar
     }
     setExpanded((prev) => ({ ...prev, [index]: !prev[index] }));
   }, [expanded]);
+
+  const foldCount = blocks.filter((b) => b.type === "fold").length;
+
+  /** 供打印钩子读取的最新展开状态：钩子本身不能依赖 expanded，见下 */
+  const expandedRef = useRef(expanded);
+  useEffect(() => {
+    expandedRef.current = expanded;
+  }, [expanded]);
+
+  /** 打印前的展开状态快照。放 ref 而不是闭包变量：钩子重建时闭包会连同快照一起丢掉 */
+  const printRestoreRef = useRef<Record<number, boolean> | null>(null);
+
+  /**
+   * 打印前把所有折叠块摊开。收起状态下内容根本不在 DOM 里（见下方的条件渲染），
+   * 纯 CSS 救不回来；beforeprint 又是同步的，必须用 flushSync 立刻落到 DOM，
+   * 否则浏览器已经开始排版了 React 才更新。打印结束再恢复读者原来的展开状态。
+   *
+   * 依赖里只放 foldCount：若把 expanded 也列进去，beforeprint 自己触发的展开会立刻
+   * 重建这对监听器，afterprint 拿到的就是一副空快照，恢复不回去。
+   */
+  useEffect(() => {
+    if (foldCount === 0) return;
+    const onBeforePrint = () => {
+      printRestoreRef.current = expandedRef.current;
+      const all: Record<number, boolean> = {};
+      for (let i = 0; i < foldCount; i++) all[i] = true;
+      flushSync(() => setExpanded(all));
+    };
+    const onAfterPrint = () => {
+      const prev = printRestoreRef.current;
+      if (!prev) return;
+      printRestoreRef.current = null;
+      flushSync(() => setExpanded(prev));
+    };
+    window.addEventListener("beforeprint", onBeforePrint);
+    window.addEventListener("afterprint", onAfterPrint);
+    return () => {
+      window.removeEventListener("beforeprint", onBeforePrint);
+      window.removeEventListener("afterprint", onAfterPrint);
+    };
+  }, [foldCount]);
 
   // 给每个折叠块分配从 0 起的稳定序号（md 块为 -1）；纯函数计算，避免渲染期可变计数
   const foldKeyByIndex = blocks.map((b, i) =>

@@ -84,7 +84,7 @@
    - [data-theme="night"] 服务显式选择，特异度与上面相同，靠书写顺序在后取胜。
    ============================================ */
 
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   html:not([data-theme="light"]) {
   /* 羊皮纸在夜里变成暗牛皮：底色压到近黑棕，纸面与描边只拉开够用的对比 */
   --parchment: #1c1712;
@@ -121,39 +121,42 @@
   }
 }
 
-html[data-theme="night"] {
-  /* 羊皮纸在夜里变成暗牛皮：底色压到近黑棕，纸面与描边只拉开够用的对比 */
-  --parchment: #1c1712;
-  --parchment-dark: #2a2118;
-  --parchment-light: #241d16;
-  --parchment-aged: #4a3d2e;
+/* 打印时夜读一律不生效（见文件末尾的打印样式），因此整块限定在 screen 下 */
+@media screen {
+  html[data-theme="night"] {
+    /* 羊皮纸在夜里变成暗牛皮：底色压到近黑棕，纸面与描边只拉开够用的对比 */
+    --parchment: #1c1712;
+    --parchment-dark: #2a2118;
+    --parchment-light: #241d16;
+    --parchment-aged: #4a3d2e;
 
-  /* 墨色反相：深棕字变成浅牛皮字 */
-  --ink: #ded0b4;
-  --ink-muted: #b3a288;
-  --ink-faded: #8a7a62;
+    /* 墨色反相：深棕字变成浅牛皮字 */
+    --ink: #ded0b4;
+    --ink-muted: #b3a288;
+    --ink-faded: #8a7a62;
 
-  /* 金色点缀：--gold-dark 全站当作悬停强调色用，暗底下必须比正文更亮而不是更暗 */
-  --gold: #d4b36a;
-  --gold-light: #e8d5a3;
-  --gold-dark: #d0ad60;
-  --copper: #c98a52;
+    /* 金色点缀：--gold-dark 全站当作悬停强调色用，暗底下必须比正文更亮而不是更暗 */
+    --gold: #d4b36a;
+    --gold-light: #e8d5a3;
+    --gold-dark: #d0ad60;
+    --copper: #c98a52;
 
-  --mystic: #241a1f;
-  --mystic-light: #3b2d35;
-  --shadow-deep: #0d0907;
+    --mystic: #241a1f;
+    --mystic-light: #3b2d35;
+    --shadow-deep: #0d0907;
 
-  --term-highlight: rgba(212, 179, 106, 0.16);
-  --glow-gold: rgba(212, 179, 106, 0.35);
-  --glow-soft: rgba(225, 210, 181, 0.12);
+    --term-highlight: rgba(212, 179, 106, 0.16);
+    --glow-gold: rgba(212, 179, 106, 0.35);
+    --glow-soft: rgba(225, 210, 181, 0.12);
 
-  --footer-bg: #2a2118;
-  --scrollbar-thumb: #5a4b39;
-  --scrollbar-thumb-hover: #8a7a62;
+    --footer-bg: #2a2118;
+    --scrollbar-thumb: #5a4b39;
+    --scrollbar-thumb-hover: #8a7a62;
 
-  /* 暗底上浅色地图会发灰，浓度要比日间更低 */
-  --map-backdrop-opacity: 0.06;
-  --map-shelf-opacity: 0.22;
+    /* 暗底上浅色地图会发灰，浓度要比日间更低 */
+    --map-backdrop-opacity: 0.06;
+    --map-shelf-opacity: 0.22;
+  }
 }
 
 /* 目录条目标题：当条目容器宽度足以单行显示中英文时不换行，不足时自动切换为上下布局 */
@@ -993,4 +996,112 @@ html[data-reading-size="xl"] { --reading-scale: 1.25; }
 
 .reading-settings-print:hover {
   color: var(--gold-dark);
+}
+
+/* ============================================
+   打印 / 存为 PDF
+
+   目标是把一篇文章从「网站的一页」还原成「书里的一页」：只留正文，
+   去掉一切导航、背景与交互提示。夜读调色板已在上面被限定在 screen 下，
+   因此这里不必重述浅色变量。折叠块由 MarkdownWithFoldBlocks 在
+   beforeprint 时全部展开——收起时内容不在 DOM 里，CSS 救不回来。
+   ============================================ */
+
+@media print {
+  /* 纸上没有导航。只针对站点页眉页脚（body 的直接子元素）——
+     文章标题块本身也是一个 <header>，不能一起藏掉 */
+  body > header,
+  body > footer,
+  aside[aria-label="导航"],
+  aside[aria-label="文章内导航"],
+  .article-prevnext,
+  .index-term-popover,
+  .heading-anchor {
+    display: none !important;
+  }
+
+  /* 背景世界地图连同它那个 position:fixed 的容器一起去掉：
+     fixed 元素在打印时会被复制到每一页，甚至撑出空白页 */
+  .world-map-backdrop,
+  .world-map-shelf,
+  div:has(> .world-map-backdrop),
+  div:has(> .world-map-shelf) {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000;
+  }
+
+  .parchment-texture {
+    background-image: none !important;
+  }
+
+  /* 正文入场动画可能还没跑完就触发了打印，强制落到终态 */
+  article {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  main {
+    padding-bottom: 0 !important;
+  }
+
+  .container-nurania {
+    max-width: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* 纸张用磅值，不跟随屏幕上的字号档位 */
+  .article-markdown {
+    font-size: 11pt;
+  }
+
+  /* 索引名词的底色与虚线是「可以点」的提示，纸上没有意义 */
+  .index-term {
+    padding: 0 !important;
+    background: none !important;
+    border-bottom: 0 !important;
+  }
+
+  /* 展开后的折叠块退成普通小节：去掉外框、吸顶与为吸顶留出的上边距 */
+  .markdown-with-folds section {
+    margin-bottom: 1.5em;
+    border: 0 !important;
+    background: none !important;
+  }
+
+  .markdown-with-folds section button {
+    position: static !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  .markdown-with-folds .fold-block-body {
+    padding: 0 !important;
+  }
+
+  /* 图与图注不跨页断开 */
+  .article-image-frame,
+  .article-illustration,
+  .article-illustration-block,
+  figure {
+    break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  /* 小节标题不落在页尾 */
+  .article-markdown h1,
+  .article-markdown h2,
+  .article-markdown h3 {
+    break-after: avoid;
+  }
 }
