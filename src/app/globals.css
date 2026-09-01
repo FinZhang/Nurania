@@ -402,6 +402,9 @@ html[data-reading-size="xl"] { --reading-scale: 1.25; }
 .article-markdown h5,
 .article-markdown h6 {
   font-family: var(--font-cinzel), "Times New Roman", serif;
+  /* 跳锚点时给吸顶页眉让位：页眉 4rem + 约两行正文。
+     浏览器原生跳转与 Next 的 hash 滚动都吃这个值，不必各自算偏移 */
+  scroll-margin-top: calc(4rem + 3.5rem);
   color: var(--ink);
   font-weight: 600;
   margin-top: 1.5em;

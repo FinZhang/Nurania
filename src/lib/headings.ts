@@ -56,7 +56,7 @@ export function extractH3Headings(content: string): H3Heading[] {
 export const HEADING_SCROLL_OFFSET_PX = 64 + 2 * 28;
 
 /** 把 id 滚到视口内，并让出吸顶页眉的高度 */
-export function scrollToHeading(el: HTMLElement) {
+export function scrollToHeading(el: HTMLElement, behavior: ScrollBehavior = "smooth") {
   const top = window.scrollY + el.getBoundingClientRect().top - HEADING_SCROLL_OFFSET_PX;
-  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  window.scrollTo({ top: Math.max(0, top), behavior });
 }

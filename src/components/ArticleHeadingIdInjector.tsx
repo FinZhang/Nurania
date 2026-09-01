@@ -107,6 +107,7 @@ export default function ArticleHeadingIdInjector({ headings, children }: Props) 
     const observer = new MutationObserver(() => assignRef());
     observerRef.current = observer;
     const assigned = assignRef();
+    let hashScrollTimer: ReturnType<typeof setTimeout> | undefined;
 
     // 冷启动 hash 跳转：只做一次，之后的滚动交给用户与右侧导航
     if (!didHashScrollRef.current) {
@@ -121,13 +122,19 @@ export default function ArticleHeadingIdInjector({ headings, children }: Props) 
         }
         if (assigned.has(id)) {
           const el = container.querySelector<HTMLElement>(`#${CSS.escape(id)}`);
-          // 等一帧让布局稳定（浮动题图/插图占位会影响位置）再滚
-          if (el) requestAnimationFrame(() => scrollToHeading(el));
+          if (el) {
+            // 滚两次：第一次趁 layout 已算好立刻到位，第二次盖掉 App Router 随后
+            // 可能做的「回到顶部」。用 setTimeout 而非 requestAnimationFrame——
+            // 后台标签页里 rAF 根本不跑，链接在新标签打开时就跳不动了。
+            scrollToHeading(el, "auto");
+            hashScrollTimer = setTimeout(() => scrollToHeading(el, "auto"), 60);
+          }
         }
       }
     }
 
     return () => {
+      clearTimeout(hashScrollTimer);
       observer.disconnect();
       observerRef.current = null;
     };
