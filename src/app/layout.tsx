@@ -4,6 +4,7 @@ import { Cormorant_Garamond, Cinzel } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { READING_PREFS_BOOT_SCRIPT } from "@/lib/reading-prefs";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -28,9 +29,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" suppressHydrationWarning>
       <head>
         <base href="/Nurania/" />
+        {/* 首屏同步执行：在任何绘制之前把阅读偏好写到 <html> 上，避免刷新时闪一帧日间配色 */}
+        <script dangerouslySetInnerHTML={{ __html: READING_PREFS_BOOT_SCRIPT }} />
       </head>
       <body
         className={`${cormorant.variable} ${cinzel.variable} antialiased parchment-texture min-h-screen flex flex-col`}

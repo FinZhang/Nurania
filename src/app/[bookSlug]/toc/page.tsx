@@ -44,7 +44,7 @@ export default async function TocPage({ params }: Props) {
           src={`${BASE_PATH}/compendium/world_map.webp`}
           alt=""
           fill
-          className="object-cover object-center opacity-10 min-w-full min-h-full lg:scale-110 xl:scale-125"
+          className="object-cover object-center world-map-backdrop min-w-full min-h-full lg:scale-110 xl:scale-125"
           sizes="100vw"
           loading="eager"
         />

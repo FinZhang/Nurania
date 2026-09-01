@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { BookOpen } from "lucide-react";
 import { getBookBySlug } from "@/lib/books";
+import ReadingSettings from "./ReadingSettings";
 import { BASE_PATH } from "@/lib/basePath";
 
 export default function Header() {
@@ -53,36 +54,39 @@ export default function Header() {
             </span>
           </Link>
         )}
-        {!isShelf && (
-          <nav className="flex items-center gap-4">
-            <Link
-              href="/"
-              prefetch={false}
-              className="text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors"
-            >
-              书架
-            </Link>
-            {isArticlePage && bookSlug && (
-              <button
-                type="button"
-                onClick={handleTocClick}
-                className="md:hidden text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors"
-                aria-expanded={sidebarOpen}
-                aria-label={sidebarOpen ? "关闭导航" : "打开导航"}
+        <div className="flex items-center gap-3 md:gap-4">
+          {!isShelf && (
+            <nav className="flex items-center gap-4">
+              <Link
+                href="/"
+                prefetch={false}
+                className="text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors"
               >
-                本书目录
-              </button>
-            )}
-            {bookSlug && (
-              <a
-                href={`${BASE_PATH}/${bookSlug}/toc`}
-                className={`text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors ${isArticlePage ? "hidden md:inline" : ""}`}
-              >
-                本书目录
-              </a>
-            )}
-          </nav>
-        )}
+                书架
+              </Link>
+              {isArticlePage && bookSlug && (
+                <button
+                  type="button"
+                  onClick={handleTocClick}
+                  className="md:hidden text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors"
+                  aria-expanded={sidebarOpen}
+                  aria-label={sidebarOpen ? "关闭导航" : "打开导航"}
+                >
+                  本书目录
+                </button>
+              )}
+              {bookSlug && (
+                <a
+                  href={`${BASE_PATH}/${bookSlug}/toc`}
+                  className={`text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors ${isArticlePage ? "hidden md:inline" : ""}`}
+                >
+                  本书目录
+                </a>
+              )}
+            </nav>
+          )}
+          <ReadingSettings />
+        </div>
       </div>
     </header>
   );

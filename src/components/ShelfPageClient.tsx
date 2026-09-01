@@ -16,7 +16,7 @@ export default function ShelfPageClient() {
           src={`${BASE_PATH}/compendium/world_map.webp`}
           alt="诺拉尼亚大陆地图"
           fill
-          className="object-cover object-center opacity-40 min-w-full min-h-full md:scale-110 lg:scale-125"
+          className="object-cover object-center world-map-shelf min-w-full min-h-full md:scale-110 lg:scale-125"
           sizes="100vw"
           priority
           loading="eager"
