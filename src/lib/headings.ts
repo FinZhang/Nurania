@@ -47,3 +47,16 @@ export function extractH3Headings(content: string): H3Heading[] {
 
   return result;
 }
+
+/**
+ * 文章内锚点滚动时，目标位置距视口顶部的偏移：页眉高度 + 约两行正文，避免被吸顶页眉遮挡。
+ * 页眉 md:h-16 ≈ 64px，两行正文约 2×1.75rem ≈ 56px。
+ * 由右侧文章内导航（ArticleLayout）与冷启动 hash 跳转（ArticleHeadingIdInjector）共用。
+ */
+export const HEADING_SCROLL_OFFSET_PX = 64 + 2 * 28;
+
+/** 把 id 滚到视口内，并让出吸顶页眉的高度 */
+export function scrollToHeading(el: HTMLElement) {
+  const top = window.scrollY + el.getBoundingClientRect().top - HEADING_SCROLL_OFFSET_PX;
+  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+}

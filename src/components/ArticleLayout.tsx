@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, BookMarked, ChevronLeft, ChevronRight } from "lucide-react";
 import type { ArticleEntry, ArticleContent } from "@/lib/content-types";
 import { flattenArticles } from "@/lib/content-types";
-import { extractH3Headings } from "@/lib/headings";
+import { extractH3Headings, scrollToHeading } from "@/lib/headings";
 import ArticleNavTree from "./ArticleNavTree";
 import ArticleHeadingIdInjector from "./ArticleHeadingIdInjector";
 import MarkdownContent from "./MarkdownContent";
@@ -20,9 +20,6 @@ import IndexQuickLookup from "./IndexQuickLookup";
 import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
 import { BASE_PATH } from "@/lib/basePath";
 import { articleHref } from "@/lib/links";
-
-/** 文章内锚点滚动时，目标位置距视口顶部的偏移：页眉高度 + 约两行正文，避免被吸顶页眉遮挡 */
-const SCROLL_OFFSET_PX = 64 + 2 * 28; // 页眉 md:h-16 ≈ 64px，两行正文约 2×1.75rem ≈ 56px
 
 interface ArticleLayoutProps {
   bookSlug: string;
@@ -312,8 +309,7 @@ export default function ArticleLayout({
                     const el = (Array.from(candidates).find((node) => (node as HTMLElement).offsetParent != null) ?? candidates[0]) as HTMLElement | undefined;
                     if (el) {
                       e.preventDefault();
-                      const top = window.scrollY + el.getBoundingClientRect().top - SCROLL_OFFSET_PX;
-                      window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+                      scrollToHeading(el);
                     }
                   }}
                 >
