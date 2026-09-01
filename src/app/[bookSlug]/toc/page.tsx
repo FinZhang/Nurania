@@ -5,7 +5,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getBooks, getBookBySlug } from "@/lib/books";
 import { getSiteToc, getRecentArticles } from "@/lib/content";
-import { BASE_PATH } from "@/lib/basePath";
+import { BASE_PATH, absoluteUrl } from "@/lib/basePath";
+import { excerpt } from "@/lib/plain-text";
 import TocList from "@/components/TocList";
 import TocSidebar from "@/components/TocSidebar";
 import RecentUpdates from "@/components/RecentUpdates";
@@ -24,8 +25,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!book) return {};
 
   const titleEn = book.titleEn ? ` | ${book.titleEn}` : "";
+  const title = `${book.title}${titleEn}`;
+  // 简介头一段就是这本书的自我介绍，正好当分享摘要
+  const description = excerpt(book.intro.replace(/\s+/g, " "));
+  const image = absoluteUrl(book.cover);
   return {
-    title: `${book.title}${titleEn}`,
+    title,
+    description,
+    openGraph: { type: "book", title, description, images: [image] },
+    twitter: { card: "summary_large_image", title, description, images: [image] },
   };
 }
 

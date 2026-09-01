@@ -8,6 +8,8 @@ import {
 } from "@/lib/content";
 import { getBooks, getBookBySlug } from "@/lib/books";
 import ArticleLayout from "@/components/ArticleLayout";
+import { absoluteUrl } from "@/lib/basePath";
+import { excerpt, stripMarkdown } from "@/lib/plain-text";
 
 export function generateStaticParams() {
   const books = getBooks();
@@ -36,8 +38,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!article) return {};
 
   const titleEn = article.titleEn ? ` | ${article.titleEn}` : "";
+  const title = `${article.title}${titleEn}`;
+  // 索引页正文被清空成速查视图，没有可用的开头段落，退回书籍简介
+  const description = excerpt(stripMarkdown(article.content)) || excerpt(book.intro.replace(/\s+/g, " "));
+  // 有题图就用题图，否则用书封面：分享出去总得有张图
+  const image = absoluteUrl(article.titleImagePath ?? book.cover);
   return {
-    title: `${article.title}${titleEn}`,
+    title,
+    description,
+    openGraph: { type: "article", title, description, images: [image] },
+    twitter: { card: "summary_large_image", title, description, images: [image] },
   };
 }
 
