@@ -51,7 +51,7 @@ export default function Header() {
           >
             <BookOpen className="h-5 w-5 md:h-6 md:w-6" />
             <span className="font-display text-lg md:text-xl tracking-wide">
-              {book?.title ?? "目录"}
+              {book?.title ?? "尤里梅尔全集"}
             </span>
           </Link>
         )}
@@ -76,9 +76,10 @@ export default function Header() {
                   本书目录
                 </button>
               )}
-              {bookSlug && (
+              {/* 用 book 而不是 bookSlug：404 之类的路径也有第一段，但并不是一本书 */}
+              {book && (
                 <a
-                  href={`${BASE_PATH}/${bookSlug}/toc`}
+                  href={`${BASE_PATH}/${book.slug}/toc`}
                   className={`text-sm md:text-base text-[var(--ink-muted)] hover:text-[var(--gold-dark)] transition-colors ${isArticlePage ? "hidden md:inline" : ""}`}
                 >
                   本书目录
