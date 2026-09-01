@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/preserve-out-git.js backup",
+    "prebuild": "node scripts/preserve-out-git.js backup && node scripts/build-search-index.mjs",
     "build": "next build",
     "postbuild": "node scripts/preserve-out-git.js restore",
     "deploy:rewrite": "node scripts/rename-next-for-deploy.js",
     "deploy:push": "node scripts/deploy-push.js",
     "start": "next start",
     "lint": "eslint",
-    "preview": "node scripts/preview-with-basepath.js"
+    "preview": "node scripts/preview-with-basepath.js",
+    "predev": "node scripts/build-search-index.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.34.3",

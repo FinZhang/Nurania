@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useDeferredValue, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { AlignLeft, LayoutList, Search, X } from "lucide-react";
@@ -26,7 +27,18 @@ interface Props {
  * 卸载再挂载二十余个小节纯属浪费，隐藏只是一次样式切换。
  */
 export default function IndexQuickLookup({ outline, terms }: Props) {
-  const [query, setQuery] = useState("");
+  // 全站搜索命中词条时会跳到这里并带上 ?q=，用它预填搜索框
+  const searchParams = useSearchParams();
+  const paramQuery = searchParams?.get("q") ?? "";
+  const [typed, setTyped] = useState<string | null>(null);
+  // 已经在索引页时又搜到另一个词，组件不会重新挂载；改用渲染期对比来丢掉上一次的输入
+  const [lastParamQuery, setLastParamQuery] = useState(paramQuery);
+  if (paramQuery !== lastParamQuery) {
+    setLastParamQuery(paramQuery);
+    setTyped(null);
+  }
+  const query = typed ?? paramQuery;
+  const setQuery = setTyped;
   const [mode, setMode] = useState<ViewMode>("brief");
 
   const byId = useMemo(() => new Map(terms.map((t) => [t.id, t])), [terms]);

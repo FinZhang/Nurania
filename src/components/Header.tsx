@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { BookOpen } from "lucide-react";
 import { getBookBySlug } from "@/lib/books";
+import SiteSearch from "./SiteSearch";
 import ReadingSettings from "./ReadingSettings";
 import { BASE_PATH } from "@/lib/basePath";
 
@@ -85,6 +86,7 @@ export default function Header() {
               )}
             </nav>
           )}
+          <SiteSearch />
           <ReadingSettings />
         </div>
       </div>

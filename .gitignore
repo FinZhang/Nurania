@@ -16,6 +16,9 @@
 # next.js
 /.next/
 /out/
+
+# 构建期生成的搜索索引（scripts/build-search-index.mjs）
+/public/search/
 /preview/
 /.out-git-backup/
 
