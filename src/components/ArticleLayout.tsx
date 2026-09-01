@@ -15,6 +15,8 @@ import MarkdownContent from "./MarkdownContent";
 import MarkdownWithFoldBlocks from "./MarkdownWithFoldBlocks";
 import MarkdownWithTitleImage from "./MarkdownWithTitleImage";
 import ArticleImageFigure from "./ArticleImageFigure";
+import IndexTermProvider from "./IndexTermProvider";
+import IndexQuickLookup from "./IndexQuickLookup";
 import { hasFoldBlocks, getFirstFoldLineIndex } from "@/lib/fold-blocks";
 import { BASE_PATH } from "@/lib/basePath";
 import { articleHref } from "@/lib/links";
@@ -227,8 +229,11 @@ export default function ArticleLayout({
               </p>
             )}
           </header>
+          <IndexTermProvider terms={article.indexTerms}>
           <ArticleHeadingIdInjector headings={inArticleHeadings}>
-          {hasFoldBlocks(article.content) && article.titleImagePath ? (
+          {article.indexOutline ? (
+            <IndexQuickLookup outline={article.indexOutline} terms={article.indexTerms ?? []} />
+          ) : hasFoldBlocks(article.content) && article.titleImagePath ? (
             <div className="article-with-title-image-and-folds flex flex-col md:contents">
               <ArticleImageFigure
                 imagePath={article.titleImagePath}
@@ -257,6 +262,7 @@ export default function ArticleLayout({
             <MarkdownContent content={article.content} />
           )}
           </ArticleHeadingIdInjector>
+          </IndexTermProvider>
 
           {/* 上一篇 / 下一篇 */}
           <nav className="clear-both mt-12 pt-8 border-t border-[var(--parchment-aged)] flex flex-wrap justify-between gap-4">
@@ -285,8 +291,9 @@ export default function ArticleLayout({
           </nav>
         </motion.article>
 
-        {/* 宽屏：右侧文章内导航，悬浮、上缘略低于标题，窄屏不显示 */}
-        {inArticleHeadings.length > 0 && (
+        {/* 宽屏：右侧文章内导航，悬浮、上缘略低于标题，窄屏不显示。
+            索引页不显示：那里的分类标题已由速查页自带的搜索与分类计数承担导航职责。 */}
+        {inArticleHeadings.length > 0 && !article.indexOutline && (
           <aside
             className="hidden md:block w-48 flex-shrink-0 sticky top-36 self-start pl-2 -mr-18"
             aria-label="文章内导航"

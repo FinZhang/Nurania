@@ -31,6 +31,9 @@ function isCloseLine(line: string): boolean {
   return RE_CLOSE.test(stripCr(line));
 }
 
+/** 供折叠块以外的模块复用的行判定（索引名词标记需按折叠块分段计数） */
+export { isOpenLine as isFoldOpenLine, isCloseLine as isFoldCloseLine };
+
 export function parseFoldBlocks(raw: string): ParsedBlock[] {
   const blocks: ParsedBlock[] = [];
   const lines = raw.split(/\r?\n/);

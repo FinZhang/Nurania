@@ -9,6 +9,8 @@ import matter from "gray-matter";
 import type { ArticleEntry, ArticleContent } from "./content-types";
 import { flattenArticles } from "./content-types";
 import { getBookBySlug } from "./books";
+import { applyIndexTerms, collectTermClosure, type IndexOutline, type IndexTermData } from "./index-terms";
+import { getIndexTermSource, INDEX_BASENAME } from "./index-terms.server";
 
 export type { ArticleEntry, ArticleContent } from "./content-types";
 
@@ -154,10 +156,15 @@ function collectArticlePaths(dirPath: string, baseSlug: string): { slug: string;
   return result;
 }
 
-/** 按文章文件最后修改时间取最近 5 篇 */
+/**
+ * 按文章文件最后修改时间取最近 5 篇。
+ * 索引会随正文每次增补而改动，但它不是「新内容」，排除掉以免长期占位。
+ */
 export function getRecentArticles(bookSlug: string, limit = 5): RecentArticle[] {
   const dataDir = getDataDir(bookSlug);
-  const all = collectArticlePaths(dataDir, "");
+  const all = collectArticlePaths(dataDir, "").filter(
+    ({ filePath }) => path.basename(filePath, ".md") !== INDEX_BASENAME
+  );
   const withMtime = all
     .map(({ slug, filePath }) => {
       const stat = fs.statSync(filePath);
@@ -219,12 +226,37 @@ export function getArticleBySlug(bookSlug: string, slug: string): ArticleContent
 
   const { contentWithoutLine, titleImageRelativePath, titleImageInsertLine } = parseTitleImage(content);
 
+  // 索引名词高亮：在插图切段与折叠块解析之前完成，保证「第一次出现」按原文顺序判定；
+  // 标记不改变行数，题图插入行号与 ### 锚点不受影响。
+  let markedContent = contentWithoutLine;
+  let indexTerms: IndexTermData[] = [];
+  let indexOutline: IndexOutline | undefined;
+  const { entries, matcher, document } = getIndexTermSource(getDataDir(bookSlug));
+
+  if (baseName === INDEX_BASENAME) {
+    // 索引页自身不做正文高亮，改为渲染速查视图：
+    // 交出分类骨架，并把全部词条数据一并带上，任一条目都能点开释义卡片。
+    if (entries.length > 0) {
+      indexOutline = { intro: document.intro, outro: document.outro, parts: document.parts };
+      indexTerms = collectTermClosure(entries, matcher, entries.map((e) => e.id));
+      // 速查视图不渲染原始 Markdown，索引页也不显示右侧文章内导航，
+      // 因此正文一并清空，免得把整份索引原文（近 90KB）白白塞进页面数据里。
+      markedContent = "";
+    }
+  } else if (entries.length > 0) {
+    const applied = applyIndexTerms(contentWithoutLine, entries, matcher);
+    markedContent = applied.content;
+    indexTerms = applied.terms;
+  }
+
   const result: ArticleContent = {
     slug,
     title: (data.title as string) ?? baseName,
     titleEn: data.titleEn as string | undefined,
-    content: contentWithoutLine,
+    content: markedContent,
   };
+  if (indexTerms.length > 0) result.indexTerms = indexTerms;
+  if (indexOutline) result.indexOutline = indexOutline;
   if (titleImageRelativePath) {
     result.titleImagePath = `/${titleImageRelativePath.replace(/^\/+/, "")}`;
     result.titleImageInsertLine = titleImageInsertLine;
