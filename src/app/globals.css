@@ -1083,8 +1083,39 @@ html[data-reading-size="xl"] { --reading-scale: 1.25; }
   cursor: pointer;
 }
 
+/* 默认的白底方块在羊皮纸上像挖了个洞，自绘一个偏纸色的 */
 .site-search-scope input {
-  accent-color: var(--gold-dark);
+  appearance: none;
+  width: 0.875rem;
+  height: 0.875rem;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--parchment-aged);
+  border-radius: 0.2rem;
+  background-color: color-mix(in srgb, var(--parchment-aged) 22%, var(--parchment-light));
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.site-search-scope:hover input {
+  border-color: var(--gold-dark);
+}
+
+.site-search-scope input:checked {
+  background-color: var(--gold-dark);
+  border-color: var(--gold-dark);
+}
+
+/* 勾用伪元素画，省一张图；描边用纸色以保证在金底上够亮 */
+.site-search-scope input:checked::after {
+  content: "";
+  display: block;
+  width: 0.22rem;
+  height: 0.45rem;
+  margin: 0.03rem auto 0;
+  border: solid var(--parchment-light);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 .site-search-count {

@@ -213,7 +213,7 @@ export default function SiteSearch() {
                   setQuery(e.target.value);
                   setActive(0);
                 }}
-                placeholder={searchAll ? "搜索全站正文与索引词条…" : `在《${book!.title}》中搜索…`}
+                placeholder={searchAll ? "在全站书籍内搜索…" : `在《${book!.title}》中搜索…`}
                 aria-label="搜索"
               />
               <button type="button" onClick={close} aria-label="关闭搜索">
@@ -232,7 +232,7 @@ export default function SiteSearch() {
                       if (e.target.checked) setLoading(true);
                     }}
                   />
-                  搜索全部书籍
+                  全站搜索
                 </label>
               )}
               <span className="site-search-count">
