@@ -12,7 +12,8 @@ const card: React.CSSProperties = { maxWidth: 460 };
 const btn: React.CSSProperties = {
   cursor: "pointer",
   border: "1px solid #cbb790",
-  background: "#f7efe0",
+  // 比页面底色 #f3e9d6 更深一档，按钮才立得住（此处不能用 CSS 变量，见文件顶部说明）
+  background: "#dfd0ae",
   color: "#3a2f24",
   padding: "0.55rem 1.1rem",
   borderRadius: 4,

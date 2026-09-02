@@ -1001,6 +1001,28 @@ html[data-reading-size="xl"] { --reading-scale: 1.25; }
   color: var(--gold-dark);
 }
 
+/* ---------- 提示页（404 / 加载出错）的按钮 ---------- */
+
+/* 这类页面的底色就是 --parchment，按钮必须比它更深才立得住；
+   夜读下同一个混合式会得到比底色略浅的结果，同样成立 */
+.message-page-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--parchment-aged);
+  border-radius: 0.25rem;
+  background-color: color-mix(in srgb, var(--parchment-dark) 70%, var(--parchment-light));
+  color: var(--ink);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.message-page-button:hover {
+  background-color: var(--parchment-dark);
+  color: var(--gold-dark);
+}
+
+.message-page-button-secondary {
+  color: var(--ink-muted);
+}
+
 /* ---------- 全站搜索 ---------- */
 
 .site-search-overlay {

@@ -34,14 +34,14 @@ export default function Error({
               onClick={() => {
                 if (typeof window !== "undefined") window.location.reload();
               }}
-              className="rounded border border-[var(--parchment-aged)] bg-[var(--parchment-light)] px-4 py-2 text-[var(--ink)] transition-colors hover:text-[var(--gold-dark)]"
+              className="message-page-button"
             >
               刷新页面
             </button>
             <button
               type="button"
               onClick={() => reset()}
-              className="rounded border border-[var(--parchment-aged)] bg-[var(--parchment-light)] px-4 py-2 text-[var(--ink-muted)] transition-colors hover:text-[var(--gold-dark)]"
+              className="message-page-button message-page-button-secondary"
             >
               重试
             </button>
