@@ -3,6 +3,7 @@
  * 用法：在项目根目录执行 node scripts/deploy-push.js 或 npm run deploy:push
  */
 const { spawnSync } = require("child_process");
+const fs = require("fs");
 const path = require("path");
 
 const rootDir = path.join(__dirname, "..");
@@ -27,6 +28,21 @@ run("npm", ["run", "build"]);
 console.log("\n>>> 2/4 npm run deploy:rewrite\n");
 run("npm", ["run", "deploy:rewrite"]);
 
+// out 必须自身是 git 仓库：否则 git 会向上找到项目仓库，而 out/ 被 .gitignore 忽略，
+// add/commit 会静默无事发生，脚本却照样打印「部署完成」——线上其实没变。
+if (!fs.existsSync(path.join(outDir, ".git"))) {
+  console.error(
+    [
+      "deploy-push: out/.git 不存在，无法推送。请先初始化（仅需一次）：",
+      "  cd out",
+      "  git init",
+      "  git remote add origin <部署仓库地址>",
+      "之后重新执行 npm run deploy:push。",
+    ].join("\n")
+  );
+  process.exit(1);
+}
+
 console.log("\n>>> 3/4 git add . & git commit (in out)\n");
 run("git", ["add", "."], { cwd: outDir });
 const date = new Date().toISOString().slice(0, 10);
@@ -40,12 +56,13 @@ const commitResult = spawnSync("git", ["commit", "-m", commitMsg], {
 if (commitResult.status !== 0) {
   const err = (commitResult.stderr || commitResult.stdout || "").toString();
   if (commitResult.status === 1 && /nothing to commit|nothing added/.test(err)) {
-    console.log("(out 无变更，已跳过 commit)\n>>> 部署完成\n");
-    process.exit(0);
+    // 无新变更也照常 push：上次若是 push 那一步失败的，重跑一次才能把已提交的内容补投递出去
+    console.log("(out 无变更，已跳过 commit，仍尝试 push)");
+  } else {
+    if (commitResult.stdout) process.stdout.write(commitResult.stdout);
+    if (commitResult.stderr) process.stderr.write(commitResult.stderr);
+    process.exit(commitResult.status ?? 1);
   }
-  if (commitResult.stdout) process.stdout.write(commitResult.stdout);
-  if (commitResult.stderr) process.stderr.write(commitResult.stderr);
-  process.exit(commitResult.status ?? 1);
 }
 
 console.log("\n>>> 4/4 git push origin HEAD:web-release\n");
