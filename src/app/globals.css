@@ -1009,7 +1009,7 @@ html[data-reading-size="xl"] { --reading-scale: 1.25; }
   padding: 0.5rem 1rem;
   border: 1px solid var(--parchment-aged);
   border-radius: 0.25rem;
-  background-color: color-mix(in srgb, var(--parchment-dark) 70%, var(--parchment-light));
+  background-color: color-mix(in srgb, var(--parchment-dark) 55%, var(--parchment-light));
   color: var(--ink);
   transition: background-color 0.2s ease, color 0.2s ease;
 }
