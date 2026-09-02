@@ -116,7 +116,7 @@ function splitSections(content) {
 
 /**
  * 解析索引词条。格式见 siteDocu/02 第 7 节：**主名（别名1/别名2）**　释义（出处.md）
- * 这里只做搜索用，出处括号按同样规则去掉。
+ * 这里只做搜索用，出处括号与忌配标注按同样规则去掉。
  */
 function parseTerms(raw) {
   const terms = [];
@@ -131,7 +131,8 @@ function parseTerms(raw) {
       head = am[1].trim();
       aliases = am[2].split(/[/／、]/).map((s) => s.trim()).filter(Boolean);
     }
-    let def = m[2].trim();
+    // 忌配标注只服务于正文匹配，不该出现在搜索结果里（解析规则同 index-terms.ts 的 RE_GUARDS）
+    let def = m[2].replace(/〔忌配：[^〕]*〕/g, "").trim();
     const paren = def.match(/（[^（）]*）\s*$/);
     if (paren) {
       const inner = paren[0].replace(/^（/, "").replace(/）\s*$/, "");

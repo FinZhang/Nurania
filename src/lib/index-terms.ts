@@ -8,6 +8,7 @@
  * - 别名与主名指向同一条目：主名高亮过之后，后文再出现别名也不再高亮。
  * - 释义末尾的出处括号在展示时自动删去（悬浮窗只显示释义正文）。
  * - 长度为 1 的名称（如「虚」「旬」）不参与自动匹配，避免大量误命中。
+ * - 条目可写忌配串（〔忌配：大海里〕），声明「这个上下文里的同形字不是我」。
  *
  * 标记形式为普通 Markdown 链接 `[原文](#idx-e123)`，
  * 由 `src/lib/article-md-components.tsx` 的 a 覆盖渲染为可悬停的名词。
@@ -26,8 +27,13 @@ export interface IndexEntry {
   primary: string;
   /** 别名，与主名共用同一条目与同一份「已高亮」记录 */
   aliases: string[];
-  /** 释义正文（已去掉末尾的出处括号） */
+  /** 释义正文（已去掉末尾的出处括号与忌配标注） */
   definition: string;
+  /**
+   * 忌配串：包含本条某个名称、但整体另有其义的更长上下文（如「海里」的「大海里」）。
+   * 中文没有词边界，短名称必然会切进别的词中间；命中位置落在忌配串里时就不作数。
+   */
+  guards: string[];
 }
 
 /** 传给客户端的词条数据：body 为已打好标记的 Markdown，可直接渲染 */
@@ -63,11 +69,19 @@ export interface IndexDocument extends IndexOutline {
   entries: IndexEntry[];
 }
 
+/** 一条忌配规则：忌配串本身，以及要挡下的名称在串中的起始位置 */
+interface GuardRule {
+  text: string;
+  offset: number;
+}
+
 export interface TermMatcher {
   /** 名称（主名与别名）→ 条目 id */
   byName: Map<string, string>;
   /** 最长名称的字符数，扫描时的回溯上限 */
   maxNameLength: number;
+  /** 名称 → 该名称的忌配规则；没写忌配的名称不在表中 */
+  guards: Map<string, GuardRule[]>;
 }
 
 /** 标记链接的 href 前缀；纯 ASCII，避免 Markdown 对中文 URL 做百分号编码 */
@@ -86,6 +100,22 @@ const RE_ENTRY_LINE = /^\*\*([^*]+)\*\*[　\s]*(.*)$/;
 const RE_ALIASES = /^([^（]+)（([^）]+)）$/;
 /** 释义末尾的出处括号 */
 const RE_TRAILING_PAREN = /（[^（）]*）\s*$/;
+
+/** 忌配标注：〔忌配：大海里、海里面〕，可写在释义任意位置，解析后从释义中删去 */
+const RE_GUARDS = /〔忌配：([^〕]*)〕/g;
+
+/** 取出释义里的忌配标注，并把标注本身从释义中删去 */
+function extractGuards(definition: string): { rest: string; guards: string[] } {
+  const guards: string[] = [];
+  const rest = definition.replace(RE_GUARDS, (_, list: string) => {
+    for (const item of list.split(/[、，,/／;；]/)) {
+      const guard = item.trim();
+      if (guard) guards.push(guard);
+    }
+    return "";
+  });
+  return { rest, guards };
+}
 
 /** 末尾括号是否为出处：分号分隔的各段全部以 .md 结尾 */
 function isSourceParen(paren: string): boolean {
@@ -116,7 +146,9 @@ function parseEntryLine(line: string, id: string): IndexEntry | null {
   const m = line.match(RE_ENTRY_LINE);
   if (!m) return null;
   const head = m[1].trim();
-  const definition = stripSources(m[2]);
+  // 先摘忌配再去出处：忌配标注写在出处括号之前还是之后都不影响解析
+  const { rest, guards } = extractGuards(m[2]);
+  const definition = stripSources(rest);
   if (!definition) return null;
 
   let primary = head;
@@ -130,7 +162,7 @@ function parseEntryLine(line: string, id: string): IndexEntry | null {
       .filter(Boolean);
   }
   if (!primary) return null;
-  return { id, primary, aliases, definition };
+  return { id, primary, aliases, definition, guards };
 }
 
 /** 兜底分类：收容没有落在任何 ### 之下的词条 */
@@ -210,16 +242,50 @@ const MIN_NAME_LENGTH = 2;
 
 export function buildMatcher(entries: IndexEntry[]): TermMatcher {
   const byName = new Map<string, string>();
+  const guards = new Map<string, GuardRule[]>();
   let maxNameLength = 0;
   for (const entry of entries) {
-    for (const name of [entry.primary, ...entry.aliases]) {
-      if (name.length < MIN_NAME_LENGTH) continue;
+    const names = [entry.primary, ...entry.aliases].filter((n) => n.length >= MIN_NAME_LENGTH);
+    for (const name of names) {
       // 同名先到先得，避免后出现的条目抢走已有名称
       if (!byName.has(name)) byName.set(name, entry.id);
       if (name.length > maxNameLength) maxNameLength = name.length;
     }
+    // 忌配登记在名称上而非条目上：名称与条目本就一一对应，而扫描时手上只有命中的那串字。
+    // 一条忌配串可能包含同一名称多次（「海里海里」这类），逐个位置都要登记。
+    for (const guard of entry.guards) {
+      for (const name of names) {
+        for (let at = guard.indexOf(name); at !== -1; at = guard.indexOf(name, at + 1)) {
+          const rules = guards.get(name);
+          if (rules) rules.push({ text: guard, offset: at });
+          else guards.set(name, [{ text: guard, offset: at }]);
+        }
+      }
+    }
   }
-  return { byName, maxNameLength };
+  return { byName, maxNameLength, guards };
+}
+
+/**
+ * 不含本条任何可匹配名称的忌配串永远不会生效（多半是写错字，或写给了不参与匹配的单字名）。
+ * 解析期不便报错——索引文件是内容不是代码——因此交由审计脚本列出来提醒。
+ */
+export function findUselessGuards(entries: IndexEntry[]): { entry: IndexEntry; guard: string }[] {
+  const useless: { entry: IndexEntry; guard: string }[] = [];
+  for (const entry of entries) {
+    const names = [entry.primary, ...entry.aliases].filter((n) => n.length >= MIN_NAME_LENGTH);
+    for (const guard of entry.guards) {
+      if (!names.some((name) => guard.includes(name))) useless.push({ entry, guard });
+    }
+  }
+  return useless;
+}
+
+/** 命中位置是否落在该名称的某条忌配串之内 */
+function isGuarded(text: string, at: number, name: string, matcher: TermMatcher): boolean {
+  const rules = matcher.guards.get(name);
+  if (rules === undefined) return false;
+  return rules.some((rule) => at >= rule.offset && text.startsWith(rule.text, at - rule.offset));
 }
 
 /**
@@ -247,6 +313,7 @@ function splitProtected(line: string): { text: string; protectedSpan: boolean }[
  * 在一段纯文本中标记各条目的首次出现。
  * 逐字符扫描、最长优先：索引中有 50 余组名称互为子串（如「秘术」⊂「秘术式」），
  * 必须先试最长的名称，命中后整体跳过，才不会把长词切碎。
+ * 命中若落在该名称的忌配串里则不作数，继续试更短的名称（如「大海里」挡掉「海里」）。
  */
 function markPlainText(text: string, matcher: TermMatcher, seen: Set<string>): string {
   const { byName, maxNameLength } = matcher;
@@ -257,12 +324,13 @@ function markPlainText(text: string, matcher: TermMatcher, seen: Set<string>): s
     let matchedId: string | undefined;
     const limit = Math.min(maxNameLength, text.length - i);
     for (let len = limit; len >= MIN_NAME_LENGTH; len--) {
-      const id = byName.get(text.substr(i, len));
-      if (id !== undefined) {
-        matchedLength = len;
-        matchedId = id;
-        break;
-      }
+      const name = text.substr(i, len);
+      const id = byName.get(name);
+      if (id === undefined) continue;
+      if (isGuarded(text, i, name, matcher)) continue;
+      matchedLength = len;
+      matchedId = id;
+      break;
     }
     if (matchedId === undefined) {
       out += text[i];

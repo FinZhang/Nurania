@@ -10,6 +10,7 @@
     "deploy:rewrite": "node scripts/rename-next-for-deploy.js",
     "deploy:push": "node scripts/deploy-push.js",
     "start": "next start",
+    "audit:index": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/audit-index-terms.mjs",
     "lint": "eslint",
     "preview": "node scripts/preview-with-basepath.js",
     "predev": "node scripts/build-search-index.mjs"
