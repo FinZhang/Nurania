@@ -5,12 +5,13 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import articleMdComponents from "@/lib/article-md-components";
 import { parseIllustrations } from "@/lib/illustrations";
+import remarkLineBreaks from "@/lib/remark-line-breaks";
 import ArticleIllustration from "./ArticleIllustration";
 
 /** 纯 Markdown 渲染（不含插图切分），供本文件内部复用 */
 function MarkdownBody({ children }: { children: string }) {
   return (
-    <ReactMarkdown remarkPlugins={[remarkGfm]} components={articleMdComponents}>
+    <ReactMarkdown remarkPlugins={[remarkGfm, remarkLineBreaks]} components={articleMdComponents}>
       {children}
     </ReactMarkdown>
   );
