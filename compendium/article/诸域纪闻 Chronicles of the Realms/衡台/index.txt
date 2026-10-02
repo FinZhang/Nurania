@@ -14,9 +14,9 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 :HL["/Nurania/next/static/chunks/d4dca57e28226128.css","style"]
 :HL["/Nurania/next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Nurania/next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"bC8ZJ1Qyz2G_NS5h9RPHy","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E8%A1%A1%E5%8F%B0",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E8%A1%A1%E5%8F%B0","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/d4dca57e28226128.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/409fa6e7eed2c119.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/Nurania/"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var d=document.documentElement;var t=localStorage.getItem(\"nurania-theme\");if(t===\"night\"||t===\"light\")d.setAttribute(\"data-theme\",t);var s=localStorage.getItem(\"nurania-reading-size\");if(s===\"sm\"||s===\"md\"||s===\"lg\"||s===\"xl\")d.setAttribute(\"data-reading-size\",s);}catch(e){}})();"}}]]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b9264801e14fd82b.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"relative min-h-[calc(100vh-8rem)]","children":[["$","div",null,{"className":"fixed inset-0 z-0 overflow-hidden","children":["$","$L7",null,{"src":"/Nurania/compendium/world_map.webp","alt":"","fill":true,"className":"object-cover object-center world-map-backdrop min-w-full min-h-full","sizes":"100vw","loading":"eager"}]}],["$","div",null,{"className":"relative z-10 container-nurania py-20 md:py-28 flex flex-col items-center text-center gap-5","children":[["$","h1",null,{"className":"font-display text-2xl md:text-3xl font-semibold text-[var(--ink)]","children":"此处并无记载"}],["$","p",null,{"className":"text-[var(--ink-muted)] italic","children":"Nothing is recorded here"}],["$","p",null,{"className":"max-w-md leading-relaxed text-[var(--ink-muted)]","children":"您要找的这一页不在全集之中——或许是地址抄漏了一段，或许它还未被写下。"}],["$","$L8",null,{"href":"/","prefetch":false,"className":"message-page-button","children":"回到书架"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b77339cc29226d86.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/b56ea3a51872e2e2.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/e9371c2148cd7f21.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[]],"S":true}
+0:{"P":null,"b":"EwI7mkzGy_gZ9_HfeNiSp","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E8%A1%A1%E5%8F%B0",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E8%A1%A1%E5%8F%B0","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/d4dca57e28226128.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/409fa6e7eed2c119.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/Nurania/"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var d=document.documentElement;var t=localStorage.getItem(\"nurania-theme\");if(t===\"night\"||t===\"light\")d.setAttribute(\"data-theme\",t);var s=localStorage.getItem(\"nurania-reading-size\");if(s===\"sm\"||s===\"md\"||s===\"lg\"||s===\"xl\")d.setAttribute(\"data-reading-size\",s);}catch(e){}})();"}}]]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b9264801e14fd82b.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"relative min-h-[calc(100vh-8rem)]","children":[["$","div",null,{"className":"fixed inset-0 z-0 overflow-hidden","children":["$","$L7",null,{"src":"/Nurania/compendium/world_map.webp","alt":"","fill":true,"className":"object-cover object-center world-map-backdrop min-w-full min-h-full","sizes":"100vw","loading":"eager"}]}],["$","div",null,{"className":"relative z-10 container-nurania py-20 md:py-28 flex flex-col items-center text-center gap-5","children":[["$","h1",null,{"className":"font-display text-2xl md:text-3xl font-semibold text-[var(--ink)]","children":"此处并无记载"}],["$","p",null,{"className":"text-[var(--ink-muted)] italic","children":"Nothing is recorded here"}],["$","p",null,{"className":"max-w-md leading-relaxed text-[var(--ink-muted)]","children":"您要找的这一页不在全集之中——或许是地址抄漏了一段，或许它还未被写下。"}],["$","$L8",null,{"href":"/","prefetch":false,"className":"message-page-button","children":"回到书架"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b77339cc29226d86.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/b56ea3a51872e2e2.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/e9371c2148cd7f21.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[]],"S":true}
 12:I[53360,["/Nurania/next/static/chunks/409fa6e7eed2c119.js","/Nurania/next/static/chunks/b77339cc29226d86.js","/Nurania/next/static/chunks/b56ea3a51872e2e2.js","/Nurania/next/static/chunks/e9371c2148cd7f21.js"],"default"]
-13:Tb23f,
+13:Tb239,
 
 ### 一
 
@@ -96,7 +96,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 “拉佐姐——老师讲过。”
 
-“那就好。”他顿了顿，继续说下去，“按章办事，不要节外生枝。遇到任何拿不准的事，不要现场作决定，回来报告给我，让对方等。让对方等不要紧，一个下午的话索利亚的招牌还等的起。”
+“那就好。”他顿了顿，继续说下去，“按章办事，不要节外生枝。遇到任何拿不准的事，不要现场作决定，回来报告给我，让对方等。让对方等不要紧，一个下午的话索利亚的招牌还等得起。”
 
 “先生——”
 
@@ -198,7 +198,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 “这就是二型衡台？”
 
-露琪尔的眼睛已经黏在了上面。她对普通衡台很熟悉，一边托盘放砝码，另一边放货品，中间秤杆偏向哪边就是哪边重，微调时用底部的旋钮砝码——拉佐姐姐反复强调过。眼前这台二型衡台除了这些东西，还有一根约莫三十厘[步米](#idx-e384)的石制柱立在秤杆中央的指示针旁边，底端连着一圈围绕衡台的金属框，像是一艘船的桅杆和围栏。她还瞄到那石柱侧边从上到下刻着长度不一的横线，像是某种刻度。
+露琪尔的眼睛已经黏在了上面。她对普通衡台很熟悉，一边托盘放砝码，另一边放货品，中间秤杆偏向哪边就是哪边重，微调时用底部的旋钮砝码——拉佐姐姐反复强调过。眼前这台二型衡台除了这些东西，还有一根约莫三十厘[步米](#idx-e384)的石柱立在秤杆中央的指示针旁边，底端连着一圈围绕衡台的金属框，像是一艘船的桅杆和围栏。她还瞄到那石柱侧边从上到下刻着长度不一的横线，像是某种刻度。
 
 “没错。这东西和普通衡台的区别就是这根[界星石](#idx-e69)，是用[蚀刻魔矿](#idx-e76)做的。”米埃尔指指那根略细的石柱，“我演示给你看怎么用。”
 
@@ -340,7 +340,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 “我需要逐一验第十一箱全部二十枚。”
 
-男人挑了挑眉，没有立刻接话，只是盯着露琪尔看，她被看的越来越没底气，一句“要不还是不验了吧”已经到了嘴边。
+男人挑了挑眉，没有立刻接话，只是盯着露琪尔看，她被看得越来越没底气，一句“要不还是不验了吧”已经到了嘴边。
 
 好在维里乌斯先开了口：“逐一验二十枚，按你们的章程，交货方有权拒绝。”
 
@@ -376,7 +376,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 第十六枚——
 
-露琪尔的手停下，她把这一枚举高一些，转一个角度。光线照进去，晶体内部清透得几乎像水，中心那条线是红色的。她又换一个角度，依旧是红色，有点像血。
+露琪尔的手停下，她把这一枚举高一些，转一个角度。光线照进去，依旧是暗蓝色的晶体，但中心那条线是红色的。她又换一个角度，依旧是红色，有点像血。
 
 她把这一枚摆到一旁，继续剥下一枚。
 
@@ -414,7 +414,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 露琪尔行了一个商会礼。维里乌斯没有立刻还礼，他先把那枚假星元用一方丝绢包好，然后才正过身来还礼。她注意到他还礼的动作很慢，头深深地低了下去。她忽然有点想装一回大人，说一句“先生不必”，但她忍住了。
 
-维里乌斯开始指挥水手把十二只箱子重新搬回小艇。露琪尔站在平台车边，把登记册塞回夹板，抱在怀里，看着那艘小艇划开海面的反光，朝“牧夫号”的方向回去。
+维里乌斯开始指挥水手把十二只箱子重新搬回小艇。露琪尔站在平台车边，把登记册塞回夹板，抱在怀里，看着那艘小艇划开海面的反光，朝“牧夫”号的方向回去。
 
 午时的钟声从远处的港务司钟楼传过来，一下，又一下。她在第七号石阶上又站了一会儿，才意识到，自己刚刚整整半个时辰几乎一句多余的话都没说。
 
@@ -576,7 +576,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 斯特拉拉那边的回话傍晚时分就到了。
 
-阿斯托戈商会派人把回执送到索利亚分部，回执上简短地写着：经蚀刻总所内部初步核查，该批星元确有一枚被替换为改制水晶，系总所内值班学徒舞弊所致。涉案学徒已被开除并交由司法院分司处置，蚀刻总所向索利亚商会致歉，并提议次日重新交付整批货物。单价不变，总价以二百三十九枚计。
+阿斯托戈商会派人把回执送到索利亚分部，回执上简短地写着：蚀刻总所内部初步核查后，该批星元确有一枚被替换为改制水晶，系总所内值班学徒舞弊所致。涉案学徒已被开除并交由司法院分司处置，蚀刻总所向索利亚商会致歉，并提议次日重新交付整批货物。单价不变，总价以二百三十九枚计。
 
 回执末尾另附一行：“特谢索利亚商会波托马利分部露琪尔·维奥拉小姐之尽职。”
 
