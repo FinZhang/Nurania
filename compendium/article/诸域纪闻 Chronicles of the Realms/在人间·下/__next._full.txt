@@ -1,22 +1,22 @@
 1:"$Sreact.fragment"
 2:"$Sreact.suspense"
-3:I[2971,["/Nurania/next/static/chunks/409fa6e7eed2c119.js"],"default"]
+3:I[2971,["/Nurania/next/static/chunks/2253a4ec25dc1091.js"],"default"]
 4:I[39756,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"default"]
-5:I[58298,["/Nurania/next/static/chunks/409fa6e7eed2c119.js","/Nurania/next/static/chunks/b9264801e14fd82b.js"],"default"]
+5:I[58298,["/Nurania/next/static/chunks/2253a4ec25dc1091.js","/Nurania/next/static/chunks/b9264801e14fd82b.js"],"default"]
 6:I[37457,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"default"]
-7:I[85437,["/Nurania/next/static/chunks/409fa6e7eed2c119.js","/Nurania/next/static/chunks/7243897258cbfc9b.js"],"Image"]
-8:I[22016,["/Nurania/next/static/chunks/409fa6e7eed2c119.js","/Nurania/next/static/chunks/7243897258cbfc9b.js"],""]
-9:I[13642,["/Nurania/next/static/chunks/409fa6e7eed2c119.js"],"default"]
+7:I[85437,["/Nurania/next/static/chunks/2253a4ec25dc1091.js","/Nurania/next/static/chunks/7243897258cbfc9b.js"],"Image"]
+8:I[22016,["/Nurania/next/static/chunks/2253a4ec25dc1091.js","/Nurania/next/static/chunks/7243897258cbfc9b.js"],""]
+9:I[13642,["/Nurania/next/static/chunks/2253a4ec25dc1091.js"],"default"]
 b:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 d:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
 f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
 11:I[63491,["/Nurania/next/static/chunks/cad2a58e55d333ac.js"],"default"]
-:HL["/Nurania/next/static/chunks/d4dca57e28226128.css","style"]
+:HL["/Nurania/next/static/chunks/dfd2a791a1806860.css","style"]
 :HL["/Nurania/next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Nurania/next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"EwI7mkzGy_gZ9_HfeNiSp","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E5%9C%A8%E4%BA%BA%E9%97%B4%C2%B7%E4%B8%8B",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E5%9C%A8%E4%BA%BA%E9%97%B4%C2%B7%E4%B8%8B","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/d4dca57e28226128.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/409fa6e7eed2c119.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/Nurania/"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var d=document.documentElement;var t=localStorage.getItem(\"nurania-theme\");if(t===\"night\"||t===\"light\")d.setAttribute(\"data-theme\",t);var s=localStorage.getItem(\"nurania-reading-size\");if(s===\"sm\"||s===\"md\"||s===\"lg\"||s===\"xl\")d.setAttribute(\"data-reading-size\",s);}catch(e){}})();"}}]]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b9264801e14fd82b.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"relative min-h-[calc(100vh-8rem)]","children":[["$","div",null,{"className":"fixed inset-0 z-0 overflow-hidden","children":["$","$L7",null,{"src":"/Nurania/compendium/world_map.webp","alt":"","fill":true,"className":"object-cover object-center world-map-backdrop min-w-full min-h-full","sizes":"100vw","loading":"eager"}]}],["$","div",null,{"className":"relative z-10 container-nurania py-20 md:py-28 flex flex-col items-center text-center gap-5","children":[["$","h1",null,{"className":"font-display text-2xl md:text-3xl font-semibold text-[var(--ink)]","children":"此处并无记载"}],["$","p",null,{"className":"text-[var(--ink-muted)] italic","children":"Nothing is recorded here"}],["$","p",null,{"className":"max-w-md leading-relaxed text-[var(--ink-muted)]","children":"您要找的这一页不在全集之中——或许是地址抄漏了一段，或许它还未被写下。"}],["$","$L8",null,{"href":"/","prefetch":false,"className":"message-page-button","children":"回到书架"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b77339cc29226d86.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/b56ea3a51872e2e2.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/e9371c2148cd7f21.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[]],"S":true}
-12:I[53360,["/Nurania/next/static/chunks/409fa6e7eed2c119.js","/Nurania/next/static/chunks/b77339cc29226d86.js","/Nurania/next/static/chunks/b56ea3a51872e2e2.js","/Nurania/next/static/chunks/e9371c2148cd7f21.js"],"default"]
-13:Ta8ce,
+0:{"P":null,"b":"qgXT5BLtweNl2GwJCQbDS","c":["","compendium","article","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms","%E5%9C%A8%E4%BA%BA%E9%97%B4%C2%B7%E4%B8%8B",""],"q":"","i":false,"f":[[["",{"children":[["bookSlug","compendium","d"],{"children":["article",{"children":[["slug","%E8%AF%B8%E5%9F%9F%E7%BA%AA%E9%97%BB%20Chronicles%20of%20the%20Realms/%E5%9C%A8%E4%BA%BA%E9%97%B4%C2%B7%E4%B8%8B","c"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Nurania/next/static/chunks/dfd2a791a1806860.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Nurania/next/static/chunks/2253a4ec25dc1091.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/Nurania/"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){try{var d=document.documentElement;var t=localStorage.getItem(\"nurania-theme\");if(t===\"night\"||t===\"light\")d.setAttribute(\"data-theme\",t);var s=localStorage.getItem(\"nurania-reading-size\");if(s===\"sm\"||s===\"md\"||s===\"lg\"||s===\"xl\")d.setAttribute(\"data-reading-size\",s);}catch(e){}})();"}}]]}],["$","body",null,{"className":"cormorant_garamond_e0daf49b-module__iVEqIq__variable cinzel_97853805-module__jvYc_a__variable antialiased parchment-texture min-h-screen flex flex-col","suppressHydrationWarning":true,"children":[["$","$2",null,{"fallback":["$","header",null,{"className":"border-b border-[var(--parchment-aged)] bg-[var(--parchment-light)]/80 h-14 md:h-16"}],"children":["$","$L3",null,{}]}],["$","main",null,{"className":"flex-1 min-h-0 pb-12 md:pb-16","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b9264801e14fd82b.js","async":true}]],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"relative min-h-[calc(100vh-8rem)]","children":[["$","div",null,{"className":"fixed inset-0 z-0 overflow-hidden","children":["$","$L7",null,{"src":"/Nurania/compendium/world_map.webp","alt":"","fill":true,"className":"object-cover object-center world-map-backdrop min-w-full min-h-full","sizes":"100vw","loading":"eager"}]}],["$","div",null,{"className":"relative z-10 container-nurania py-20 md:py-28 flex flex-col items-center text-center gap-5","children":[["$","h1",null,{"className":"font-display text-2xl md:text-3xl font-semibold text-[var(--ink)]","children":"此处并无记载"}],["$","p",null,{"className":"text-[var(--ink-muted)] italic","children":"Nothing is recorded here"}],["$","p",null,{"className":"max-w-md leading-relaxed text-[var(--ink-muted)]","children":"您要找的这一页不在全集之中——或许是地址抄漏了一段，或许它还未被写下。"}],["$","$L8",null,{"href":"/","prefetch":false,"className":"message-page-button","children":"回到书架"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L9",null,{}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/Nurania/next/static/chunks/b77339cc29226d86.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Nurania/next/static/chunks/b56ea3a51872e2e2.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Nurania/next/static/chunks/e9371c2148cd7f21.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$2",null,{"name":"Next.Metadata","children":"$L10"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$11",[]],"S":true}
+12:I[53360,["/Nurania/next/static/chunks/2253a4ec25dc1091.js","/Nurania/next/static/chunks/b77339cc29226d86.js","/Nurania/next/static/chunks/b56ea3a51872e2e2.js","/Nurania/next/static/chunks/e9371c2148cd7f21.js"],"default"]
+13:Ta809,
 ### 四
 
 后面几日守夜的时候，诺雅总会跑来找赫利娅讨蘑菇汤喝，喝完之后就坐在她旁边问这问那，从[魔法](#idx-e3)和剑术问到过去在各地的佣兵任务，似乎对赫利娅的一切都很好奇。有时候赫利娅不想说话了，诺雅就乖巧地闭嘴，静静地看她练剑或者保养武器。埃尔顿知道自己女儿天天晚上去找赫利娅，没说什么，只是白天的时候让她在马车上多睡会儿。赫利娅也已经习惯了每天夜里多煮一点蘑菇汤，等着女孩过来。
@@ -427,7 +427,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 可她现在独自跪在山崖上。袖口和衣摆的污泥还没干透，身上溅着同伴的血，无辜者的血，或许还有她自己的血。她身边没有亲人朋友，也没有主持的长老。只有一个同样失去一切、被迫离开家乡的孩子。
 
-“第三诫，诸恩皆偿，诸仇皆灭。”她念到这一条时声音轻轻冷下来一截，“吾须清算：授于汝者，汝终须归回。”
+“第三诫，诸恩皆偿，诸仇皆灭。”她念到这一条时声音冷下来，“吾须清算：授于汝者，汝终须归回。”
 
 这一条原不是这么说的。昨夜雨里，她向并肩走了半年的同伴举起剑，血溅在脸上，刺得她发痛。她不知道圣树会不会认这改过的半句，但她念了。念的时候，她想起赛兰德子爵府前那扇发暗的橡木门。
 
@@ -441,7 +441,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 “第六诫，光照众木无偏。吾须等视：蕨草与橡树同沐，守门人与族长同语。”
 
-崖下的林子里扑棱棱惊起一只鸟。她想起克莱门汀平淡地说“农奴死了就死了”，像是在说几件穿破了的旧衣服；想起奥迪拉像一件货一样把诺雅扛在肩上，惦记着把她卖到玛尔达那儿去；想起子爵府里赛兰德看他们的视线，眼里的睥睨藏在客气后面。诫上写着等视，她在人间见的，向来是另一套量法。
+崖下的林子里扑棱棱惊起一只鸟。她想起克莱门汀平淡地说“农奴死了就死了”，像是在说几件穿破了的旧衣服；想起奥迪拉像一件货一样把诺雅扛在肩上，惦记着把她卖到玛尔达那儿去；想起子爵府里赛兰德看他们的视线，眼里的睥睨藏在客气后面。诫上写着等视，她在人间见的，向来是另一套东西。
 
 “第七诫，枝叶不忘其本。”念到末一条，她的声音慢了下来，“吾须铭记：心系圣树所在——”
 
@@ -452,8 +452,6 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 她抬眼，看剑柄上那只吊坠盒，叶纹的一面正冲着她。
 
 “……此身终归于根。”这半句她念得很轻，一个字一个字地补完了。
-
-圣树已经抛弃了她，但她依旧舍不下圣树。她和希尔文诺连的那根线，一头是空的，空了五年。可她还是把这半句，说给了那空着的一头听。
 
 念完七诫后，她在剑前跪着沉默了一会儿。照传统，这时候是[伴礼者](#idx-e209)上前为她戴上花冠的时候，然后台底下的人一齐鼓掌。她想起那个答应做她伴礼者的少年，如今他的面容已经变得模糊不清，仿佛隔着一层薄雾。
 
@@ -473,7 +471,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 她抬起头，太阳正从东方升起来。
 
-新的一天的第一缕阳光，慢慢铺开。它洒在崖下村庄的房顶上，洒在山崖两侧林子的树梢上，洒在裹着深绿斗篷，睡着的小女孩身上，也洒在坐在一边，头上戴着草冠，望着远方沉默的精灵女子身上。
+新的一天的第一缕阳光，慢慢铺开。它洒在崖下村庄的房顶上，洒在山崖两侧林子的树梢上，洒在裹着斗篷睡着的小女孩身上，也洒在坐在一边，头上戴着草冠，望着远方沉默的精灵女子身上。
 
 她的视线前方，极远的西北，[希尔文诺大森林](#idx-e555)静静地卧在[冠脊山脉](#idx-e430)之间，沉在地平线之外；而在那片林海更深处，那株她此刻看不见的大圣树，依旧亮着金光。
 
@@ -483,11 +481,11 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 我快速几笔把最后一段写完，抬头看她。我没说话，因为我知道这个故事还没结束。
 
-“那天傍晚我把诺雅送到了彼得宁村。埃尔顿那个远房是给伯爵管账的，所以找起来没有太困难，算是不幸中的万幸。”赫利娅放下勺子，接着说下去，“我把萝卜也留给了她，我用腿赶路习惯了。”
+“那天傍晚我把诺雅送到了彼得宁村。埃尔顿那个远房是给伯爵管账的，所以找起来没有太困难，算是不幸中的万幸。”赫利娅放下勺子，接着说下去，“我把萝卜也留给了她，我一个人的时候用腿赶路习惯了。”
 
 “后来你有去看过她吗？”
 
-“没有。事情了结后，我很快北上往英克菲尔德省的方向去了。”赫利娅回答，对着我眨眨眼，“但实际上我们后来都见过她。”
+“没有。事情了结后，我很快北上去了英克菲尔德省。”赫利娅回答，对着我眨眨眼，“但实际上我们后来都见过她。”
 
 “‘我们’？”我怔了一下，然后忽然意识到了什么，“诺雅……诺雅·西瑟斯？”
 
@@ -565,7 +563,7 @@ f:I[97367,["/Nurania/next/static/chunks/ff1a16fafef87110.js","/Nurania/next/stat
 
 “我会的。”我对着记忆里的身影回答。
 
-“你说什么？”赫利娅看我。
+“你说什么？”赫利娅转头看我。
 
 “没什么。”我躺在毯子上，对她露出一个笑容。“晚安，赫利娅。”
 
